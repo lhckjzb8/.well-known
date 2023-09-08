@@ -1,8 +1,8 @@
-﻿[{
+[{
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.lhckjzb8.twa",
-        "sha256_cert_fingerprints": ["7D:16:90:A2:01:A2:0B:84:07:ED:A9:F1:1A:FC:78:22:85:FB:B4:0D:4F:C7:24:42:96:9C:FA:88:D6:F4:BD:64"]
+        "sha256_cert_fingerprints": ["F8:18:DF:B7:6D:A9:BE:BE:45:4E:D7:62:D4:65:CA:69:85:E9:C8:CB:E8:7E:09:B5:8F:64:92:01:04:80:30:3D"]
       }
     }]
