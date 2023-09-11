@@ -11,21 +11,21 @@ document.write(`
 .right{float: right;width: 45%;}
 </style>
 <div class="div v width left">2023 © v1.1</div>
-<div class="div left width"><div style="padding-left: 1%;">
-<div class="jx left"><label>103-107期</label>〖兔蛇鸡羊〗<span>(今年未错)</span></div>
-<div class="jx right"><label>100-104期</label>〖05.15.25.35.45〗</div>
+<div class="div left width"><div style="padding-left: 2%;">
+<div class="jx left"><label>103-107期 </label>兔蛇鸡羊<span> (今年未错)</span></div>
+<div class="jx right"><label>100-104期 </label>05.15.25.35.45</div>
 </div>
 </div>
 
-<div class="div left width"><div style="padding-left: 1%;">
-<div class="jx left"><label>103-107期</label>〖41,42,43,44,45,46〗</div>
-<div class="jx right"><label>103-111期</label>〖11,22,33,44〗<span>(今年错一)<span></div>
+<div class="div left width"><div style="padding-left: 2%;">
+<div class="jx left"><label>103-107期 </label>41,42,43,44,45,46</div>
+<div class="jx right"><label>103-111期 </label>11,22,33,44<span> (今年错一)<span></div>
 </div>
 </div>
 
-<div class="div left width"><div style="padding-left: 1%;">
-<div class="jx left"><label>101-107期</label>〖02,05,20,24,27,32,〗<span>(连准11轮)</span></div><!--刹破狼-->
-<div class="jx right"><label>101-110期</label>〖牛鼠猪〗<span>(连准9轮)<span></div>
+<div class="div left width"><div style="padding-left: 2%;">
+<div class="jx left"><label>101-107期 </label>02,05,20,24,27,32<span> (连准11轮)</span></div><!--刹破狼-->
+<div class="jx right"><label>101-110期 </label>牛鼠猪<span> (连准9轮)<span></div>
 <!--0尾期L2减0,1,2-->
 </div>
 </div>
