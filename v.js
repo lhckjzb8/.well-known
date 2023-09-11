@@ -10,7 +10,7 @@ document.write(`
 .left{float: left;}
 .right{float: right;width: 42%;}
 </style>
-<div class="div v width left">2023 © v1.1</div>
+<div class="div v width left"><a href="xgjl.html">2023 © v1.1</a></div>
 <div class="div left width"><div style="padding: 0 10px;">
 <div class="jx left"><label>103-107期 </label>兔蛇鸡羊<span> (今年未错)</span></div>
 <div class="jx right"><label>100-104期 </label>05.15.25.35.45</div>
