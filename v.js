@@ -1,6 +1,7 @@
 document.write(`
 
 <style>
+html{touch-action: none;}
 .div{text-align: center;padding: 3px 0;}
 .v{color: #FFB6C1;font-size: 10px;}
 .width{width: 100%;}
