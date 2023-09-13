@@ -1,5 +1,5 @@
 document.write(`
-
+<link rel="stylesheet" href="/.well-known/pic.css">
 <style>
 .div{text-align: center;padding: 3px 0;}
 .v{color: #FFB6C1;font-size: 10px;}
