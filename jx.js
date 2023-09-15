@@ -8,7 +8,7 @@ jxzl.innerHTML='<div class="jx">\
   <p><label>101-107期 </label>02,05,20,24,27,32<span> (连准11轮)</span></p><!--金鳞,刹破狼-->\
   <p><label>101-110期 </label>牛鼠猪<span> (连准9轮,今年无错)</span></p><!--0尾期L2减1.2-->\
   <p><label>101-110期开码表 </label>02,03,04,12,13,15,18,20,39,40,44,46,（12码）<span> (至少开2期)</span></p>\
-  <p style="padding:8px;border-bottom: 3px solid #F0FFFF;"></p>\
+  <p style="padding:8px;border-bottom: 3px solid #7B68EE;"></p>\
   <p><label>103-107期 </label>兔<font color=red>蛇</font>鸡羊 <span>(今年未错，104期开蛇)</span></p>\
   <p><label>103-105期 </label>鼠马龙狗鸡<font color=red>蛇</font><span> (今年错1，104期开蛇)</span></p>\
   <p><label>103-111期 </label><font color=red>11</font>,22,33,44<span> (今年错1，104期开11)</span></p>\
