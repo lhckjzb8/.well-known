@@ -1,6 +1,6 @@
 ﻿function jxhtml(){
 jxzl.innerHTML='<div class="jx">
-  <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)</span></p><!--0尾期L3左右3-->
+  <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)</span><span style="color:#ccc;font-size: 8px;">错061—070期</span></p><!--0尾期L3左右3-->
   <p><label>105-106期 </label>鸡羊蛇兔猪牛<span> (今年未错)</span></p>
   <p><label>105-107期 </label>牛猪鸡鼠<span> (今年未错)</span></p>
   <p><label>105-109期 </label>15,16,17,18,19,35,37</p>
