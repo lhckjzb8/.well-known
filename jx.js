@@ -1,6 +1,7 @@
 ﻿function jxhtml(){
 jxzl.innerHTML='<div class="jx">\
-  <p><label>109期平特 </label>04,07<span> (今年未错)</span></p>\  <p><label>106-107期 </label>鸡猴羊牛龙蛇<span> (今年错1)</span></p>\
+  <p><label>109期平特 </label>04,07<span> (今年未错)</span></p>\
+  <p><label>106-107期 </label>鸡猴羊牛龙蛇<span> (今年错1)</span></p>\
   <p><label>105-108期 </label>01,10,18,22,26,28,31<span> (2中2)21组</span></p>\
   <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)</span></p><!--0尾期L3左右3(错061-070)-->\
   <p><label>105-107期 </label>牛猪鸡鼠<span> (今年未错)</span></p>\
