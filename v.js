@@ -91,10 +91,11 @@ document.write(`
       transform-origin: 0 0; /* see note above */
     }
     .ldio div { box-sizing: content-box; }</style><div class=loading-mask><div class=loading-box><div class=loadingio-spinner-ellipsis><div class=ldio><div></div><div></div><div></div><div></div><div></div></div></div><span>正在加载中...</span></div></div>
-`);
-$(document).ready(function () {
+<script>$(document).ready(function () {
     setTimeout(function () {
       $("body>.index").css('visibility', 'visible')
       $("body>.loading-mask").hide()
     }, 1000)
-  });
+  });</script>
+`);
+
