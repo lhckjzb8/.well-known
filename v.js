@@ -95,7 +95,7 @@ document.write(`
 `);
 $(document).ready(function () {
     setTimeout(function () {
-      $("body>.gsgl").css('visibility', 'visible')
+      $("body>#tab-content").css('visibility', 'visible')
       $("body>.loading-mask").hide()
     }, 1000)
   });
