@@ -1,6 +1,5 @@
 ﻿function jxhtml(){
 jxzl.innerHTML='<div class="jx">\</div>';
-};
 //刷新
 document.writeln("<div class=\'refresh\' onclick=\'javascript:location.reload();\'>刷新</div>");
 document.writeln("<style>");
@@ -22,3 +21,4 @@ document.writeln("    z-index: 1;");
 document.writeln("    cursor: pointer;");
 document.writeln("}");
 document.writeln("</style>");
+ }
