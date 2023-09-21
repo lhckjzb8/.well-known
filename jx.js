@@ -1,4 +1,4 @@
-//﻿function jxhtml(){
+function jxhtml(){
 jxzl.innerHTML='<div class="jx">\
   <p><label>109期平特 </label>04,07<span> (今年错0)</span></p>\
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>\
@@ -21,4 +21,4 @@ jxzl.innerHTML='<div class="jx">\
   <p><label>103-105期 </label>鼠马龙狗鸡<font color=red>蛇</font><span> (今年错1，104期蛇)</span></p>\
   <p><label>103-111期 </label><font color=red>11</font>,22,33,44<span> (今年错1，104期11)</span></p>\
   </div>';
-//};
+};
