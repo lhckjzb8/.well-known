@@ -1,4 +1,4 @@
-var k ="no,no,yes";
+var k ="yes,yes,yes";
 var zu = "www.mm16";
 var zd = "3.jpg";
 var imgurl="www.mm16,1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg";
