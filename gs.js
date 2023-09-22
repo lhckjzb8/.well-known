@@ -1,6 +1,4 @@
+var k ="no,yes,yes";
+var zd = "www.mm16,3.jpg";
 var imgurl="www.mm16,1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg,8.jpg";
-var imgurl2="lx36.mh40,guilv1.jpg,guilv2.jpg,guilv3.jpg,guilv4.jpg,guilv5.jpg,guilv6.jpg,guilv7.jpg,guilv8.jpg,guilv9.jpg,guilv10.jpg,guilv11.jpg,guilv12.jpg,guilv13.jpg,guilv14.jpg,guilv15.jpg,guilv16.jpg,guilv17.jpg,guilv18.jpg";
-var zong="25";
-function gshtml(){
-
-};
+var imgurl2="lx36.mh40,tp/guilv1.jpg,tp/guilv2.jpg,tp/guilv3.jpg,tp/guilv4.jpg,tp/guilv5.jpg,tp/guilv6.jpg,tp/guilv7.jpg,tp/guilv8.jpg,tp/guilv9.jpg,tp/guilv10.jpg,tp/guilv11.jpg,tp/guilv12.jpg,tp/guilv13.jpg,tp/guilv14.jpg,tp/guilv15.jpg,tp/guilv16.jpg,tp/guilv17.jpg,tp/guilv18.jpg";
