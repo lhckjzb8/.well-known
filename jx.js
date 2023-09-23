@@ -4,6 +4,7 @@ document.write(`
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>109期平特 </label>04,07<span> (今年未错)</span></p>
   <p><label>108-109期 </label>02,22,12,24,20,32,05,29,25,49</p>
+  <p><label>108-109期 </label>狗龙蛇猪马鼠<span> (今年错2)</span></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>107-108期 </label>18,19,24</p>
