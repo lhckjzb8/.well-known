@@ -1,5 +1,7 @@
 document.write(`
 <div class="jx">
+  <p><label>109期 </label>90123尾<span> (21错1，错在091期)</span></p>
+  <p><label>109期 </label>234头<span> (连准18期)</span></p>
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>109期平特 </label>04,07<span> (今年未错)</span></p>
