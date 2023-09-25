@@ -3,7 +3,7 @@ document.write(`
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>109期平特 </label>04,07<span> (今年未错)</span></p>
-  <p><label>108-109期 </label>绿澳<span> (今年未错)</span></p>
+  <p><label>108-109期 </label>绿波<span> (今年未错)</span></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)</span></p><!--0尾期L3左右3(错061-070)-->
@@ -12,7 +12,7 @@ document.write(`
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>108-109期 </label>02,22,<font color=red>12</font>,24,20,32,05,29,25,49<span> (108期12)</span></p>
   <p><label>106-108期 </label>牛羊<font color=red>龙</font>狗<span> (今年错1，108期龙)</span></p>
-  <p><label>103-107期 </label><font color=red>兔</font>蛇鸡羊<span> (今年错1，108期兔)</span></p>
+  <p><label>103-107期 </label><font color=red>兔</font>蛇鸡羊<span> (今年错1，107期兔)</span></p>
   <p><label>106-112期 </label>02,09,16,23,30,<font color=red>37</font>,44<span> (今年错1，107期37)</span></p>
   <p><label>105-108期 </label><font color=red>01</font>,<font color=red>10</font>,18,<font color=red>22</font>,26,<font color=red>28</font>,31<span> (2中2)21组,107期01,10,22,28,😘</span></p>
   <p><label>103-107期 </label>41,42,43,44,45,<font color=red>46</font><span> (106期46)</span></p>
