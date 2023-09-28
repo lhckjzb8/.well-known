@@ -6,7 +6,7 @@ document.write(`
   <p><label>109-113期 </label>15,20,25,39,45,48<span> (今年无错)</span></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
-  <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)剩2</span></p><!--0尾期L3左右3(错061-070)-->
+  <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>101-110期 </label>牛鼠猪<span> (连准9轮,今年无错)</span></p><!--0尾期L2减1.2-->
   <p><label>101-110期开码表 </label>02,03,04,<font color=red>12</font>,13,15,18,20,39,40,44,<font color=red>46</font>,（12码）<span> (至少开2期，106期46，108期12，109期46)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
