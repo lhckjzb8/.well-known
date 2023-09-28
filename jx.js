@@ -1,21 +1,17 @@
 document.write(`
 <div class="jx">
-  <p><label>109期 </label>90123尾<span> (21错1，错在091期)</span></p>
-  <p><label>109期 </label>234头<span> (连准18期)</span></p>
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
-  <p><label>109-113期 </label>43,44,45,46,47,48</p>
   <p><label>109-113期 </label>15,20,25,39,45,48<span> (今年无错)</span></p>
-  <p><label>109-111期 </label>蛇鸡马鼠<span> (今年错1)</span></p>
-  <p><label>109期平特 </label>04,07<span> (今年无错)</span></p>
-  <p><label>108-109期 </label>绿波<span> (今年无错)</span></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>105-110期 </label>17,18,19,20,21,22,23<span> (今年错1)剩2</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>101-110期 </label>牛鼠猪<span> (连准9轮,今年无错)</span></p><!--0尾期L2减1.2-->
-  <p><label>101-110期开码表 </label>02,03,04,<font color=red>12</font>,13,15,18,20,39,40,44,<font color=red>46</font>,（12码）<span> (至少开2期，106期46，108期12)</span></p>
+  <p><label>101-110期开码表 </label>02,03,04,<font color=red>12</font>,13,15,18,20,39,40,44,<font color=red>46</font>,（12码）<span> (至少开2期，106期46，108期12，109期46)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p><label>109-113期 </label>43,44,45,<font color=red>46</font>,47,48<span> (今年无错，109期46)</span></p>
+  <p><label>109-111期 </label>蛇鸡<font color=red>马</font>鼠<span> (今年错1，109期马)</span></p>
   <p><label>108-109期 </label>02,22,<font color=red>12</font>,24,20,32,05,29,25,49<span> (108期12)</span></p>
   <p><label>106-108期 </label>牛羊<font color=red>龙</font>狗<span> (今年错1，108期龙)</span></p>
   <p><label>103-107期 </label><font color=red>兔</font>蛇鸡羊<span> (今年错1，107期兔)</span></p>
