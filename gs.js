@@ -1,4 +1,4 @@
-var k ="yes,yes,yes";
+var k ="yes1,yes,yes1";
 var ktop = "3000"
 var zu = "www.mm16,www.mm16";
 var zd = "5.jpg,6.jpg";
