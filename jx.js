@@ -2,6 +2,7 @@ document.write(`
 <div class="jx">
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p><label>110-111期 </label>兔虎鼠猪鸡猴<span> (今年无错)</span></p>
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>109-113期 </label>15,20,25,39,45,48<span> (今年无错)</span></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1)</span></p>
