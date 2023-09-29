@@ -1,5 +1,5 @@
 var k ="yes1,yes,yes1";
-var ktop = "850";//3000
+var ktop = "850";//+150
 var zu = "www.mm16,www.mm16";
 var zd = "5.jpg,6.jpg";
 var imgurl="www.mm16,1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg,8.jpg,9.jpg,10.jpg";
