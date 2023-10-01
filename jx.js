@@ -1,9 +1,9 @@
 document.write(`
 <div class="jx">
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
-  <p><label>111-111期 </label>狗鸡猴羊马蛇龙<span> (今年错3)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <p><label>111-111期 </label>狗鸡猴羊马蛇龙<span> (今年错3)</span></p>
   <p><label>111-115期 </label>虎牛猴羊<span> (两年错1)</span> + 兔鸡<span> (三年无错)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错)</span></p>
   <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
