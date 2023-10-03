@@ -11,6 +11,7 @@ document.write(`
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>109-113期 </label>15,20,25,39,45,48<span> (今年无错)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
+  <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,30,32,35,39,44,46,（13码）<span> (至少开2期)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p><label>107-111期特尾 </label>8尾,9尾<span> (今年错1，111期29)</span></p>
   <p><label>110-111期 </label><font color=red>兔</font>虎鼠猪鸡猴<span> (今年无错，110期兔)</span></p>
