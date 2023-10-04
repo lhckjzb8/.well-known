@@ -87,7 +87,7 @@ color: #f00;
 <p>099期：兔+34,40,48,</p>
 <p>098期：兔+11,18,43,24,32,23,10,</p>
 <p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:45px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
 </div>
 
 `);
