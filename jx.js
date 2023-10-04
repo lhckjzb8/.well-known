@@ -34,7 +34,7 @@ color: #f00;
 <div style="float: left;margin-right: 5px;">➡︎</div>
 <div class="gszl right" id="awrh">爱我如何</div>
 </div>
-  <p style="padding:23px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p style="padding:23px 0 10px 0;border-bottom: 1.5px solid #7B68EE;"></p>
 <div class="jx">
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
