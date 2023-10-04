@@ -31,7 +31,7 @@ color: #f00;
 <div style="float: left;margin-right: 5px;">➡︎</div>
 <div class="gszl right" onClick="div_none('awrh');">爱我如何</div>
 </div>
-<div class="awrh" style="display: none;float: left;margin-top: 20px;padding:10px 0;position: absolute;z-index:1;margin-left: 5px;width: 93%;background-color: #fff;">
+<div class="awrh" style="display: none;float: left;margin-top: 20px;padding:10px 0;margin-left: 5px;width: 93%;background-color: #fff;">
 <div style="right:0;position: absolute;z-index:3;margin-top: -3px;margin-right: 5px;border-bottom: 0.5px solid #f00;"><span onclick="div_none('awrh');" style='font-size:9px; color:#ccc;'>❌ 收起</span></div>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
 <p>110期：龙+02,<span>01</span>,07,</p>
