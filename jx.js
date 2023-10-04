@@ -29,33 +29,10 @@ p span{
 color: #f00;
 }
 </style>
-<div style="width: 100%;float: left;padding:10px 10px 0 0;">
+<div style="width: 100%;float: left;padding:10px 0 10px 0;">
 <div class="gs right">高手资料</div>
 <div style="float: left;margin-right: 5px;">➡︎</div>
 <div class="gszl right" id="awrh">爱我如何</div>
-</div>
-
-<!-- 底部透明灰色层 -->
-<div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
-<!-- 提示层 -->
-<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:7.2%;width:90%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;"><p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
-<p>110期：龙+02,<span>01</span>,07,</p>
-<p>109期：龙+<span>46</span>,08,49,01,13,35,</p>
-<p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>
-<p>107期：虎+49,<span>37</span>,36,41,</p>
-<p>106期：狗+38,24,45,36,16,43,13,25,44,<span>46</span>,</p>
-<p>105期：龙+34,03,01,13,33,10,22,46,</p>
-<p>104期：虎+25,03,15,04,07,01,13,</p>
-<p>103期：兔+24,06,08,10,<span>14</span>,16,28,</p>
-<p>102期：<span>马</span>+24,13,33,</p>
-<p>101期：<span>龙</span>+16,29,34,</p>
-<p>100期：虎+48,42,10,22,32,13,23,46,08,</p>
-<p>099期：兔+34,40,48,</p>
-<p>098期：兔+11,18,43,24,32,23,10,</p>
-<p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:30.4%;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:30px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
 </div>
 
 <div class="jx">
@@ -89,6 +66,30 @@ color: #f00;
   <p><label>103-105期 </label>鼠马龙狗鸡<font color=red>蛇</font><span> (今年错1，104期蛇)</span></p>
   <p><label>103-111期 </label><font color=red>11</font>,22,33,44<span> (今年错1，104期11)</span></p>
   </div>
+
+  <!-- 底部透明灰色层 -->
+<div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
+<!-- 提示层 -->
+<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
+    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;"><p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
+<p>110期：龙+02,<span>01</span>,07,</p>
+<p>109期：龙+<span>46</span>,08,49,01,13,35,</p>
+<p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>
+<p>107期：虎+49,<span>37</span>,36,41,</p>
+<p>106期：狗+38,24,45,36,16,43,13,25,44,<span>46</span>,</p>
+<p>105期：龙+34,03,01,13,33,10,22,46,</p>
+<p>104期：虎+25,03,15,04,07,01,13,</p>
+<p>103期：兔+24,06,08,10,<span>14</span>,16,28,</p>
+<p>102期：<span>马</span>+24,13,33,</p>
+<p>101期：<span>龙</span>+16,29,34,</p>
+<p>100期：虎+48,42,10,22,32,13,23,46,08,</p>
+<p>099期：兔+34,40,48,</p>
+<p>098期：兔+11,18,43,24,32,23,10,</p>
+<p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:30.4%;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:30px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
+</div>
+
 `);
 
 $("#awrh").click(function() {
