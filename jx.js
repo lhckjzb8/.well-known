@@ -1,54 +1,55 @@
 document.write(`
-<style>/
-.gs{/
-float: left;/
-border-radius: 1px;/
-background-color: #BA55D3;/
-font-size: 13px;/
-color: #fff;/
-text-align: center;/
-padding:3px 8px;/
-}/
-.gszl{/
-float: left;/
-border-radius: 5px;/
-border: 0.5px solid #ccc;/
-background-color: #fff;/
-font-size: 13px;/
-color: #f00;/
-text-align: center;/
-padding:3px 8px;/
-}/
-.right{/
-margin-right: 5px;/
-}/
-p span{/
-color: #f00;/
-}/
-</style>/
-<div style="width: 100%;float: left;">/
-<div class="gs right">高手资料</div>/
-<div style="float: left;margin-right: 5px;">➡︎</div>/
-<div class="gszl right" onClick="div_none('awrh');">爱我如何</div>/
-</div>/
-<div class="awrh" style="display: none;float: left;margin-top: 20px;padding:10px 0;position: absolute;z-index:1;margin-left: 5px;width: 93%;">/
-<div style="right:0;position: absolute;z-index:3;margin-top: -3px;margin-right: 5px;border-bottom: 0.5px solid #f00;"><span onclick="div_none('awrh');" style='font-size:9px; color:#ccc;'>❌ 收起</span></div>/
-<p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>/
-<p>110期：龙+02,<span>01</span>,07,</p>/
-<p>109期：龙+<span>46</span>,08,49,01,13,35,</p>/
-<p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>/
-<p>107期：虎+49,<span>37</span>,36,41,</p>/
-<p>106期：狗+38,24,45,36,16,43,13,25,44,<span>46</span>,</p>/
-<p>105期：龙+34,03,01,13,33,10,22,46,</p>/
-<p>104期：虎+25,03,15,04,07,01,13,</p>/
-<p>103期：兔+24,06,08,10,<span>14</span>,16,28,</p>/
-<p>102期：<span>马</span>+24,13,33,</p>/
-<p>101期：<span>龙</span>+16,29,34,</p>/
-<p>100期：虎+48,42,10,22,32,13,23,46,08,</p>/
-<p>099期：兔+34,40,48,</p>/
-<p>098期：兔+11,18,43,24,32,23,10,</p>/
-<p>097期：<span>鼠</span>+39,36,33,19,49,</p>/
-</div>/
+<style>
+.gs{
+float: left;
+border-radius: 1px;
+background-color: #BA55D3;
+font-size: 13px;
+color: #fff;
+text-align: center;
+padding:3px 8px;
+}
+.gszl{
+float: left;
+border-radius: 5px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+font-size: 13px;
+color: #f00;
+text-align: center;
+padding:3px 8px;
+}
+.right{
+margin-right: 5px;
+}
+p span{
+color: #f00;
+}
+</style>
+<div style="width: 100%;float: left;">
+<div class="gs right">高手资料</div>
+<div style="float: left;margin-right: 5px;">➡︎</div>
+<div class="gszl right" onClick="div_none('awrh');">爱我如何</div>
+</div>
+<div class="awrh" style="display: none;float: left;margin-top: 20px;padding:10px 0;position: absolute;z-index:1;margin-left: 5px;width: 93%;">
+<div style="right:0;position: absolute;z-index:3;margin-top: -3px;margin-right: 5px;border-bottom: 0.5px solid #f00;"><span onclick="div_none('awrh');" style='font-size:9px; color:#ccc;'>❌ 收起</span></div>
+<p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
+<p>110期：龙+02,<span>01</span>,07,</p>
+<p>109期：龙+<span>46</span>,08,49,01,13,35,</p>
+<p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>
+<p>107期：虎+49,<span>37</span>,36,41,</p>
+<p>106期：狗+38,24,45,36,16,43,13,25,44,<span>46</span>,</p>
+<p>105期：龙+34,03,01,13,33,10,22,46,</p>
+<p>104期：虎+25,03,15,04,07,01,13,</p>
+<p>103期：兔+24,06,08,10,<span>14</span>,16,28,</p>
+<p>102期：<span>马</span>+24,13,33,</p>
+<p>101期：<span>龙</span>+16,29,34,</p>
+<p>100期：虎+48,42,10,22,32,13,23,46,08,</p>
+<p>099期：兔+34,40,48,</p>
+<p>098期：兔+11,18,43,24,32,23,10,</p>
+<p>097期：<span>鼠</span>+39,36,33,19,49,</p>
+</div>
+
 <div class="jx">
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
