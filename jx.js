@@ -40,7 +40,7 @@ color: #f00;
 <div class="gszl right" id="tdlx">土豆六肖</div>
 <div class="gszl" id="ssnl">世事难料</div>
 </div></div>
-<div style="width: 100%;float: left;padding:10px 0 10px 0;">
+<div style="width: 100%;float: left;padding:10px 0 0 0;">
 <div style="float: right;width: 69%;">
 <div class="gszl right" id="yzjx">英子九肖</div>
 <div></div>
@@ -155,7 +155,7 @@ color: #f00;
 <p>098期：鼠牛虎<span>龙</span>蛇马羊鸡猪 开12龙准</p>
 <p>097期：<span>鼠</span>牛虎兔龙马羊猴狗 开04鼠准</p>
 <p>096期：<span>牛</span>虎龙蛇马羊猴鸡狗 开03牛准</p>
-<p>095期：鼠虎龙蛇马</span>猴<span>鸡狗猪 开08猴准</p>
+<p>095期：鼠虎龙蛇马<span>猴</span>鸡狗猪 开08猴准</p>
 <p>094期：牛虎兔龙马羊猴鸡猪 开 开鼠错4</p>
 <p>093期：鼠牛虎龙蛇羊<span>猴</span>鸡猪 开44猴准</p>
 <p>092期：鼠牛龙马羊猴鸡<span>狗</span>猪 开42狗准</p>
@@ -201,7 +201,10 @@ g();
 $("#yzjx").click(function() {
 $('.mask').css('display','');
 $('.boardyz').css('display','');
-g();
+setTimeout(function g(){
+var g=document.body.scrollHeight;
+window.parent.postMessage({msgjx: g}, "*");
+},500);
 });
 
 $("#alertSure").click(function() {
