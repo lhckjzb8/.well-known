@@ -30,10 +30,21 @@ color: #f00;
 }
 </style>
 <div style="width: 100%;float: left;padding:10px 0 10px 0;border-bottom: 1.5px solid #7B68EE;">
+<div style="width: 100%;float: left;">
+<div style="float: left;">
 <div class="gs right">高手资料</div>
 <div style="float: left;margin-right: 5px;">➡︎</div>
+</div>
+<div style="float: right;">
 <div class="gszl right" id="awrh">爱我如何</div>
 <div class="gszl right" id="tdlx">土豆六肖</div>
+<div class="gszl" id="ssnl">世事难料</div>
+</div></div>
+<div style="width: 100%;float: left;padding:10px 0 10px 0;">
+<div style="float: right;">
+<div class="gszl right" id="yzjx">英子九肖</div>
+</div>
+</div>
 </div>
 
 <div class="jx" style="float: left;width: 100%;padding-top:5px;">
@@ -72,7 +83,7 @@ color: #f00;
 
   <!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
-<!-- 提示层 -->
+<!-- 爱我如何 -->
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
     <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
@@ -94,7 +105,7 @@ color: #f00;
 <p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
 </div>
-<!-- 提示层 -->
+<!-- 土豆六肖 -->
 <div class='boardtd' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">土豆六肖</span></div>
     <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
@@ -112,6 +123,61 @@ color: #f00;
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuretd">关闭</span></div>
 </div>
+<!-- 世事难料 -->
+<div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">世事难料</span></div>
+    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+<p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,</p>
+<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,</p>
+</div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuress">关闭</span></div>
+</div>
+<!-- 英子九肖 -->
+<div class='boardyz' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
+    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+<p>112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准</p>
+<p>111期：鼠牛虎兔龙马猴狗<span>猪</span> 开29猪准</p>
+<p>110期：鼠牛虎<span>兔</span>蛇马猴狗猪 开01兔准</p>
+<p>109期：鼠牛虎龙<span>马</span>羊鸡狗猪 开46马准</p>
+<p>108期：牛兔<span>龙</span>蛇马羊猴狗猪 开12龙准</p>
+<p>107期：鼠虎<span>兔</span>龙马羊猴狗猪 开37兔准</p>
+<p>106期：牛虎龙蛇<span>马</span>羊猴狗猪 开46马准</p>
+<p>105期：鼠牛虎<span>蛇</span>马羊猴鸡猪 开35蛇准</p>
+<p>104期：鼠牛龙<span>蛇</span>马羊猴鸡猪 开11蛇准</p>
+<p>103期：鼠牛<span>虎</span>兔龙马羊狗猪 开14虎准</p>
+<p>102期：鼠虎兔龙<span>马</span>羊猴鸡猪 开34马准</p>
+<p>101期：鼠牛<span>龙</span>蛇马猴鸡狗猪 开36龙准</p>
+<p>100期：鼠牛虎<span>龙</span>蛇羊猴鸡狗 开12龙准</p>
+<p>099期：<span>鼠</span>兔龙蛇马羊猴鸡猪 开28鼠准</p>
+<p>098期：鼠牛虎<span>龙</span>蛇马羊鸡猪 开12龙准</p>
+<p>097期：<span>鼠</span>牛虎兔龙马羊猴狗 开04鼠准</p>
+<p>096期：<span>牛</span>虎龙蛇马羊猴鸡狗 开03牛准</p>
+<p>095期：鼠虎龙蛇马</span>猴<span>鸡狗猪 开08猴准</p>
+<p>094期：牛虎兔龙马羊猴鸡猪 开 开鼠错4</p>
+<p>093期：鼠牛虎龙蛇羊<span>猴</span>鸡猪 开44猴准</p>
+<p>092期：鼠牛龙马羊猴鸡<span>狗</span>猪 开42狗准</p>
+<p>091期：鼠牛兔龙蛇马羊猴<span>猪</span> 开41猪准</p>
+<p>090期：<span>鼠</span>牛虎龙蛇羊猴狗猪 开16鼠准</p>
+<p>089期：鼠虎兔<span>龙</span>蛇马猴鸡猪 开12龙准</p>
+<p>088期：牛兔蛇马羊猴鸡狗<span>猪</span> 开29猪准</p>
+<p>087期：<span>鼠</span>牛虎蛇马羊猴鸡猪 开40鼠准</p>
+<p>086期：牛虎兔龙蛇马<span>羊</span>鸡狗 开21羊准</p>
+<p>085期：牛虎兔龙马羊猴狗猪 开11蛇错3</p>
+<p>084期：鼠牛<span>虎</span>龙蛇羊猴狗猪 开14虎准</p>
+<p>083期：<span>牛</span>虎兔蛇马羊猴狗猪 开39牛准</p>
+<p>082期：牛虎兔龙马猴鸡狗猪 开09羊错2</p>
+<p>081期：牛兔龙<span>蛇</span>马羊猴鸡猪 开47蛇准</p>
+<p>080期：牛兔龙蛇马羊猴<span>狗</span>猪 开42狗准</p>
+<p>079期：鼠<span>牛</span>虎兔龙蛇马狗猪 开03牛准</p>
+<p>078期：鼠牛兔龙蛇马<span>羊</span>鸡狗 开33羊准</p>
+<p>077期：鼠牛虎<span>兔</span>蛇羊猴鸡猪 开13兔准</p>
+<p>076期：鼠<span>牛</span>虎龙马羊猴狗猪 开27牛准</p>
+<p>075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1</p>
+<p>074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
+</div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSureyz">关闭</span></div>
+</div>
 
 `);
 
@@ -123,12 +189,28 @@ $("#tdlx").click(function() {
 $('.mask').css('display','');
 $('.boardtd').css('display','');
 });
+$("#ssnl").click(function() {
+$('.mask').css('display','');
+$('.boardss').css('display','');
+});
+$("#yzjx").click(function() {
+$('.mask').css('display','');
+$('.boardyz').css('display','');
+});
+
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
 $('.board').css('display','none');
-$('.boardtd').css('display','none');
 });
 $("#alertSuretd").click(function() {
 $('.mask').css('display','none');
 $('.boardtd').css('display','none');
+});
+$("#alertSuress").click(function() {
+$('.mask').css('display','none');
+$('.boardss').css('display','none');
+});
+$("#alertSureyz").click(function() {
+$('.mask').css('display','none');
+$('.boardyz').css('display','none');
 });
