@@ -74,7 +74,9 @@ color: #f00;
 <!-- 提示层 -->
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;"><p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
+    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+<p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
+<p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
 <p>110期：龙+02,<span>01</span>,07,</p>
 <p>109期：龙+<span>46</span>,08,49,01,13,35,</p>
 <p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>
