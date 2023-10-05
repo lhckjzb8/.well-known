@@ -28,8 +28,8 @@ line-height:18px;
 p span{
 color: #f00;
 }
-.qrcodeyz p{
-line-height:28px;
+.boardyz p{
+line-height:23px;
 }
 </style>
 <div style="width: 100%;float: left;padding:10px 0 10px 0;border-bottom: 1.5px solid #7B68EE;">
