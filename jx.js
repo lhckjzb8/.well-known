@@ -135,7 +135,7 @@ color: #f00;
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuress">关闭</span></div>
 </div>
 <!-- 英子九肖 -->
-<div class='boardyz' style="position:fixed;border-radius:12px;background-color:#fff;top:30px;left:1%;width:98%;z-index:999;display:none;">
+<div class='boardyz' style="position:fixed;border-radius:12px;background-color:#fff;top:5px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
     <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
 <p>112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准</p>
