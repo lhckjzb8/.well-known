@@ -31,18 +31,20 @@ color: #f00;
 </style>
 <div style="width: 100%;float: left;padding:10px 0 10px 0;border-bottom: 1.5px solid #7B68EE;">
 <div style="width: 100%;float: left;">
-<div style="float: left;">
-<div class="gs right">高手资料</div>
-<div style="float: left;margin-right: 5px;">➡︎</div>
+<div style="float: left;width: 31%;">
+<div class="gs">高手资料</div>
+<div style="text-align: center;">➡︎</div>
 </div>
-<div style="float: right;">
+<div style="float: right;width: 69%;">
 <div class="gszl right" id="awrh">爱我如何</div>
 <div class="gszl right" id="tdlx">土豆六肖</div>
 <div class="gszl" id="ssnl">世事难料</div>
 </div></div>
 <div style="width: 100%;float: left;padding:10px 0 10px 0;">
-<div style="float: right;">
+<div style="float: right;width: 69%;">
 <div class="gszl right" id="yzjx">英子九肖</div>
+<div></div>
+<div></div>
 </div>
 </div>
 </div>
@@ -184,18 +186,22 @@ color: #f00;
 $("#awrh").click(function() {
 $('.mask').css('display','');
 $('.board').css('display','');
+g();
 });
 $("#tdlx").click(function() {
 $('.mask').css('display','');
 $('.boardtd').css('display','');
+g();
 });
 $("#ssnl").click(function() {
 $('.mask').css('display','');
 $('.boardss').css('display','');
+g();
 });
 $("#yzjx").click(function() {
 $('.mask').css('display','');
 $('.boardyz').css('display','');
+g();
 });
 
 $("#alertSure").click(function() {
