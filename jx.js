@@ -17,7 +17,7 @@ background-color: #fff;
 font-size: 13px;
 color: #f00;
 text-align: center;
-padding:3px 3px 3px 8px;
+padding:3px 3px 3px 6px;
 }
 .gszlx{
 font-size: 8px;
@@ -37,7 +37,7 @@ color: #f00;
 line-height:23px;
 }
 </style>
-<div style="width: 100%;float: left;padding:10px 0 10px 0;border-bottom: 1.5px solid #7B68EE;">
+<div style="width: 100%;float: left;padding:10px 0;border-bottom: 1.5px solid #7B68EE;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 31%;">
 <div class="gs">高手资料</div>
