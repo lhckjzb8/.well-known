@@ -34,10 +34,12 @@ color: #f00;
 <div style="float: left;margin-right: 5px;">➡︎</div>
 <div class="gszl right" id="awrh">爱我如何</div>
 </div>
-  
+
 <div class="jx" style="float: left;width: 100%;padding-top:5px;">
+  <p><label style="background-color:#fff211;color:#f00;">112-115期复试二三 08,16,17,21,27,32,34,39<span> (重点🤑)</span></label></p>
   <p><label style="background-color:#fff211;color:#f00;">108-112期复试二三 06,09,16,18,21,34<span> (重点🤑)</span></label></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <p><label>112-113期 </label>兔虎牛鼠猪狗鸡<span> (今年错2)</span></p>
   <p><label>111-112期 </label>24,36,05,17,19,31,27<span> (今年无错)</span></p>
   <p><label>111-115期 </label>虎牛猴羊<span> (两年错1)</span> + 兔鸡<span> (三年无错)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错)</span></p>
@@ -51,7 +53,8 @@ color: #f00;
   <p><label>107-111期特尾 </label>8尾,<font color=red>9尾</font><span> (今年错1，111期29)</span></p>
   <p><label>110-111期 </label><font color=red>兔</font>虎鼠猪鸡猴<span> (今年无错，110期兔)</span></p>
   <p><label>101-110期开码表 </label>02,03,04,<font color=red>12</font>,13,15,18,20,39,40,44,<font color=red>46</font>,（12码）<span> (至少开2期，106期46，108期12，109期46)</span></p>
-  <p><label>109-113期 </label>43,44,45,<font color=red>46</font>,47,48<span> (今年无错，109期46)</span></p>
+  <p><label>109-113期 </label>43,44,45,<font color=red>46</font>,47,48<span> (今年无
+错，109期46)</span></p>
   <p><label>109-111期 </label>蛇鸡<font color=red>马</font>鼠<span> (今年错1，109期马)</span></p>
   <p><label>108-109期 </label>02,22,<font color=red>12</font>,24,20,32,05,29,25,49<span> (108期12)</span></p>
   <p><label>106-108期 </label>牛羊<font color=red>龙</font>狗<span> (今年错1，108期龙)</span></p>
