@@ -185,7 +185,7 @@ line-height:23px;
 </div>
 <!-- 赢之我幸 -->
 <div class='boardwx' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸</span></div>
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸</span><span style="color:#f00;font-size:13px;">(老澳门)</span></div>
     <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
 <p>279期：36,06,17,18,21,28,39,40,05,31,33,42,<br>
 43,44,46,48,01,08,13,22,26,30,32,34,35,38,<br>41,47,（28个）</p>
