@@ -37,7 +37,7 @@ color: #f00;
 line-height:23px;
 }
 </style>
-<div style="width: 100%;float: left;padding:10px 0;border-bottom: 1.5px solid #7B68EE;">
+<div style="width: 100%;float: left;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs">高手资料</div>
