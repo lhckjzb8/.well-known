@@ -33,6 +33,7 @@ color: #f00;
 <div class="gs right">高手资料</div>
 <div style="float: left;margin-right: 5px;">➡︎</div>
 <div class="gszl right" id="awrh">爱我如何</div>
+<div class="gszl right" id="tdlx">土豆六肖</div>
 </div>
 
 <div class="jx" style="float: left;width: 100%;padding-top:5px;">
@@ -93,6 +94,24 @@ color: #f00;
 <p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
 </div>
+<!-- 提示层 -->
+<div class='boardtd' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">土豆六肖</span></div>
+    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+<p>112期:虎蛇<span>羊</span>猴鸡狗</p>
+<p>111期:鼠牛虎兔猴鸡</p>
+<p>110期:虎<span>免</span>龙羊猴狗</p>
+<p>109期:虎兔蛇<span>马</span>羊狗</p>
+<p>108期:<span>龙</span>蛇马羊猴狗</p>
+<p>107期:鼠牛<span>兔</span>马羊猪</p>
+<p>106期:兔<span>马</span>羊猴鸡猪</p>
+<p>105期:虎<span>蛇</span>羊猴狗猪</p>
+<p>104期:兔龙马羊鸡狗</p>
+<p>103期:鼠<span>虎</span>羊马猴狗</p>
+<p>102期:鼠龙<span>马</span>羊鸡狗</p>
+</div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
+</div>
 
 `);
 
@@ -100,7 +119,12 @@ $("#awrh").click(function() {
 $('.mask').css('display','');
 $('.board').css('display','');
 });
+$("#tdlx").click(function() {
+$('.mask').css('display','');
+$('.boardtd').css('display','');
+});
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
 $('.board').css('display','none');
+$('.boardtd').css('display','none');
 });
