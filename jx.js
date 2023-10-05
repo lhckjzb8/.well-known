@@ -29,7 +29,7 @@ p span{
 color: #f00;
 }
 .qrcodeyz p{
-line-height:23px;
+line-height:28px;
 }
 </style>
 <div style="width: 100%;float: left;padding:10px 0 10px 0;border-bottom: 1.5px solid #7B68EE;">
@@ -43,7 +43,7 @@ line-height:23px;
 <div class="gszl right" id="tdlx">土豆六肖</div>
 <div class="gszl" id="ssnl">世事难料</div>
 </div></div>
-<div style="width: 100%;float: left;padding:10px 0 0 0;">
+<div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 69%;">
 <div class="gszl right" id="yzjx">英子九肖</div>
 <div></div>
@@ -160,7 +160,7 @@ line-height:23px;
 097期：<span>鼠</span>牛虎兔龙马羊猴狗 开04鼠准<br>
 096期：<span>牛</span>虎龙蛇马羊猴鸡狗 开03牛准<br>
 095期：鼠虎龙蛇马<span>猴</span>鸡狗猪 开08猴准<br>
-094期：牛虎兔龙马羊猴鸡猪 开 开鼠错4<br>
+094期：牛虎兔龙马羊猴鸡猪 开16鼠错4<br>
 093期：鼠牛虎龙蛇羊<span>猴</span>鸡猪 开44猴准<br>
 092期：鼠牛龙马羊猴鸡<span>狗</span>猪 开42狗准<br>
 091期：鼠牛兔龙蛇马羊猴<span>猪</span> 开41猪准<br>
