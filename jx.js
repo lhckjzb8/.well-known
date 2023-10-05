@@ -39,17 +39,17 @@ line-height:23px;
 </style>
 <div style="width: 100%;float: left;padding:10px 0;border-bottom: 1.5px solid #7B68EE;">
 <div style="width: 100%;float: left;">
-<div style="float: left;width: 31%;">
+<div style="float: left;width: 27%;">
 <div class="gs">高手资料</div>
 <div style="text-align: center;">➡︎</div>
 </div>
-<div style="float: right;width: 69%;">
+<div style="float: right;width: 73%;">
 <div class="gszl right" id="awrh">爱我如何<span class="gszlx">港</span></div>
 <div class="gszl right" id="tdlx">土豆六肖<span class="gszlx">港</span></div>
 <div class="gszl" id="ssnl">世事难料<span class="gszlx">港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
-<div style="float: right;width: 69%;">
+<div style="float: right;width: 73%;">
 <div class="gszl right" id="yzjx">英子九肖<span class="gszlx">港</span></div>
 <div class="gszl right" id="yzwx">赢之我幸<span class="gszlx">澳</span></div>
 <div></div>
