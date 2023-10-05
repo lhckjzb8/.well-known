@@ -110,7 +110,7 @@ color: #f00;
 <p>103期:鼠<span>虎</span>羊马猴狗</p>
 <p>102期:鼠龙<span>马</span>羊鸡狗</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
+    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuretd">关闭</span></div>
 </div>
 
 `);
@@ -126,5 +126,9 @@ $('.boardtd').css('display','');
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
 $('.board').css('display','none');
+$('.boardtd').css('display','none');
+});
+$("#alertSuretd").click(function() {
+$('.mask').css('display','none');
 $('.boardtd').css('display','none');
 });
