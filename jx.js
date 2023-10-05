@@ -17,7 +17,12 @@ background-color: #fff;
 font-size: 13px;
 color: #f00;
 text-align: center;
-padding:3px 8px;
+padding:3px 3px 3px 8px;
+}
+.gszlx{
+font-size: 8px;
+color: #000;
+margin-left: 3px;
 }
 .right{
 margin-right: 5px;
@@ -39,21 +44,21 @@ line-height:23px;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 69%;">
-<div class="gszl right" id="awrh">爱我如何</div>
-<div class="gszl right" id="tdlx">土豆六肖</div>
-<div class="gszl" id="ssnl">世事难料</div>
+<div class="gszl right" id="awrh">爱我如何<span class="gszlx">港</span></div>
+<div class="gszl right" id="tdlx">土豆六肖<span class="gszlx">港</span></div>
+<div class="gszl" id="ssnl">世事难料<span class="gszlx">港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 69%;">
-<div class="gszl right" id="yzjx">英子九肖</div>
-<div class="gszl right" id="yzwx">赢之我幸</div>
+<div class="gszl right" id="yzjx">英子九肖<span class="gszlx">港</span></div>
+<div class="gszl right" id="yzwx">赢之我幸<span class="gszlx">澳</span></div>
 <div></div>
 </div>
 </div>
 </div>
 
 <div class="jx" style="float: left;width: 100%;padding-top:5px;">
-  <p><label>112-115期</label> <font color=red>08,16,17,21,27,32,34,39</font><span> (3中3)56组</span></p>
+  <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
   <p><label>112-113期 </label>牛鼠猪狗鸡蛇<span> (今年错1)</span></p>
