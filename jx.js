@@ -185,12 +185,18 @@ line-height:23px;
 </div>
 <!-- 赢之我幸 -->
 <div class='boardwx' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸<span style="color:#A58888;font-size:13px;">(老澳)</span></span></div>
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸<span style="color:#A15888;font-size:13px;">(老澳)</span></span></div>
     <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
-<p>279期：主：36,06,17,18,21,28,39,40,05,31,33,<br>
-42,43,44,46,48,防：01,08,13,22,26,30,32,34,<br>35,38,41,47,（28个）</p>
-<p>278期：主：12,20,08,11,26,31,43,02,07,14,<span>24</span>,<br>
-45,46,防：03,06,09,17,18,19,21,23,25,27,30,<br>32,38,39,44,49,（29个）</p>
+<p>【279期】<br>
+主：36,06,17,18,21,28,39,40,<br>
+<font color=#fff>主：</font>05,31,33,42,43,44,46,48,（16个）<br>
+防：01,08,13,22,26,30,<br>
+<font color=#fff>防：</font>32,34,35,38,41,47,（12个）</p>
+<p>【278期】<br>
+主：12,20,08,11,26,31,43,<br>
+<font color=#fff>主：</font>02,07,14,<span>24</span>,45,46,（13个）<br>
+防：03,06,09,17,18,19,21,23,<br>
+<font color=#fff>防：</font>25,27,30,32,38,39,44,49,（16个）</p>
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSurewx">关闭</span></div>
 </div>
