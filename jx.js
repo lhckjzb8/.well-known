@@ -1,4 +1,42 @@
 document.write(`
+<style>
+.gs{
+float: left;
+border-radius: 1px;
+background-color: #BA55D3;
+font-size: 13px;
+color: #fff;
+text-align: center;
+padding:3px 6px;
+}
+.gszl{
+float: left;
+border-radius: 5px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+font-size: 13px;
+color: #f00;
+text-align: center;
+padding:3px 3px 3px 6px;
+}
+.gszlx{
+font-size: 8px;
+color: #000;
+margin-left: 3px;
+}
+.right{
+margin-right: 5px;
+}
+.qrcode p{
+line-height:18px;
+}
+p span{
+color: #f00;
+}
+.boardyz p{
+line-height:23px;
+}
+</style>
 <div class="jx">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
