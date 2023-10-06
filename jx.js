@@ -37,7 +37,7 @@ color: #f00;
 line-height:23px;
 }
 </style>
-<div class="jx">
+<div class="jx" style="float: left;width: 100%;padding-top:5px;">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
