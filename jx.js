@@ -2,7 +2,7 @@ document.write(`
 <style>
 .jxx{
 width: 100%;
-padding:8px 10px 0 10px;
+padding-top:8px;
 float: left;
 }
 .jxx label{color: #A15888;}
