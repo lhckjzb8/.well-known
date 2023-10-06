@@ -18,8 +18,9 @@ color:#f00;
 <body>
 <script type="text/javascript" src="https://xgyh.299333y.com:678/kjjl/base.js"></script>
 <script type="text/javascript" src="https://g.alicdn.com/ilw/cdnjs/jquery/1.8.3/jquery.min.js"></script>
-<p>号1：<input type="text" id="hm1" name="hm1" style="height:20px;WIDTH: 30px;" value=""> 号2：<input type="text" id="hm2" name="hm2" style="height:20px;WIDTH: 30px;" value=""> 号3：<input type="text" id="hm3" name="hm3" style="height:20px;WIDTH: 30px;" value=""> <INPUT  onclick="kj();resetinput();" style="margin-left: 5px;" type=button value=提交></p>
-<div id=lotery-list>00</div>
+<p style="font-size: 13px;">号1：<input type="text" id="hm1" name="hm1" style="height:20px;WIDTH: 30px;text-align:center;" value=""> 号2：<input type="text" id="hm2" name="hm2" style="height:20px;WIDTH: 30px;text-align:center;" value=""> 号3：<input type="text" id="hm3" name="hm3" style="height:20px;WIDTH: 30px;text-align:center;" value=""> <INPUT  onclick="kj();resetinput();" style="margin: 0 3px;" type=button value=提交> 显示：<input type="text" id="hmsl" name="hmsl" style="height:20px;WIDTH: 20px;text-align:center;" value="1"></p>
+<div id=ts></div>
+<div id=lotery-list></div>
 <script>
 function check(num) {  
     var len = num.length;  
@@ -30,16 +31,49 @@ function check(num) {
     return num;  
 }
 function kj(){
-var hm1=document.getElementById("hm1").value;
-var hm2=document.getElementById("hm2").value;
-var hm3=document.getElementById("hm3").value;
-//var kjjl=kjjl.split(",");
+var hm1=check(document.getElementById("hm1").value);
+var hm2=check(document.getElementById("hm2").value);
+var hm3=check(document.getElementById("hm3").value);
+var hmsl=document.getElementById("hmsl").value;
+if(hmsl>=1 && document.getElementById("hm1").value.length<1){
+$('#ts').html('请输入号码');
+} else {
+$('#ts').html('');
+}
+
 var result = '';
 $('#lotery-list').html('');
-for(var i=0;i<kjjl.length-2400;i++){
+for(var i=0;i<kjjl.length;i++){
 var zh=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
-result += "<p>"+kjjl[i][1]+","+kjjl[i][2]+","+hm+" <INPUT onclick=addText('"+zh+"'); type=button value=加入 id=tab-list></p>";
+var sj=kjjl[i][0][0]+kjjl[i][0][1]+kjjl[i][0][2]+kjjl[i][0][3];
+if(hm1.length>1 && hmsl==1){
+for(var y=3;y<kjjl[0].length;y++){
+if(kjjl[i][y].indexOf(hm1)!=-1){
+result += sj+","+kjjl[i][2]+","+hm+"<br>";
+}}
+}
+if(hm1.length>1 && hm2.length>1 && hmsl==2){
+for(var y=3;y<kjjl[0].length;y++){
+if(kjjl[i][y].indexOf(hm1)!=-1){
+for(var z=3;z<kjjl[0].length;z++){
+if(kjjl[i][z].indexOf(hm2)!=-1){
+result += sj+","+kjjl[i][2]+","+hm+"<br>";
+}}
+}}
+}
+if(hm1.length>1 && hm2.length>1 && hm3.length>1 && hmsl==3){
+for(var y=3;y<kjjl[0].length;y++){
+if(kjjl[i][y].indexOf(hm1)!=-1){
+for(var z=3;z<kjjl[0].length;z++){
+if(kjjl[i][z].indexOf(hm2)!=-1){
+for(var n=3;n<kjjl[0].length;n++){
+if(kjjl[i][n].indexOf(hm3)!=-1){
+result += sj+","+kjjl[i][2]+","+hm+"<br>";
+}}
+}}
+}}
+}
 }
 $('#lotery-list').append(result);
 var  allItemList = document.querySelectorAll("#tab-list");
@@ -52,7 +86,7 @@ allItemList[this.index].style.border="1px solid #f00";
 }
 }
 </script>
-
+<!--INPUT onclick=addText('"+zh+"'); type=button value=加入 id=tab-list-->
 
 <script>
 //全角转换为半角函数
@@ -473,11 +507,7 @@ function countstyle(tjstylestr)
 <INPUT title=8, type=hidden value=8 name=n_8> 
 <INPUT title=9, type=hidden value=9 name=n_9>
 </FORM>
-<FORM name=form>
-<p><TEXTAREA style="WIDTH: 100%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></TEXTAREA></p>
-<p><INPUT style="WIDTH: 180px;HEIGHT: 35px" onclick=countma(); type=button value=统计号码> <input type=button value=复制 style="WIDTH: 90px;HEIGHT: 35px;color:#ff0000;" onClick="copyName();"></input><INPUT style="WIDTH: 50px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
-<p><TEXTAREA style="WIDTH: 100%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=PHYSICAL placeholder="统计结果…" readOnly=true id=tjname></TEXTAREA></p>
-</FORM>
+
 <script type="text/javascript">
 //复制
 
@@ -539,9 +569,13 @@ margin-top:10px;
 <!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
 <!-- 提示层 -->
-<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:40px;left:1%;width:98%;height:500px;z-index:999;display:none;">
+<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:40px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;padding-top:5.4%;margin: 0 auto;text-align:center;">统计结果<span style="float: right;margin-right: 10px;background-color: #fff;color:#f00;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" onClick="copyName();">复制</span><span style="float: left;margin-left: 10px;background-color: #ED171F;color:#fff;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" id="alertSure">关闭</span></span></div>
-    <div class='qrcode' style="width: 98%;margin-top:3%;margin-left:1%;text-align:left;word-break: break-all;border:1px solid #ccc;"><div style="padding:3px 5px;" id="tjsc"></div>
+    <div class='qrcode' style="width: 98%;margin-top:3%;margin-left:1%;text-align:left;word-break: break-all;"><FORM name=form>
+<p><TEXTAREA style="WIDTH: 98%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></TEXTAREA></p>
+<p><INPUT style="WIDTH: 230px;HEIGHT: 35px" onclick=countma(); type=button value=统计号码> <INPUT style="WIDTH: 100px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
+<p><TEXTAREA style="WIDTH: 98%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=PHYSICAL placeholder="统计结果…" readOnly=true id=tjname></TEXTAREA></p>
+</FORM><!--div style="padding:3px 5px;" id="tjsc"></div-->
 </div>
 </div>
 <script>
