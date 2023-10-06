@@ -1,5 +1,10 @@
 document.write(`
 <style>
+.jx{
+width: 100%;
+padding-top:8px;
+float: left;
+}
 .gs{
 float: left;
 border-radius: 1px;
