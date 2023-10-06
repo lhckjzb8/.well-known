@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -21,17 +21,25 @@ color:#f00;
 <p>号1：<input type="text" id="hm1" name="hm1" style="height:20px;WIDTH: 30px;" value=""> 号2：<input type="text" id="hm2" name="hm2" style="height:20px;WIDTH: 30px;" value=""> 号3：<input type="text" id="hm3" name="hm3" style="height:20px;WIDTH: 30px;" value=""> <INPUT  onclick="kj();" type=button value=提交></p>
 <div id=lotery-list>00</div>
 <script>
+function check(num) {  
+    var len = num.length;  
+    while(len < 2) {  
+        num = "0" + num;  
+        len++;  
+    }  
+    return num;  
+}
 function kj(){
 var hm1=document.getElementById("hm1").value;
 var hm2=document.getElementById("hm2").value;
 var hm3=document.getElementById("hm3").value;
+//var kjjl=kjjl.split(",");
 var result = '';
 $('#lotery-list').html('');
 for(var i=0;i<kjjl.length-2400;i++){
-var zh=kjjl[i][3]+","+kjjl[i][4]+","+kjjl[i][5]+","+kjjl[i][6]+","+kjjl[i][7]+","+kjjl[i][8]+","+kjjl[i][9];
-var zhh=kjjl[i][3]+","+kjjl[i][4]+","+kjjl[i][5]+","+kjjl[i][6]+","+kjjl[i][7]+","+kjjl[i][8]+","+kjjl[i][9]+"";
+var zh=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
-result += "<p>"+kjjl[i][1]+","+kjjl[i][2]+","+hm+" <INPUT onclick=addText('"+zhh+"'); type=button value=加入 id=tab-list></p>";
+result += "<p>"+kjjl[i][1]+","+kjjl[i][2]+","+hm+" <INPUT onclick=addText('"+zh+"'); type=button value=加入 id=tab-list></p>";
 }
 $('#lotery-list').append(result);
 var  allItemList = document.querySelectorAll("#tab-list");
@@ -170,11 +178,12 @@ function tongji(allmastr){
     //次数从低到高排序
     numarr.sort(compareNumbers);
     //
-    var tjstr = "统计结果：\n";
+    var tjstr = "【期】统计结果：";
     for(var i=0;i< numarr.length;i++)
     {
         var ci = numarr[i];
-        var cistr = "〖"+ci+"次〗:";
+        //var cistr = "〖"+ci+"次〗";
+        var cistr = "\n共"+ci+"次：";
         var mashu = 0;
         for(var j =1;j<=49 ; j++)
         {
@@ -188,10 +197,10 @@ function tongji(allmastr){
                 cistr += j+',' ;
             }
         }
-        cistr += '（共'+ mashu +'个）\n' ;
+        cistr += '（'+ mashu +'个）' ;
         tjstr += cistr ;
     }
-    tjstr += "\n";
+    tjstr += "";
     return tjstr;
 }
 
@@ -325,11 +334,12 @@ function countstyle(tjstylestr)
         //次数从低到高排序
         cinumarr.sort(compareNumbers);        
         //转化为输出字符串
-        var tjstr = "统计结果：\n";
+        var tjstr = "【期】统计结果：";
         for(var i=0;i< cinumarr.length;i++)
         {
             var ci = cinumarr[i];
-            var cistr = "〖"+ci+"次〗:";
+            //var cistr = "〖"+ci+"次〗";
+            var cistr = "\n共"+ci+"次：";
             var geshu = 0;
             for(var j =0;j< tjstyle.length ; j++)
             {
@@ -339,10 +349,10 @@ function countstyle(tjstylestr)
                     cistr += tjstyle[j]+",";
                 }                
             }
-            cistr += '（共'+ geshu +'个）\n' ;
+            cistr += '（'+ geshu +'个）' ;
             tjstr += cistr ;            
         }
-        tjstr += "\n";
+        tjstr += "";
         document.form.resultstxt.value = tjstr;
         //return tjstr;        
     }
@@ -410,6 +420,45 @@ function countstyle(tjstylestr)
 </FORM>
 <FORM name=form>
 <p><TEXTAREA style="WIDTH: 100%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></TEXTAREA></p>
-<p><INPUT style="WIDTH: 65%;HEIGHT: 35px" onclick=countma(); type=button value=统计号码><INPUT style="WIDTH: 80px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
-<p><TEXTAREA style="WIDTH: 100%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=off></TEXTAREA></p>
+<p><INPUT style="WIDTH: 180px;HEIGHT: 35px" onclick=countma(); type=button value=统计号码> <input type=button value=复制 style="WIDTH: 90px;HEIGHT: 35px;color:#ff0000;" onClick="copyName();"></input><INPUT style="WIDTH: 50px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
+<p><TEXTAREA style="WIDTH: 100%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=PHYSICAL placeholder="统计结果…" readOnly=true id=tjname></TEXTAREA></p>
 </FORM>
+<script type="text/javascript">
+//复制
+
+function copyToClipboard(text) {
+  const bgColor = '#ff00ff';
+
+  const textarea = document.createElement('textarea');
+  textarea.value =text;
+  textarea.style.background = bgColor;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+
+  // 显示成功提示
+  const successMessage = document.createElement('div');
+  successMessage.textContent = '复制成功!';
+  successMessage.style.position = 'fixed';
+  successMessage.style.bottom = '20px';
+  successMessage.style.right = '36%';
+  successMessage.style.background = bgColor;
+  successMessage.style.color = '#fff';
+  successMessage.style.padding = '8px';
+  document.body.appendChild(successMessage);
+
+  // 3 秒后隐藏提示
+  setTimeout(() => {
+    successMessage.remove();
+  }, 3000);
+}
+
+function copyName() {
+  const input = document.getElementById('tjname');
+  copyToClipboard(input.value);
+}
+//复制结束
+</script>
+</body>
+</html>
