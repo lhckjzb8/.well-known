@@ -49,26 +49,26 @@ var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>"
 var sj=kjjl[i][0][0]+kjjl[i][0][1]+kjjl[i][0][2]+kjjl[i][0][3];
 if(hm1.length>1 && hmsl==1){
 for(var y=3;y<kjjl[0].length;y++){
-if(kjjl[i][y].indexOf(hm1)!=-1){
+if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 result += sj+","+kjjl[i][2]+","+hm+"<br>";
 }}
 }
 if(hm1.length>1 && hm2.length>1 && hmsl==2){
 for(var y=3;y<kjjl[0].length;y++){
-if(kjjl[i][y].indexOf(hm1)!=-1){
+if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 for(var z=3;z<kjjl[0].length;z++){
-if(kjjl[i][z].indexOf(hm2)!=-1){
+if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 result += sj+","+kjjl[i][2]+","+hm+"<br>";
 }}
 }}
 }
 if(hm1.length>1 && hm2.length>1 && hm3.length>1 && hmsl==3){
 for(var y=3;y<kjjl[0].length;y++){
-if(kjjl[i][y].indexOf(hm1)!=-1){
+if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 for(var z=3;z<kjjl[0].length;z++){
-if(kjjl[i][z].indexOf(hm2)!=-1){
+if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 for(var n=3;n<kjjl[0].length;n++){
-if(kjjl[i][n].indexOf(hm3)!=-1){
+if(check(kjjl[i][n]).indexOf(hm3)!=-1){
 result += sj+","+kjjl[i][2]+","+hm+"<br>";
 }}
 }}
