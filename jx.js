@@ -1,12 +1,5 @@
 document.write(`
 <style>
-.jxx{
-width: 100%;
-padding-top:8px;
-float: left;
-}
-.jxx label{color: #A15888;}
-.jxx span{color: #A58888;font-size: 13px;}
 .gs{
 float: left;
 border-radius: 1px;
@@ -44,7 +37,7 @@ color: #f00;
 line-height:23px;
 }
 </style>
-<div style="display: inline-block;width: 100%;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
+<div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs">高手资料</div>
@@ -95,12 +88,13 @@ line-height:23px;
   <p><label>103-105期 </label>鼠马龙狗鸡<font color=red>蛇</font><span> (今年错1，104期蛇)</span></p>
   <p><label>103-111期 </label><font color=red>11</font>,22,33,44<span> (今年错1，104期11)</span></p>
   </div>
+
   <!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
 <!-- 爱我如何 -->
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
 <p>110期：龙+02,<span>01</span>,07,</p>
@@ -122,7 +116,7 @@ line-height:23px;
 <!-- 土豆六肖 -->
 <div class='boardtd' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">土豆六肖</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
 <p>111期:鼠牛虎兔猴鸡</p>
 <p>110期:虎<span>免</span>龙羊猴狗</p>
@@ -140,16 +134,16 @@ line-height:23px;
 <!-- 世事难料 -->
 <div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">世事难料</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
-<p>112期：20,18,05,17,43,06,07,32,28,41,<br>22,<span>45</span>,49,23,31,09,21,</p>
-<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,<br>47,49,48,32,22,</p>
+    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
+<p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,</p>
+<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,</p>
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuress">关闭</span></div>
 </div>
 <!-- 英子九肖 -->
 <div class='boardyz' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
 111期：鼠牛虎兔龙马猴狗<span>猪</span> 开29猪准<br>
@@ -196,7 +190,7 @@ line-height:23px;
 <!-- 赢之我幸 -->
 <div class='boardwx' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸<span style="color:#A15888;font-size:13px;">(老澳)</span></span></div>
-    <div class='qrcode' style="width: 100%;margin-left:10px;font-size:15px;">
+    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>【279期】<br>
 主：36,06,17,18,21,28,39,40,<br>
 <font color=#fff>主：</font>05,31,33,42,43,44,46,48,（16个）<br>
