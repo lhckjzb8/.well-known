@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<title>记录</title>
+<style>
+body{
+line-height: 25px;padding:5px 10px 5px 5px;
+}
+font{
+background-color:#00ff00;
+color:#f00;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="https://xgyh.299333y.com:678/kjjl/base.js"></script>
+<script type="text/javascript" src="https://g.alicdn.com/ilw/cdnjs/jquery/1.8.3/jquery.min.js"></script>
+<p>号1：<input type="text" id="hm1" name="hm1" style="height:20px;WIDTH: 30px;" value=""> 号2：<input type="text" id="hm2" name="hm2" style="height:20px;WIDTH: 30px;" value=""> 号3：<input type="text" id="hm3" name="hm3" style="height:20px;WIDTH: 30px;" value=""> <INPUT  onclick="kj();" type=button value=提交></p>
+<div id=lotery-list>00</div>
+<script>
+function kj(){
+var hm1=document.getElementById("hm1").value;
+var hm2=document.getElementById("hm2").value;
+var hm3=document.getElementById("hm3").value;
+var result = '';
+$('#lotery-list').html('');
+for(var i=0;i<kjjl.length-2400;i++){
+var zh=kjjl[i][3]+","+kjjl[i][4]+","+kjjl[i][5]+","+kjjl[i][6]+","+kjjl[i][7]+","+kjjl[i][8]+","+kjjl[i][9];
+var zhh=kjjl[i][3]+","+kjjl[i][4]+","+kjjl[i][5]+","+kjjl[i][6]+","+kjjl[i][7]+","+kjjl[i][8]+","+kjjl[i][9]+"";
+var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
+result += "<p>"+kjjl[i][1]+","+kjjl[i][2]+","+hm+" <INPUT onclick=addText('"+zhh+"'); type=button value=加入 id=tab-list></p>";
+}
+$('#lotery-list').append(result);
+var  allItemList = document.querySelectorAll("#tab-list");
+for (var i=0;i<allItemList.length;i++) {    //根据tab-list下的li标签长度循环
+allItemList[i].index=i;
+allItemList[i].onmouseover=function() {
+allItemList[this.index].style.backgroundColor="#f00";
+allItemList[this.index].style.border="1px solid #f00";
+}
+}
+}
+</script>
+
+
+<script>
+//全角转换为半角函数
+function ToCDB(str0)   
+{
+    var str = str0.replace(/[a-zA-Z\.\s\-、　。，；,':()【】＝=（）\r\n\t]{1,}/g, ",");//替换常见分隔符[\.\s、　。，；-+]为统一分隔符','
+    var tmp = "";
+    for(var i=0;i<str.length;i++)
+    {
+        if(str.charCodeAt(i)>65248&&str.charCodeAt(i)<65375)
+        {
+            tmp += String.fromCharCode(str.charCodeAt(i)-65248);
+        }
+        else
+        {
+            tmp += String.fromCharCode(str.charCodeAt(i)); 
+        }
+    }
+    return tmp;
+} 
+
+//按钮点击后向统计框输入
+function addText(vtxt)
+{
+    var oldstr = ","+document.form.inputtxt.value;
+    if(oldstr.charAt(oldstr.length - 1) != ",")
+    {
+        document.form.inputtxt.value += ",\n"+vtxt;
+    }
+    else
+    {
+        document.form.inputtxt.value += vtxt;
+    }
+}
+
+//输入号段
+function addteduan()
+{
+    var hao_from = document.form.hao_from.value;
+    var hao_to = document.form.hao_to.value;
+    if(hao_from == null || hao_to == null)
+    {
+        alert("输入号码段错误！null\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
+        return false ;
+    }    
+    if(hao_from.length <=0 || hao_to.length <=0)
+    {
+        alert("输入号码段错误！0\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
+        return false ;
+    }
+    var from = parseInt(hao_from,10);
+    var to = parseInt(hao_to,10);
+    if(from < to && from >0 && to <=49)
+    {
+        var instr ="";
+        for (var i=from; i<= to; i++)
+        {
+            instr += i+",";
+        }
+        addText(instr);
+    }
+    else
+    {
+        alert("输入号码段错误！d\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
+        return false ;
+    }
+}
+//清空
+function resetinput()
+{
+    document.form.inputtxt.value = "";
+}
+
+function strtoarr(inputstr)
+{
+    var a= 'aaa';
+}
+//
+//去掉数组重复
+function unique(data){
+    data = data || [];
+    var a = {};
+    for (var i=0; i<data.length; i++) {
+        var v = data[i];
+        if (typeof(a[v]) == 'undefined'){
+            a[v] = 1;
+        }
+    };
+    data.length=0; 
+    for (var i in a){
+        data[data.length] = i;
+    }
+    return data;
+}
+//数字升序排序
+function compareNumbers(a, b) {
+    return a - b;// 降序 return b - a;
+}
+
+//统计
+function tongji(allmastr){
+    var ma_arr = allmastr.split(",");
+    //
+    var manum2 = new Array(50);//保存1－49对应的个数
+    for(var i =0;i < manum2.length ; i++)
+    {
+        manum2[i] = 0;
+    }
+    //累加统计个数
+    for(var i =0;i < ma_arr.length ; i++)
+    {
+        var i2 = parseInt(ma_arr[i],10);
+        manum2[i2]+=1;
+    }
+    //获取次数列表
+    var numarr = new Array();
+    for(var i =1;i<=49 ; i++)
+    {
+        numarr.push(manum2[i]);
+    }
+    //去掉重复次数
+    numarr = unique(numarr);
+    //次数从低到高排序
+    numarr.sort(compareNumbers);
+    //
+    var tjstr = "统计结果：\n";
+    for(var i=0;i< numarr.length;i++)
+    {
+        var ci = numarr[i];
+        var cistr = "〖"+ci+"次〗:";
+        var mashu = 0;
+        for(var j =1;j<=49 ; j++)
+        {
+            if(manum2[j] == ci)
+            {
+                mashu +=1 ;
+                if(j < 10)
+                {
+                    j = "0"+j;
+                }
+                cistr += j+',' ;
+            }
+        }
+        cistr += '（共'+ mashu +'个）\n' ;
+        tjstr += cistr ;
+    }
+    tjstr += "\n";
+    return tjstr;
+}
+
+var lianstr = "红绿蓝兰金木水火土鼠牛虎兔龙蛇马羊猴鸡狗猪大小单双";
+//统计码数
+function countma()
+{
+    var inputstr = document.form.inputtxt.value;
+    if(inputstr.length >0 )
+    {
+        inputstr += ",";
+        inputstr = ToCDB(inputstr);//转全角为半角
+        //
+        var allmastr = "";
+        //专门提取数字
+        var ma_str0 = inputstr.match(/\d{1,}\b[^次码个头尾合门段余]/g);//忽略掉数字后面包含的文字集
+        if(ma_str0 != null)
+        {
+            var ma_str1 = ma_str0.join(",")+",";
+            var ma_str = ma_str1.match(/\d{1,}/g);
+            if(ma_str != null)
+            {
+                var tmparr = new Array();
+                for(var i=0; i< ma_str.length; i++)
+                {
+                    var shuxing = "n_"+ma_str[i];
+                    if(shuxing in document.form2 )
+                    {
+                        allmastr += document.form2[shuxing].title;
+                    }                    
+                }
+            }
+        }
+        //
+        inputstr = inputstr.split(",");
+        //过滤元素
+        for(var i =0;i< inputstr.length;i++)
+        {
+            var shuxing = "n_"+inputstr[i];
+            if(shuxing in document.form)
+            {
+                allmastr += document.form[shuxing].title;
+            }
+            else
+            {
+                //连续中文字
+                for(var j = 2;j< shuxing.length;j++)
+                {
+                    var tmpstr = shuxing.charAt(j);
+                    if(lianstr.indexOf(tmpstr) != -1)
+                    {
+                        allmastr += document.form["n_"+tmpstr].title;
+                    }
+                }
+            }
+        }
+        //
+        document.form.resultstxt.value = tongji(allmastr);
+    }
+}
+///
+
+
+//其它类型统计
+function countstyle(tjstylestr)
+{
+    //var tjstylestr = '鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪' ;
+    var tjstyle = tjstylestr.split(",");
+    var inputstr = document.form.inputtxt.value;
+    if(inputstr.length >0 )
+    {
+        inputstr = ToCDB(inputstr+",");
+        var tmpinputarr = inputstr.split(",");
+        var inputarr = new Array();
+        //判断连续的中文，并分隔
+        for(var i =0;i< tmpinputarr.length;i++)
+        {
+            var shuxing = "n_"+tmpinputarr[i];
+            if(shuxing in document.form)
+            {
+                inputarr.push(tmpinputarr[i]);
+            }
+            else
+            {
+                //连续中文字
+                for(var j = 2;j< shuxing.length;j++)
+                {
+                    var tmpstr = shuxing.charAt(j);
+                    if(lianstr.indexOf(tmpstr) != -1)
+                    {
+                        inputarr.push(tmpstr);
+                    }                    
+                }
+            }
+        }
+        //初始化次数
+        var sxnum = new Array(tjstyle.length);
+        for(var i=0;i < tjstyle.length;i++)
+        {
+            sxnum[i] = 0;
+        }
+        //
+        for(var j=0;j< inputarr.length;j++)
+        {
+            if(tjstylestr.indexOf(inputarr[j]) != -1)
+            {
+                for(var i=0;i < tjstyle.length;i++)
+                {
+                    var sxn = tjstyle[i];
+                    var inputvalue = inputarr[j];
+                    if(inputvalue.length == 1 && "红绿蓝".indexOf(inputvalue) != -1)
+                    {
+                        inputvalue += "波";
+                    }
+                    if(sxn == inputvalue )
+                    {
+                        sxnum[i] += 1;//累加统计
+                        break;
+                    }
+                }
+            }
+        }
+        //次数列表
+        var cinumarr = new Array();
+        for(var i=0;i < tjstyle.length;i++)
+        {
+            cinumarr.push(sxnum[i]);
+        }
+        //去掉重复次数
+        cinumarr = unique(cinumarr);
+        //次数从低到高排序
+        cinumarr.sort(compareNumbers);        
+        //转化为输出字符串
+        var tjstr = "统计结果：\n";
+        for(var i=0;i< cinumarr.length;i++)
+        {
+            var ci = cinumarr[i];
+            var cistr = "〖"+ci+"次〗:";
+            var geshu = 0;
+            for(var j =0;j< tjstyle.length ; j++)
+            {
+                if(sxnum[j] == ci)
+                {
+                    geshu += 1;
+                    cistr += tjstyle[j]+",";
+                }                
+            }
+            cistr += '（共'+ geshu +'个）\n' ;
+            tjstr += cistr ;            
+        }
+        tjstr += "\n";
+        document.form.resultstxt.value = tjstr;
+        //return tjstr;        
+    }
+}
+</script>
+<FORM name=form2>
+<INPUT title=01, type=hidden value=01 name=n_01>
+<INPUT title=02, type=hidden value=02 name=n_02> 
+<INPUT title=03, type=hidden value=03 name=n_03> 
+<INPUT title=04, type=hidden value=04 name=n_04> 
+<INPUT title=05, type=hidden value=05 name=n_05> 
+<INPUT title=06, type=hidden value=06 name=n_06> 
+<INPUT title=07, type=hidden value=07 name=n_07> 
+<INPUT title=08, type=hidden value=08 name=n_08> 
+<INPUT title=09, type=hidden value=09 name=n_09> 
+<INPUT title=10, type=hidden value=10 name=n_10> 
+<INPUT title=11, type=hidden value=11 name=n_11> 
+<INPUT title=12, type=hidden value=12 name=n_12> 
+<INPUT title=13, type=hidden value=13 name=n_13> 
+<INPUT title=14, type=hidden value=14 name=n_14> 
+<INPUT title=15, type=hidden value=15 name=n_15> 
+<INPUT title=16, type=hidden value=16 name=n_16> 
+<INPUT title=17, type=hidden value=17 name=n_17> 
+<INPUT title=18, type=hidden value=18 name=n_18> 
+<INPUT title=19, type=hidden value=19 name=n_19> 
+<INPUT title=20, type=hidden value=20 name=n_20> 
+<INPUT title=21, type=hidden value=21 name=n_21> 
+<INPUT title=22, type=hidden value=22 name=n_22> 
+<INPUT title=23, type=hidden value=23 name=n_23> 
+<INPUT title=24, type=hidden value=24 name=n_24> 
+<INPUT title=25, type=hidden value=25 name=n_25> 
+<INPUT title=26, type=hidden value=26 name=n_26> 
+<INPUT title=27, type=hidden value=27 name=n_27> 
+<INPUT title=28, type=hidden value=28 name=n_28> 
+<INPUT title=29, type=hidden value=29 name=n_29> 
+<INPUT title=30, type=hidden value=30 name=n_30> 
+<INPUT title=31, type=hidden value=31 name=n_31> 
+<INPUT title=32, type=hidden value=32 name=n_32> 
+<INPUT title=33, type=hidden value=33 name=n_33> 
+<INPUT title=34, type=hidden value=34 name=n_34> 
+<INPUT title=35, type=hidden value=35 name=n_35> 
+<INPUT title=36, type=hidden value=36 name=n_36> 
+<INPUT title=37, type=hidden value=37 name=n_37> 
+<INPUT title=38, type=hidden value=38 name=n_38> 
+<INPUT title=39, type=hidden value=39 name=n_39> 
+<INPUT title=40, type=hidden value=40 name=n_40> 
+<INPUT title=41, type=hidden value=41 name=n_41> 
+<INPUT title=42, type=hidden value=42 name=n_42> 
+<INPUT title=43, type=hidden value=43 name=n_43> 
+<INPUT title=44, type=hidden value=44 name=n_44> 
+<INPUT title=45, type=hidden value=45 name=n_45> 
+<INPUT title=46, type=hidden value=46 name=n_46> 
+<INPUT title=47, type=hidden value=47 name=n_47> 
+<INPUT title=48, type=hidden value=48 name=n_48> 
+<INPUT title=49, type=hidden value=49 name=n_49> 
+<INPUT title=1, type=hidden value=1 name=n_1> 
+<INPUT title=2, type=hidden value=2 name=n_2> 
+<INPUT title=3, type=hidden value=3 name=n_3> 
+<INPUT title=4, type=hidden value=4 name=n_4>
+<INPUT title=5, type=hidden value=5 name=n_5>
+<INPUT title=6, type=hidden value=6 name=n_6> 
+<INPUT title=7, type=hidden value=7 name=n_7> 
+<INPUT title=8, type=hidden value=8 name=n_8> 
+<INPUT title=9, type=hidden value=9 name=n_9>
+</FORM>
+<FORM name=form>
+<p><TEXTAREA style="WIDTH: 100%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></TEXTAREA></p>
+<p><INPUT style="WIDTH: 65%;HEIGHT: 35px" onclick=countma(); type=button value=统计号码><INPUT style="WIDTH: 80px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
+<p><TEXTAREA style="WIDTH: 100%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=off></TEXTAREA></p>
+</FORM>
