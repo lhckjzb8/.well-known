@@ -56,7 +56,6 @@ line-height:23px;
 </div>
 </div>
 </div>
-
 <div class="jx" style="float: left;width: 100%;padding-top:5px;">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
@@ -90,7 +89,7 @@ line-height:23px;
   <p><label>103-111期 </label><font color=red>11</font>,22,33,44<span> (今年错1，104期11)</span></p>
   </div>
 
-  <!-- 底部透明灰色层 -->
+<!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
 <!-- 爱我如何 -->
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
@@ -205,47 +204,5 @@ line-height:23px;
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSurewx">关闭</span></div>
 </div>
-
 `);
 
-$("#awrh").click(function() {
-$('.mask').css('display','');
-$('.board').css('display','');
-});
-$("#tdlx").click(function() {
-$('.mask').css('display','');
-$('.boardtd').css('display','');
-});
-$("#ssnl").click(function() {
-$('.mask').css('display','');
-$('.boardss').css('display','');
-});
-$("#yzjx").click(function() {
-$('.mask').css('display','');
-$('.boardyz').css('display','');
-});
-$("#yzwx").click(function() {
-$('.mask').css('display','');
-$('.boardwx').css('display','');
-});
-
-$("#alertSure").click(function() {
-$('.mask').css('display','none');
-$('.board').css('display','none');
-});
-$("#alertSuretd").click(function() {
-$('.mask').css('display','none');
-$('.boardtd').css('display','none');
-});
-$("#alertSuress").click(function() {
-$('.mask').css('display','none');
-$('.boardss').css('display','none');
-});
-$("#alertSureyz").click(function() {
-$('.mask').css('display','none');
-$('.boardyz').css('display','none');
-});
-$("#alertSurewx").click(function() {
-$('.mask').css('display','none');
-$('.boardwx').css('display','none');
-});
