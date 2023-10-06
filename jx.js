@@ -1,10 +1,12 @@
 document.write(`
 <style>
-.jx{
+.jxx{
 width: 100%;
-padding-top:8px;
+padding:8px 10px 0 10px;
 float: left;
 }
+.jxx label{color: #A15888;}
+.jxx span{color: #A58888;font-size: 13px;}
 .gs{
 float: left;
 border-radius: 1px;
@@ -61,7 +63,7 @@ line-height:23px;
 </div>
 </div>
 </div>
-<div class="jx">
+<div class="jxx">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
