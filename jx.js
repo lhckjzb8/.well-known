@@ -51,7 +51,7 @@ line-height:23px;
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="yzjx">英子九肖<span class="gszlx">港</span></div>
-<div class="gszl right" id="yzwx">赢之我幸<span class="gszlx">澳</span></div>
+<div></div>
 <div></div>
 </div>
 </div>
@@ -146,6 +146,7 @@ line-height:23px;
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
+113期：鼠牛蛇马羊猴鸡狗猪 开准<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
 111期：鼠牛虎兔龙马猴狗<span>猪</span> 开29猪准<br>
 110期：鼠牛虎<span>兔</span>蛇马猴狗猪 开01兔准<br>
@@ -188,23 +189,6 @@ line-height:23px;
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSureyz">关闭</span></div>
 </div>
-<!-- 赢之我幸 -->
-<div class='boardwx' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">赢之我幸<span style="color:#A15888;font-size:13px;">(老澳)</span></span></div>
-    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
-<p>【279期】<br>
-主：36,06,17,18,21,28,39,40,<br>
-<font color=#fff>主：</font>05,31,33,42,43,44,46,48,（16个）<br>
-防：01,08,13,22,26,30,<br>
-<font color=#fff>防：</font>32,34,35,38,41,47,（12个）</p>
-<p>【278期】<br>
-主：12,20,08,11,26,31,43,<br>
-<font color=#fff>主：</font>02,07,14,<span>24</span>,45,46,（13个）<br>
-防：03,06,09,17,18,19,21,23,<br>
-<font color=#fff>防：</font>25,27,30,32,38,39,44,49,（16个）</p>
-</div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSurewx">关闭</span></div>
-</div>
 `);
 
 $("#awrh").click(function() {
@@ -223,10 +207,6 @@ $("#yzjx").click(function() {
 $('.mask').css('display','');
 $('.boardyz').css('display','');
 });
-$("#yzwx").click(function() {
-$('.mask').css('display','');
-$('.boardwx').css('display','');
-});
 
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
@@ -243,8 +223,4 @@ $('.boardss').css('display','none');
 $("#alertSureyz").click(function() {
 $('.mask').css('display','none');
 $('.boardyz').css('display','none');
-});
-$("#alertSurewx").click(function() {
-$('.mask').css('display','none');
-$('.boardwx').css('display','none');
 });
