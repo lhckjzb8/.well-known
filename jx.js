@@ -59,7 +59,7 @@ line-height:23px;
 <div class="jx" style="display: inline-block;width: 100%;padding-top:5px;">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
-  <p><label>115-118期特尾 </label>牛羊狗龙<span> (今年无错)</span></p><!--L3色肖五期一轮-->
+  <p><label>115-118期 </label>牛羊狗龙<span> (今年无错)</span></p><!--L3色肖五期一轮-->
   <p><label>115-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
