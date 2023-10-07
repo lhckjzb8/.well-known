@@ -96,6 +96,7 @@ line-height:23px;
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
+<p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
 <p>110期：龙+02,<span>01</span>,07,</p>
