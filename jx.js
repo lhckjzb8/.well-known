@@ -59,10 +59,10 @@ line-height:23px;
 <div class="jx" style="display: inline-block;width: 100%;padding-top:5px;">
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <p><label>114-115期 </label>牛虎兔鼠龙</p>
+  <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
-  <p><label>112-113期 </label>牛鼠猪狗鸡蛇<span> (今年错1)</span></p>
-  <p><label>112-113期 </label>兔虎牛鼠猪狗鸡<span> (今年错2)</span></p>
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错)</span></p>
   <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
@@ -70,6 +70,7 @@ line-height:23px;
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,30,32,35,39,44,46,（13码）<span> (至少开2期)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p><label>112-113期 </label>兔<font color=red>虎</font>牛鼠猪狗鸡<span> (今年错2，113期虎)</span></p>
   <p><label>109-113期 </label>15,20,25,39,<font color=red>45</font>,48<span> (今年无错，112期45)</span></p>
   <p><label>111-115期 </label>虎牛猴<font color=red>羊</font><span> (两年错1)</span> + 兔鸡<span> (三年无错，112期羊)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <p><label>107-111期特尾 </label>8尾,<font color=red>9尾</font><span> (今年错1，111期29)</span></p>
@@ -119,7 +120,7 @@ line-height:23px;
 <div class='boardtd' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">土豆六肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
-<p>113期:虎兔马羊狗猪</p>
+<p>113期:<span>虎</span>兔马羊狗猪</p>
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
 <p>111期:鼠牛虎兔猴鸡</p>
 <p>110期:虎<span>免</span>龙羊猴狗</p>
@@ -138,7 +139,7 @@ line-height:23px;
 <div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">世事难料</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
-<p>113期：20,22,21,05,17,43,27,49,06,26,28,32,09,10,04,30,24,18,48,33,</p>
+<p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,</p>
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,</p>
 <p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,</p>
 </div>
@@ -149,7 +150,7 @@ line-height:23px;
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
-113期：鼠牛蛇马羊猴鸡狗猪 开准<br>
+113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
 111期：鼠牛虎兔龙马猴狗<span>猪</span> 开29猪准<br>
 110期：鼠牛虎<span>兔</span>蛇马猴狗猪 开01兔准<br>
