@@ -52,11 +52,11 @@ position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:9
 display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;
 }
 .heart{
-z-index:1;position: absolute;margin-right: 5px;
-float: right;
+z-index:1;position: absolute;margin: 8px;
+right:0;
 }
 .heart span{
-text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red;
+text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:23px;border-radius:5px;line-height:23px;border:1px solid red;
 }
 </style>
 <div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
@@ -118,8 +118,8 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 <div class='mask' style="display:none;"></div>
 <!-- 爱我如何 -->
 <div class='board' style="display:none;">
-    <div class="logo"><span>爱我如何</span></div>
     <div class="heart"><span id="alertSure">关闭</span></div>
+    <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode' style="padding:0 5px;font-size:15px;word-break: break-all;">
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
@@ -141,6 +141,7 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 </div>
 <!-- 土豆六肖 -->
 <div class='boardtd' style="display:none;">
+    <div class="heart"><span id="alertSuretd">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>113期:<span>虎</span>兔马羊狗猪</p>
@@ -156,10 +157,10 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 <p>103期:鼠<span>虎</span>羊马猴狗</p>
 <p>102期:鼠龙<span>马</span>羊鸡狗</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span id="alertSuretd">关闭</span></div>
 </div>
 <!-- 世事难料 -->
 <div class='boardss' style="display:none;">
+    <div class="heart"><span id="alertSuress">关闭</span></div>
     <div class="logo"><span>世事难料</span></div>
     <div class='qrcode' style="margin-top:5px;padding:0 10px;font-size:15px;word-break: break-all;">
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
@@ -167,10 +168,10 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
 <p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,（主前）</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span id="alertSuress">关闭</span></div>
 </div>
 <!-- 英子九肖 -->
 <div class='boardyz' style="display:none;">
+    <div class="heart"><span id="alertSureyz">关闭</span></div>
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
@@ -215,7 +216,6 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1<br>
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span id="alertSureyz">关闭</span></div>
 </div>
 `);
 
