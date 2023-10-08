@@ -60,6 +60,10 @@ right:0;
 }
 .heart span{
 text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;border-radius:5px;border:1px solid red;
+letter-spacing:2px;
+}
+body{
+font-family: Helvetica, Arial, sans-serif;
 }
 </style>
 <div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
