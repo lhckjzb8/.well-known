@@ -138,11 +138,12 @@ line-height:23px;
 </div>
 <!-- 世事难料 -->
 <div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">世事难料</span></div>
+    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:10px 0;margin: 0 auto;border-bottom: 2px solid #FFC0CB;">世事难料</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
-<p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,</p>
-<p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,</p>
-<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,</p>
+<p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
+<p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
+<p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
+<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,（主前）</p>
 </div>
     <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuress">关闭</span></div>
 </div>
