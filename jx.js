@@ -33,6 +33,9 @@ margin-top: -3px;
 .right{
 margin-right: 5px;
 }
+.qrcode {
+padding:5px;font-size:15px;word-break: break-all;
+}
 .qrcode p{
 line-height:18px;
 }
@@ -120,7 +123,7 @@ text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font
 <div class='board' style="display:none;">
     <div class="heart"><span id="alertSure">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
-    <div class='qrcode' style="padding:0 5px;font-size:15px;word-break: break-all;">
+    <div class='qrcode'>
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
@@ -143,7 +146,7 @@ text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font
 <div class='boardtd' style="display:none;">
     <div class="heart"><span id="alertSuretd">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
-    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
+    <div class='qrcode'>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
 <p>111期:鼠牛虎兔猴鸡</p>
@@ -162,7 +165,7 @@ text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font
 <div class='boardss' style="display:none;">
     <div class="heart"><span id="alertSuress">关闭</span></div>
     <div class="logo"><span>世事难料</span></div>
-    <div class='qrcode' style="margin-top:5px;padding:0 10px;font-size:15px;word-break: break-all;">
+    <div class='qrcode'>
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
 <p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
@@ -173,7 +176,7 @@ text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font
 <div class='boardyz' style="display:none;">
     <div class="heart"><span id="alertSureyz">关闭</span></div>
     <div class="logo"><span>英子九肖</span></div>
-    <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
+    <div class='qrcode'>
 <p>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
