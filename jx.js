@@ -91,6 +91,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div class="jx" style="display: inline-block;width: 100%;padding-top:5px;">
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-118期 </label>牛羊狗龙<span> (今年无错)</span></p><!--L3色肖五期一轮-->
   <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
