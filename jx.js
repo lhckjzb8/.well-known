@@ -43,10 +43,10 @@ color: #f00;
 line-height:23px;
 }
 .mask{
-position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;
+position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
 .board,.boardtd,.boardss,.boardyz{
-position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;
+position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
 display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;
@@ -115,9 +115,9 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
   </div>
 
   <!-- 底部透明灰色层 -->
-<div class='mask'></div>
+<div class='mask' style="display:none;"></div>
 <!-- 爱我如何 -->
-<div class='board'>
+<div class='board' style="display:none;">
     <div class="heart"><span id="alertSure">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode' style="padding:0 5px;font-size:15px;word-break: break-all;">
@@ -140,7 +140,7 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 <p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
 </div>
 <!-- 土豆六肖 -->
-<div class='boardtd'>
+<div class='boardtd' style="display:none;">
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>113期:<span>虎</span>兔马羊狗猪</p>
@@ -159,7 +159,7 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
     <div class="heart" style="margin-bottom:10px"><span id="alertSuretd">关闭</span></div>
 </div>
 <!-- 世事难料 -->
-<div class='boardss'>
+<div class='boardss' style="display:none;">
     <div class="logo"><span>世事难料</span></div>
     <div class='qrcode' style="margin-top:5px;padding:0 10px;font-size:15px;word-break: break-all;">
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
@@ -170,7 +170,7 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
     <div class="heart" style="margin-bottom:10px"><span id="alertSuress">关闭</span></div>
 </div>
 <!-- 英子九肖 -->
-<div class='boardyz'>
+<div class='boardyz' style="display:none;">
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
