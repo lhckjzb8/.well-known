@@ -42,6 +42,22 @@ color: #f00;
 .boardyz p{
 line-height:23px;
 }
+.mask{
+position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;
+}
+.board,.boardtd,.boardss,.boardyz{
+position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;
+}
+.logo span{
+display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;
+}
+.heart{
+z-index:1;position: absolute;margin-right: 5px;
+float: right;
+}
+.heart span{
+text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red;
+}
 </style>
 <div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
@@ -99,10 +115,11 @@ line-height:23px;
   </div>
 
   <!-- 底部透明灰色层 -->
-<div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
+<div class='mask'></div>
 <!-- 爱我如何 -->
-<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">爱我如何</span></div>
+<div class='board'>
+    <div class="heart"><span id="alertSure">关闭</span></div>
+    <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode' style="padding:0 5px;font-size:15px;word-break: break-all;">
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
@@ -121,11 +138,10 @@ line-height:23px;
 <p>099期：兔+34,40,48,</p>
 <p>098期：兔+11,18,43,24,32,23,10,</p>
 <p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSure">关闭</span></div>
 </div>
 <!-- 土豆六肖 -->
-<div class='boardtd' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">土豆六肖</span></div>
+<div class='boardtd'>
+    <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>113期:<span>虎</span>兔马羊狗猪</p>
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
@@ -140,22 +156,22 @@ line-height:23px;
 <p>103期:鼠<span>虎</span>羊马猴狗</p>
 <p>102期:鼠龙<span>马</span>羊鸡狗</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuretd">关闭</span></div>
+    <div class="heart" style="margin-bottom:10px"><span id="alertSuretd">关闭</span></div>
 </div>
 <!-- 世事难料 -->
-<div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;">世事难料</span></div>
+<div class='boardss'>
+    <div class="logo"><span>世事难料</span></div>
     <div class='qrcode' style="margin-top:5px;padding:0 10px;font-size:15px;word-break: break-all;">
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
 <p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
 <p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,（主前）</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSuress">关闭</span></div>
+    <div class="heart" style="margin-bottom:10px"><span id="alertSuress">关闭</span></div>
 </div>
 <!-- 英子九肖 -->
-<div class='boardyz' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding-top:10px;margin: 0 auto;">英子九肖</span></div>
+<div class='boardyz'>
+    <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode' style="padding:0 13px;font-size:15px;word-break: break-all;">
 <p>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
@@ -199,7 +215,7 @@ line-height:23px;
 075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1<br>
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
 </div>
-    <div class="heart" style="margin-bottom:10px"><span style="text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:25px;border-radius:12px;line-height:30px;border:1px solid red" id="alertSureyz">关闭</span></div>
+    <div class="heart" style="margin-bottom:10px"><span id="alertSureyz">关闭</span></div>
 </div>
 `);
 
