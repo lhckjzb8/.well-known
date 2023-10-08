@@ -59,7 +59,7 @@ z-index:1;position: absolute;margin: 8px;
 right:0;
 }
 .heart span{
-text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;height:23px;border-radius:5px;line-height:23px;border:1px solid red;
+text-align:center;background:#ED171F;display:block;width:40px;margin:0 auto;font-size:14px;color:#fff;font-weight:700;border-radius:5px;line-height:23px;border:1px solid red;
 }
 </style>
 <div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
