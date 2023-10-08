@@ -118,8 +118,8 @@ text-align:center;background:#ED171F;display:block;width:65px;margin:0 auto;font
 <div class='mask' style="display:none;"></div>
 <!-- 爱我如何 -->
 <div class='board' style="display:none;">
-    <div class="heart"><span id="alertSure">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
+    <div class="heart"><span id="alertSure">关闭</span></div>
     <div class='qrcode' style="padding:0 5px;font-size:15px;word-break: break-all;">
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
