@@ -29,7 +29,7 @@ z-index:1;position: absolute;
 font-size: 7px;
 color: #8B008B;
 margin-top: -2px;
-margin-left: -1.5px;
+margin-left: 0.5px;
 }
 .right{
 margin-right: 5px;
