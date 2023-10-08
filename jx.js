@@ -28,14 +28,14 @@ margin-left: 3px;
 z-index:1;position: absolute;
 font-size: 7px;
 color: #8B008B;
-margin-top: -2.5px;
-margin-left: -0.5px;
+margin-top: -2px;
+margin-left: -1.5px;
 }
 .right{
 margin-right: 5px;
 }
 .qrcode {
-padding:5px 8px;font-size:15px;word-break: break-all;
+padding:5px 10px;font-size:15px;word-break: break-all;
 }
 .qrcode p{
 line-height:18px;
