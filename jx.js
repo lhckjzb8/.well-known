@@ -28,7 +28,7 @@ margin-left: 3px;
 z-index:1;position: absolute;
 font-size: 7px;
 color: #8B008B;
-margin-top: -2.5px;
+margin-top: -3px;
 }
 .right{
 margin-right: 5px;
@@ -145,7 +145,7 @@ line-height:23px;
 <!-- 世事难料 -->
 <div class='boardss' style="position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;">世事难料</span></div>
-    <div class='qrcode' style="margin-top:5px;padding:0 13px;font-size:15px;word-break: break-all;">
+    <div class='qrcode' style="margin-top:5px;padding:0 10px;font-size:15px;word-break: break-all;">
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
 <p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
