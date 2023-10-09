@@ -107,7 +107,7 @@ font-family: Helvetica, Arial, sans-serif;
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,30,32,35,39,44,46,（13码）<span> (至少开2期)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
-  <p><label>112-113期 </label>兔<font>虎</font>牛鼠猪狗鸡<span> (今年错3，113期虎)</span> + 猪<span> (今年无错)</span></p>
+  <p><label>112-113期 </label>兔<font>虎</font>牛鼠猪狗鸡<span> (今年错3，113期虎)</span> + 羊<span> (今年无错)</span></p>
   <p><label>109-113期 </label>15,20,25,39,<font>45</font>,48<span> (今年无错，112期45)</span></p>
   <p><label>111-115期 </label>虎牛猴<font>羊</font><span> (两年错1)</span> + 兔鸡<span> (三年无错，112期羊)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <p><label>107-111期特尾 </label>8尾,<font>9尾</font><span> (今年错1，111期29)</span></p>
