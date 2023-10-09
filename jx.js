@@ -100,7 +100,7 @@ font-family: Helvetica, Arial, sans-serif;
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
   <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
-  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错)</span></p>
+  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
