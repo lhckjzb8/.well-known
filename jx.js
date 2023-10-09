@@ -83,7 +83,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">no</span>港</span></div>
+<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 <div></div>
 </div>
@@ -92,7 +92,10 @@ font-family: Helvetica, Arial, sans-serif;
 <div class="jx" style="display: inline-block;width: 100%;padding-top:5px;">
   <!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
+  <p><label>114-115期 </label>鸡兔猪蛇狗龙<span> (今年错2)</span></p>
   <p><label>114-118期 </label>牛羊狗龙<span> (今年无错)</span></p><!--L3色肖五期一轮-->
+  <p><label>114-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
+  <p><label>114-118期 </label>05,07,15,25,29,35</p>
   <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
@@ -133,6 +136,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSure">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
+<!--p>123期：龙,</p-->
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
@@ -187,6 +191,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
+114期：牛虎兔龙蛇马羊猴狗<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
 111期：鼠牛虎兔龙马猴狗<span>猪</span> 开29猪准<br>
