@@ -296,7 +296,7 @@ color: #f00;
 </ul>
 
 
-  <ul class="hidden" style="width: 100%;padding-top:5px;">
+  <ul class="hidden" style="width: 100%;padding-top:5px;" id="gdjl">
   <p><label>112-113期 </label>兔<font>虎</font>牛鼠猪狗鸡<span> (今年错3，113期虎)</span> + 羊<span> (今年无错)</span></p>
   <p><label>109-113期 </label>15,20,25,39,<font>45</font>,48<span> (今年无错，112期45)</span></p>
   <p><label>111-115期 </label>虎牛猴<font>羊</font><span> (两年错1)</span> + 兔鸡<span> (三年无错，112期羊)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
