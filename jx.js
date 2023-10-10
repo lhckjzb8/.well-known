@@ -380,7 +380,9 @@ $('.boardyz').css('display','none');
 
 var gg=$(".show").height();
 $('.hidden').css('min-height',gg);
-var g=$(window).screen.availHeight*0.8;
+var ggg=$(window).screen.availHeight*0.8;
+$('body').css('height',ggg);
+var g=$(window).height()*0.8;
 //var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
 
