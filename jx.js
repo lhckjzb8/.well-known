@@ -382,8 +382,11 @@ var gggg=window.screen.availHeight;
 var ggg=document.body.scrollHeight;
 var gg=$(".show").height();
 if(gggg>ggg){
-var ggggg=gg+(gggg - ggg)-65;
+var ggggg=gg+(gggg - ggg)-130;
 $('.show').css('height',ggggg);
+var gggggg=$(".show").height();
+} else {
+$('.show').css('height',gg);
 var gggggg=$(".show").height();
 }
 $('.hidden').css('min-height',gggggg);
