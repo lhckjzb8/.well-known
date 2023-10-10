@@ -276,7 +276,7 @@ color: #f00;
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
 </ul>
 
-<ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
+<ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;" id="jlgd">
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-115期 </label>鸡兔猪蛇<font>狗</font>龙<span> (今年错2，114期狗)</span></p>
   <p><label>114-118期 </label>牛羊<font>狗</font>龙<span> (今年无错，114期狗)</span></p><!--L3色肖五期一轮-->
@@ -378,27 +378,16 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
-var gggg=window.screen.availHeight;
-var ggg=document.body.scrollHeight;
+
 var gg=$(".show").height();
-if(gggg>ggg){
-var u = navigator.userAgent, app = navigator.appVersion;
-var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
-var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-if(isiOS){
-var ggggg=gg+(gggg - ggg)-230;
-$('.show').css('height',ggggg);
-var gggggg=$(".show").height();
-} else {
-  var ggggg=gg+(gggg - ggg)-160;
-$('.show').css('height',ggggg);
-var gggggg=$(".show").height();
-}
-} else {
+var ggg=$("#jlgd").height();
+if(gg>ggg){
 $('.show').css('height',gg);
-var gggggg=$(".show").height();
+$('.hidden').css('min-height',gg);
+} else {
+$('.show').css('height',ggg);
+$('.hidden').css('min-height',ggg);
 }
-$('.hidden').css('min-height',gggggg);
 var g=$(window).height()*0.8;
 //var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
