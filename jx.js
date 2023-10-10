@@ -386,7 +386,7 @@ var u = navigator.userAgent, app = navigator.appVersion;
 var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
 var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
 if(isiOS){
-var ggggg=gg+(gggg - ggg)-180;
+var ggggg=gg+(gggg - ggg)-230;
 $('.show').css('height',ggggg);
 var gggggg=$(".show").height();
 } else {
