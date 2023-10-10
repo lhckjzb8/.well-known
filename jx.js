@@ -382,10 +382,9 @@ $('.boardyz').css('display','none');
 var gg=$(".show").height();
 var ggg=$("#jlgd").height();
 if(gg>ggg){
-$('.show').css('height',gg);
 $('.hidden').css('min-height',gg);
 } else {
-$('.show').css('height',ggg);
+$('.show').css('min-height',ggg);
 $('.hidden').css('min-height',ggg);
 }
 var g=$(window).height()*0.8;
