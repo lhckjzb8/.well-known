@@ -378,7 +378,7 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
-var gggg=document.documentElement.clientHeight;
+var gggg=window.screen.availHeight;
 var ggg=document.body.scrollHeight;
 var gg=$(".show").height();
 if(gggg>ggg){
