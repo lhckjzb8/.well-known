@@ -379,8 +379,8 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
-var gg=$("#gdjl").height()+15;
-$('body').css('height',gg);
+var gg=$(".show").height();
+$('hidden').css('height',gg);
 //var g=$(window).height()*0.7;
 var g=document.body.scrollHeight*0.7;
 $('.qrcode').css('max-height',g);
