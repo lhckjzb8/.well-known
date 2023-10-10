@@ -387,6 +387,6 @@ $('.hidden').css('min-height',gg);
 $('.show').css('min-height',ggg);
 $('.hidden').css('min-height',ggg);
 }
-var g=$(window).height()*0.8;
-//var g=document.body.scrollHeight*0.8;
+//var g=$(window).height()*0.8;
+var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
