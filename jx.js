@@ -382,7 +382,7 @@ var gggg=window.screen.availHeight;
 var ggg=document.body.scrollHeight;
 var gg=$(".show").height();
 if(gggg>ggg){
-var ggggg=gg+(gggg - ggg)-130;
+var ggggg=gg+(gggg - ggg)-160;
 $('.show').css('height',ggggg);
 var gggggg=$(".show").height();
 } else {
@@ -393,4 +393,3 @@ $('.hidden').css('min-height',gggggg);
 var g=$(window).height()*0.8;
 //var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
-$(".show").html(gg+","+gggg+","+ggg+" "+ggggg);
