@@ -382,9 +382,18 @@ var gggg=window.screen.availHeight;
 var ggg=document.body.scrollHeight;
 var gg=$(".show").height();
 if(gggg>ggg){
-var ggggg=gg+(gggg - ggg)-160;
+var u = navigator.userAgent, app = navigator.appVersion;
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+if(isiOS){
+var ggggg=gg+(gggg - ggg)-180;
 $('.show').css('height',ggggg);
 var gggggg=$(".show").height();
+} else {
+  var ggggg=gg+(gggg - ggg)-160;
+$('.show').css('height',ggggg);
+var gggggg=$(".show").height();
+}
 } else {
 $('.show').css('height',gg);
 var gggggg=$(".show").height();
