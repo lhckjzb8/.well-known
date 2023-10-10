@@ -238,6 +238,7 @@ padding:5px 0 10px 0;
 text-align: left;
 overflow-y: scroll;height:auto;
  }
+.show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
 #list li{
