@@ -378,12 +378,12 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
-var ggg=window.screen.availHeight;
-var gggg=document.body.scrollHeight;
+var gggg=document.documentElement.clientHeight;
+var ggg=document.body.scrollHeight;
 var gg=$(".show").height();
-if(gggg<ggg){
-var ggggg=gggg-(ggg - gggg +15);
-$('.show').css('height',gg+ggggg);
+if(gggg>ggg){
+var ggggg=gg+(gggg - ggg)-15;
+$('.show').css('height',ggggg);
 var gggggg=$(".show").height();
 }
 $('.hidden').css('min-height',gggggg);
