@@ -77,7 +77,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">no</span>港</span></div>
+<div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
@@ -136,6 +136,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
 <!--p>123期：龙,</p-->
+<p>114期：兔+02,16,26,40,14,12,34,07,31,08,30,</p>
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
 <p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
