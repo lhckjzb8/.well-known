@@ -380,8 +380,8 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
-var gg=$(".show").height();
-$('.hidden').css('height',gg);
+var gg=$(".show").height()+50;
+$('#tab-list').css('height',gg);
 //var g=$(window).height()*0.7;
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
