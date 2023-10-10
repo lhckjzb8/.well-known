@@ -381,12 +381,11 @@ $('.boardyz').css('display','none');
 
 var gg=$(".show").height();
 var ggg=$("#jlgd").height();
-if(gg>ggg){
-$('.hidden').css('min-height',gg);
-} else {
+if(gg<ggg){
 $('.show').css('min-height',ggg);
-$('.hidden').css('min-height',ggg);
 }
+var q=$(".show").height();
+$('.hidden').css('min-height',q);
 //var g=$(window).height()*0.8;
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
