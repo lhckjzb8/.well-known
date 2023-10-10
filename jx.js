@@ -236,7 +236,7 @@ margin-top: 5px;
 display: none;
 padding:5px 0 10px 0;
 text-align: left;
-overflow-y: scroll;
+overflow-y: auto;
 min-height:300px;
  }
 .show font,.hidden font{color: #f00;}
