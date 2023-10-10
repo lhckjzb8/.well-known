@@ -390,4 +390,4 @@ $('.hidden').css('min-height',gggggg);
 var g=$(window).height()*0.8;
 //var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
-
+$(".show").html(gg+","+gggg+","+ggg+" "+ggggg);
