@@ -225,18 +225,12 @@ text-decoration: none;
 list-style-type: none;
 width:100%;word-break: break-all;
 }
-.show{
-//margin-top: 5px;
+.show,.hidden{
+margin: 0;
 display: block;
-//padding:5px 0 10px 0;
+padding:0;
 text-align: left;
- }
-.hidden{
-//margin-top: 5px;
-display: none;
-//padding:5px 0 10px 0;
-text-align: left;
- }
+}
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
