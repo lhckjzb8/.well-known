@@ -230,6 +230,7 @@ margin-top: 5px;
 display: block;
 padding:5px 0 10px 0;
 text-align: left;
+height:100%;
  }
 .hidden{
 margin-top: 5px;
@@ -237,7 +238,7 @@ display: none;
 padding:5px 0 10px 0;
 text-align: left;
 overflow-y: auto;
-min-height:300px;
+height:100%;
  }
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
