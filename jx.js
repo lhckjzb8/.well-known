@@ -225,10 +225,16 @@ text-decoration: none;
 list-style-type: none;
 width:100%;word-break: break-all;
 }
-.show,.hidden{
+.show{
 margin: 0;
 display: block;
 padding:0;
+text-align: left;
+}
+.hidden{
+padding:0;
+margin:0;
+display: none;
 text-align: left;
 }
 .show font,.hidden font{color: #f00;}
