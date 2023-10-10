@@ -219,20 +219,20 @@ font-family: Helvetica, Arial, sans-serif;
     }
 }
 #tab-list{
-padding-top:10px;
+padding:10px 0;
 margin: 0;
 text-decoration: none;
 list-style-type: none;
 width:100%;word-break: break-all;
 }
 .show{
-margin-top: 5px;
+//margin-top: 5px;
 display: block;
 padding:5px 0 10px 0;
 text-align: left;
  }
 .hidden{
-margin-top: 5px;
+//margin-top: 5px;
 display: none;
 padding:5px 0 10px 0;
 text-align: left;
@@ -240,6 +240,9 @@ text-align: left;
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
+#list{
+padding-bottom:5px
+}
 #list li{
 display: inline-block;
 border-radius: 5px;
@@ -267,7 +270,7 @@ color: #f00;
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
-  <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
+  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
@@ -285,10 +288,8 @@ color: #f00;
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
-  <p><label>112-115期</label> 08,16,17,21,27,32,34,39<span> (3中3)56组</span></p>
+  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
-  <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
-  <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
