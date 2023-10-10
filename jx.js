@@ -219,7 +219,7 @@ font-family: Helvetica, Arial, sans-serif;
     }
 }
 #tab-list{
-//padding:10px 0;
+padding:10px 0;
 margin: 0;
 text-decoration: none;
 list-style-type: none;
@@ -228,21 +228,18 @@ width:100%;word-break: break-all;
 .show{
 //margin-top: 5px;
 display: block;
-padding:5px 0 10px 0;
+//padding:5px 0 10px 0;
 text-align: left;
  }
 .hidden{
 //margin-top: 5px;
 display: none;
-padding:5px 0 10px 0;
+//padding:5px 0 10px 0;
 text-align: left;
  }
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
-#list{
-//padding-bottom:5px
-}
 #list li{
 display: inline-block;
 border-radius: 5px;
