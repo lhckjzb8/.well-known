@@ -219,7 +219,7 @@ font-family: Helvetica, Arial, sans-serif;
     }
 }
 #tab-list{
-padding:10px 0;
+//padding:10px 0;
 margin: 0;
 text-decoration: none;
 list-style-type: none;
@@ -241,7 +241,7 @@ text-align: left;
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
 #list{
-padding-bottom:5px
+//padding-bottom:5px
 }
 #list li{
 display: inline-block;
