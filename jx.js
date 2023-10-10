@@ -382,7 +382,7 @@ var ggg=window.screen.availHeight;
 var gggg=document.body.scrollHeight;
 var gg=$(".show").height();
 if(gggg<ggg){
-var ggggg=(ggg - gggg)*0.5;
+var ggggg=gggg-(ggg - gggg +15);
 $('.show').css('height',gg+ggggg);
 var gggggg=$(".show").height();
 }
