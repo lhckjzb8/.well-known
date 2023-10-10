@@ -378,10 +378,14 @@ $('.mask').css('display','none');
 $('.boardyz').css('display','none');
 });
 
+var ggg=$(window).screen.availHeight;
+var gggg=document.body.scrollHeight;
 var gg=$(".show").height();
+if(gggg<ggg){
+var ggggg=ggg - gggg;
+$('.show').css('height',gg+ggggg);
+}
 $('.hidden').css('min-height',gg);
-var ggg=$(window).screen.availHeight*0.8;
-$('body').css('height',ggg);
 var g=$(window).height()*0.8;
 //var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
