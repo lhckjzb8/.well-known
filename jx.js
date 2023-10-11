@@ -198,7 +198,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <style>
 .minVideoViewBox{
-    width:100%;
+    width:100%;padding-bottom:10px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
