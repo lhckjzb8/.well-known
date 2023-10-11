@@ -248,7 +248,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 0;
-margin-right: 10px;
+margin-right: 8px;
 }
 #list .g{
 font-size: 8px;
