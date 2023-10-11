@@ -249,6 +249,13 @@ text-align: center;
 padding:3px 10px;
 margin-right: 10px;
 }
+#list .g{
+z-index:1;position: absolute;
+font-size: 8px;
+color: #8B008B;
+margin-top: 10px;
+margin-left: 3px;
+}
 .active{
 background-color: #FFFAF0;
 color: #f00;
@@ -257,17 +264,17 @@ color: #f00;
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">115期</li>
-<li>114期</li>
-<li>113期</li>
-<li>112期</li>
-<li>111期</li>
-<li>110期</li>
-<li>109期</li>
-<li>108期</li>
-<li>107期</li>
-<li>106期</li>
-<li>105期</li>
-<li>104期</li>
+<li>114期<span class="g">3</span></li>
+<li>113期<span class="g">1</span></li>
+<li>112期<span class="g">2</span></li>
+<li>111期<span class="g">1</span></li>
+<li>110期<span class="g">1</span></li>
+<li>109期<span class="g">3</span></li>
+<li>108期<span class="g">3</span></li>
+<li>107期<span class="g">2</span></li>
+<li>106期<span class="g">2</span></li>
+<li>105期<span class="g">2</span></li>
+<li>104期<span class="g">3</span></li>
 </div>
 <ul class="show"><!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
@@ -406,7 +413,13 @@ $('.boardyz').css('display','none');
 
 
 var gg=$(".show").height();
+var ggg=$("#jlgd").height();
+if(gg>ggg){
 $('.hidden').css('min-height',gg);
+} else {
+$('.show').css('min-height',ggg);
+$('.hidden').css('min-height',ggg);
+}
 //var g=$(window).height()*0.8;
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
