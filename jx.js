@@ -201,7 +201,7 @@ font-family: Helvetica, Arial, sans-serif;
     overflow-y: hidden;
     white-space:nowrap;
     &::-webkit-scrollbar{// 滚动条整体
-        background:none;
+        background:none;width: 5px;height:1px;
     }
     &::-webkit-scrollbar-thumb{//滑块
         background: transparent;border-top: 1.5px solid #BA55D3;
