@@ -258,7 +258,16 @@ color: #f00;
 <div class="minVideoViewBox" id="list">
 <li class="active">115期</li>
 <li>114期</li>
-<li>更 多</li>
+<li>113期</li>
+<li>112期</li>
+<li>111期</li>
+<li>110期</li>
+<li>109期</li>
+<li>108期</li>
+<li>107期</li>
+<li>106期</li>
+<li>105期</li>
+<li>104期</li>
 </div>
 <ul class="show"><!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
@@ -277,39 +286,58 @@ color: #f00;
 </ul>
 
 <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;" id="jlgd">
-  <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-115期 </label>鸡兔猪蛇<font>狗</font>龙<span> (今年错2，114期狗)</span></p>
   <p><label>114-118期 </label>牛羊<font>狗</font>龙<span> (今年无错，114期狗)</span></p><!--L3色肖五期一轮-->
-  <p><label>114-118期 </label>05,07,15,25,29,35</p>
-  <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
-  <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
-  <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
-  <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
-  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
-  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
-  <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
-  <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
+  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
 </ul>
-
 
   <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>112-113期 </label>兔<font>虎</font>牛鼠猪狗鸡<span> (今年错3，113期虎)</span> + 羊<span> (今年无错)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>109-113期 </label>15,20,25,39,<font>45</font>,48<span> (今年无错，112期45)</span></p>
   <p><label>111-115期 </label>虎牛猴<font>羊</font><span> (两年错1)</span> + 兔鸡<span> (三年无错，112期羊)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>107-111期特尾 </label>8尾,<font>9尾</font><span> (今年错1，111期29)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>110-111期 </label><font>兔</font>虎鼠猪鸡猴<span> (今年无错，110期兔)</span></p>
-  <p><label>101-110期开码表 </label>02,03,04,<font>12</font>,13,15,18,20,39,40,44,<font>46</font>,（12码）<span> (至少开2期，106期46，108期12，109期46)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>109-113期 </label>43,44,45,<font>46</font>,47,48<span> (今年无错，109期46)</span></p>
   <p><label>109-111期 </label>蛇鸡<font>马</font>鼠<span> (今年错1，109期马)</span></p>
+  <p><label>101-110期开码表 </label>02,03,04,<font>12</font>,13,15,18,20,39,40,44,<font>46</font>,（12码）<span> (至少开2期，106期46，108期12，109期46)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>108-109期 </label>02,22,<font>12</font>,24,20,32,05,29,25,49<span> (108期12)</span></p>
   <p><label>106-108期 </label>牛羊<font>龙</font>狗<span> (今年错1，108期龙)</span></p>
+  <p><label>101-110期开码表 </label>02,03,04,<font>12</font>,13,15,18,20,39,40,44,<font>46</font>,（12码）<span> (至少开2期，106期46，108期12)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>103-107期 </label><font>兔</font>蛇鸡羊<span> (今年错1，107期兔)</span></p>
   <p><label>106-112期 </label>02,09,16,23,30,<font>37</font>,44<span> (今年错1，107期37)</span></p>
   <p><label>105-108期 </label><font>01</font>,<font>10</font>,18,<font>22</font>,26,<font>28</font>,31<span> (2中2)21组,107期01,10,22,28,😘</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>103-107期 </label>41,42,43,44,45,<font>46</font><span> (106期46)</span></p>
+  <p><label>101-110期开码表 </label>02,03,04,<font>12</font>,13,15,18,20,39,40,44,<font>46</font>,（12码）<span> (至少开2期，106期46)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>105-106期 </label>鸡羊<font>蛇</font>兔猪牛<span> (今年无错，105期蛇)</span></p>
   <p><label>105-109期 </label>15,16,17,18,19,<font>35</font>,37 <span>(105期35)</span></p>
+</ul>
+
+  <ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>103-107期 </label>兔<font>蛇</font>鸡羊 <span>(今年无错，104期蛇)</span></p>
   <p><label>103-105期 </label>鼠马龙狗鸡<font>蛇</font><span> (今年错1，104期蛇)</span></p>
   <p><label>103-111期 </label><font>11</font>,22,33,44<span> (今年错1，104期11)</span></p>
@@ -378,13 +406,7 @@ $('.boardyz').css('display','none');
 
 
 var gg=$(".show").height();
-var ggg=$("#jlgd").height();
-if(gg>ggg){
 $('.hidden').css('min-height',gg);
-} else {
-$('.show').css('min-height',ggg);
-$('.hidden').css('min-height',ggg);
-}
 //var g=$(window).height()*0.8;
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
