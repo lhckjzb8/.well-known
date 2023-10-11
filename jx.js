@@ -241,12 +241,13 @@ text-align: left;
 .show label,.hidden label{color: #A15888;}
 .show span,.hidden span{color: #A58888;font-size: 13px;}
 #list li{
+width:50px;
 display: inline-block;
 border-radius: 5px;
 border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
-padding:3px 10px;
+padding:3px 0;
 margin-right: 10px;
 }
 #list .g{
@@ -262,7 +263,7 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">115期</li>
+<li class="active">115期<span class="g">?</span></li>
 <li>114期<span class="g">3</span></li>
 <li>113期<span class="g">1</span></li>
 <li>112期<span class="g">2</span></li>
