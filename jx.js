@@ -292,7 +292,7 @@ color: #f00;
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
 </ul>
 
-<ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;" id="jlgd">
+<ul class="hidden" style="width: 100%;padding-top:5px;height:300px;overflow-y:auto;">
   <p><label>114-115期 </label>鸡兔猪蛇<font>狗</font>龙<span> (今年错2，114期狗)</span></p>
   <p><label>114-118期 </label>牛羊<font>狗</font>龙<span> (今年无错，114期狗)</span></p><!--L3色肖五期一轮-->
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
@@ -413,13 +413,6 @@ $('.boardyz').css('display','none');
 
 
 var gg=$(".show").height();
-var ggg=$("#jlgd").height();
-if(gg>ggg){
 $('.hidden').css('min-height',gg);
-} else {
-$('.show').css('min-height',ggg);
-$('.hidden').css('min-height',ggg);
-}
-//var g=$(window).height()*0.8;
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
