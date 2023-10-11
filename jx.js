@@ -1,8 +1,5 @@
 document.write(`
 <style>
-.jx font{
-color: #f00;
-}
 .gs{
 float: left;
 border-radius: 1px;
@@ -83,7 +80,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">no</span>港</span></div>
+<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">yes</span>港</span></div>
 <div></div>
 <div></div>
 </div>
@@ -153,6 +150,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
+115期：牛虎兔龙蛇马羊猴猪<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
@@ -206,11 +204,11 @@ font-family: Helvetica, Arial, sans-serif;
         background:none;
     }
     &::-webkit-scrollbar-thumb{//滑块
-        background: rgba(71, 145, 242,.1);
-        border-radius: 3px;
+        background: transparent;border-top: 1.5px solid #BA55D3;
+        border-radius: 25px;
     }
-    &::-webkit-scrollbar-track{//轨道
-
+    &::-webkit-scrollbar-track{
+    background-color: #fff;//轨道
     }
     &::-webkit-scrollbar-button{//两端按钮
 
@@ -277,6 +275,8 @@ color: #f00;
 <li>104期<span class="g">3</span></li>
 </div>
 <ul class="show"><!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46,</p>
+  <p><label>115-120期 </label>0头</p>
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
   <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
