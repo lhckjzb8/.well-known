@@ -250,7 +250,6 @@ padding:3px 10px;
 margin-right: 10px;
 }
 #list .g{
-z-index:1;position: absolute;
 font-size: 8px;
 color: #8B008B;
 margin-top: 10px;
