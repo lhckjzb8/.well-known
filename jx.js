@@ -8,7 +8,6 @@ font-size: 13px;
 color: #fff;
 text-align: center;
 padding:3px 6px;
-margin-top: 1px;
 }
 .gszl{
 float: left;
