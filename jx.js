@@ -153,7 +153,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-115期：牛虎兔龙蛇马羊猴猪<br>
+115期：<span>牛</span>虎兔龙蛇马羊猴猪<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
@@ -213,7 +213,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class='qrcode'>
   <p style="font-size: 13px;">【115期】5组统计结果：<br>
 共0次：19,（1个）xxxxxxx<br>
-共1次：03,04,13,16,18,25,30,31,37,40,（10个）xxxxxxx<br>
+共1次：<span>03</span>,04,13,16,18,25,30,31,37,40,（10个）xxxxxxx<br>
 共2次：01,07,11,15,20,28,36,38,39,42,43,44,49,（13个）<br>
 共3次：02,06,08,10,12,14,17,23,24,26,27,29,32,34,41,45,46,47,48,（19个）<br>
 共4次：05,09,21,22,33,35,（6个）</p>
@@ -298,7 +298,8 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">115期<span class="gg">?</span></li>
+<li class="active">116期<span class="gg">?</span></li>
+<li>115期<span class="gg">4</span></li>
 <li>114期<span class="gg">3</span></li>
 <li>113期<span class="g">1</span></li>
 <li>112期<span class="g">2</span></li>
@@ -313,34 +314,43 @@ color: #f00;
 </div>
 <ul class="show">
   <!--留用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
-  <!--留用p><label>111-115期 </label>6尾,7尾,8尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
   <!--留用p><label>114-116期 </label>兔鼠鸡马牛猪<span> (22年错1,23年错3)</span></p--><!--（下轮116期）D1色肖+-2,防拖延1期(22年错1,23年拖1期错1)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <!--留用p><label>115-121期 </label>22,30,34,01,39,23,12<span> (今年错1)</span></p--><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
   <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
-  <p><label>115-118期 </label>虎狗猫猫猫<span> (无错记录)</span></p>
+  <p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p><!--0,5尾期D6左右1尾（拖1期无错）-->
+  <p><label>116-117期 </label>猴羊马蛇龙兔虎<span> (今年错3)</span> + 鼠<span> (今年无错)</span></p><!--D走势 本轮平4，下轮117期平2-->
+  <p><label>115-118期 </label>虎狗牛猫猫<span> (无错记录)</span></p>
   <p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
-  <p><label>115-120期 </label>0头</p>
-  <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
   <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
   <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
-  <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
-  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
-  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 13px;">
+
+</p>
+</ul>
+
+<ul class="hidden">
+  <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p><label>115-120期 </label><font>0头</font><span> (115期03)</span></p>
+  <p><label>114-115期 </label>羊马蛇龙兔虎<font>牛</font><span> (今年错3，115期牛)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮115期平3-->
+  <p><label>113-119期 </label><font>03</font>,10,17,24,31,38,45<span> (今年错1，115期03)</span></p>
+  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
+  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
+  <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
+  <p style="font-size: 13px;">
 【115期】14组136码统计结果：<br>
 共1次：19,20,23,28,41,42,47,48,（8个）xxxxxxx<br>
 共2次：06,13,16,17,18,21,26,30,31,40,43,45,49,（13个）<br>
 共3次：02,04,05,07,08,09,11,12,15,22,24,25,29,32,36,44,（16个）<br>
-共4次：01,03,14,27,33,37,39,（7个）<br>
+共4次：01,<font>03</font>,14,27,33,37,39,（7个）<br>
 共5次：10,34,38,46,（4个）xxxxxxx<br>
 共6次：35,（1个） xxxxxxx
 </p>
