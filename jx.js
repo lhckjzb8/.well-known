@@ -75,7 +75,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">no</span>港</span></div>
-<div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">no</span>港</span></div>
+<div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
@@ -118,6 +118,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSuretd">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
+<p>115期:虎蛇马羊狗猪</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
@@ -283,9 +284,11 @@ color: #f00;
 </div>
 <ul class="show">
   <!--留用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
-  <!--留用p><label>111-115期 </label>6尾,7尾,8尾<span> (22年至今5期极限错2，6期极限无错)</span></p--><!--D6左右1尾-->
-  <!--留用p><label>114-116期 </label>兔鼠鸡马牛猪<span> (22年错1,23年错3)</span></p--><!--（114-116期）D1色肖+左右2肖,防拖延1期(22年错1,23年拖1期错1)-->
+  <!--留用p><label>111-115期 </label>6尾,7尾,8尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
+  <!--留用p><label>114-116期 </label>兔鼠鸡马牛猪<span> (22年错1,23年错3)</span></p--><!--（下轮116期）D1色肖+-2,防拖延1期(22年错1,23年拖1期错1)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
+  <!--留用p><label>115-121期 </label>22,30,34,01,39,23,12<span> (今年错1)</span></p--><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
+  <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
   <p><label>115-118期 </label>虎狗猫猫猫<span> (无错记录)</span></p>
   <p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
@@ -304,7 +307,7 @@ color: #f00;
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 12px;">
-【115期】15组136码统计结果：<br>
+【115期】14组136码统计结果：<br>
 共1次：19,20,23,28,41,42,47,48,（8个）xxxxxxx<br>
 共2次：06,13,16,17,18,21,26,30,31,40,43,45,49,（13个）<br>
 共3次：02,04,05,07,08,09,11,12,15,22,24,25,29,32,36,44,（16个）<br>
