@@ -82,7 +82,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" id="altw">阿郎特围<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl right" id="gstj">高手统计<span class="gszlx"><span class="g">ok</span>港</span></div>
+<div class="gszl" id="gstj">高手统计<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div>
 </div>
 </div>
@@ -211,7 +211,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSuregs">关闭</span></div>
     <div class="logo"><span>以上5位高手统计</span></div>
     <div class='qrcode'>
-  <p style="font-size: 12px;">【115期】5组统计结果：
+  <p style="font-size: 12px;">【115期】5组统计结果：<br>
 共0次：19,（1个）<br>
 共1次：03,04,13,16,18,25,30,31,37,40,（10个）<br>
 共2次：01,07,11,15,20,28,36,38,39,42,43,44,49,（13个）<br>
