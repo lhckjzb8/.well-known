@@ -236,7 +236,7 @@ font-family: Helvetica, Arial, sans-serif;
     overflow-y: hidden;
     white-space:nowrap;
     &::-webkit-scrollbar{// 滚动条整体
-        background:none;width: 5px;height:1px;
+        background:none;width: 5px;height:2px;
     }
     &::-webkit-scrollbar-thumb{//滑块
         background: transparent;border-top: 2px solid #FFC0CB;
