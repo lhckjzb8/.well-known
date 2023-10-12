@@ -94,6 +94,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
 <!--p>123期：龙,24,</p-->
+<p>116期：</p>
 <p>115期：龙马+40,35,28,07,08,04,</p>
 <p>114期：兔+02,16,26,40,14,12,34,07,31,08,<span>30</span>,</p>
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
@@ -119,6 +120,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSuretd">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
+<p>116期:</p>
 <p>115期:虎蛇马羊狗猪</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
@@ -153,7 +155,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-115期：<span>牛</span>虎兔龙蛇马羊猴猪<br>
+116期：<br>
+115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
 112期：鼠牛虎兔马<span>羊</span>猴狗猪 开45羊准<br>
@@ -202,6 +205,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSureal">关闭</span></div>
     <div class="logo"><span>阿郎特围</span></div>
     <div class='qrcode'>
+<p>116期：</p>
 <p>115期：01,05,06,07,09,12,14,15,21,23,24,26,27,28,29,32,33,35,41,42,43,44,45,47,48,（共25个）</p>
 <p>114期：06,08,09,10,11,12,13,14,16,17,18,20,22,23,24,28,<span>30</span>,32,33,34,38,39,40,42,44,46,48,（共27个）</p>
 </div>
@@ -343,7 +347,7 @@ color: #f00;
   <p><label>114-115期 </label>羊马蛇龙兔虎<font>牛</font><span> (今年错3，115期牛)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮115期平3-->
   <p><label>113-119期 </label><font>03</font>,10,17,24,31,38,45<span> (今年错1，115期03)</span></p>
   <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
-  <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p style="font-size: 13px;">
 【115期】14组136码统计结果：<br>
