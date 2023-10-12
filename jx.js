@@ -239,7 +239,7 @@ font-family: Helvetica, Arial, sans-serif;
         background:none;width: 5px;height:1px;
     }
     &::-webkit-scrollbar-thumb{//滑块
-        background: transparent;border-top: 1.5px solid #BA55D3;
+        background: transparent;border-top: 2px solid #FFC0CB;
         border-radius: 25px;
     }
     &::-webkit-scrollbar-track{
@@ -261,11 +261,11 @@ width:100%;word-break: break-all;
 .show{
 margin: 0;
 display: block;
-padding:0;
+padding:3px 0 0 0;
 text-align: left;
 }
 .hidden{
-padding:0;
+padding:3px 0 0 0;
 margin:0;
 display: none;
 text-align: left;
