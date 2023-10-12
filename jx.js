@@ -76,7 +76,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">no</span>港</span></div>
 <div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">no</span>港</span></div>
-<div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">no</span>港</span></div>
+<div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">yes</span>港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
@@ -93,7 +93,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSure">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
-<!--p>123期：龙,</p-->
+<!--p>123期：龙,24,</p-->
 <p>114期：兔+02,16,26,40,14,12,34,07,31,08,<span>30</span>,</p>
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
 <p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
@@ -138,6 +138,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span id="alertSuress">关闭</span></div>
     <div class="logo"><span>世事难料</span></div>
     <div class='qrcode'>
+<p>115期：22,06,43,33,31,32,17,49,05,20,39,21,09,27,08,02,16,（主前）</p>
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
 <p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
 <p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
@@ -274,8 +275,14 @@ color: #f00;
 <li>105期<span class="g">2</span></li>
 <li>104期<span class="g">3</span></li>
 </div>
-<ul class="show"><!--备用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
-  <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46,</p>
+<ul class="show">
+  <!--留用p><label>111-115期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期平2加2,3,4三年来最久5期-->
+  <!--留用p><label>111-115期 </label>6尾,7尾,8尾<span> (22年至今5期极限错2，6期极限无错)</span></p--><!--D6左右1尾-->
+  <!--留用p><label>114-116期 </label>兔鼠鸡马牛猪<span> (22年错1,23年错3)</span></p--><!--（114-116期）D1色肖+左右2肖,防拖延1期(22年错1,23年拖1期错1)-->
+  <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
+  <p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
+  <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
+  <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
   <p><label>115-120期 </label>0头</p>
   <p><label>114-115期 </label>羊马蛇龙兔虎牛<span> (今年错3)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮116-117期平3-->
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
@@ -285,8 +292,6 @@ color: #f00;
   <p><label>113-119期 </label>03,10,17,24,31,38,45<span> (今年错1)</span></p>
   <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
-  <!--留用p><label>111-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p--><!--0尾期L3左右3(错061-070)-->
-  <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
