@@ -76,11 +76,11 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">no</span>港</span></div>
 <div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">no</span>港</span></div>
-<div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">yes</span>港</span></div>
+<div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">yes</span>港</span></div>
+<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 <div></div>
 </div>
