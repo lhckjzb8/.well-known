@@ -334,7 +334,7 @@ color: #f00;
   <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
-  <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
+  <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 13px;">
 
