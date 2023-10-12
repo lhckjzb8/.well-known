@@ -268,7 +268,7 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">115期<span class="g">?</span></li>
+<li class="active">115期<span class="gg">?</span></li>
 <li>114期<span class="gg">3</span></li>
 <li>113期<span class="g">1</span></li>
 <li>112期<span class="g">2</span></li>
@@ -302,6 +302,16 @@ color: #f00;
   <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
   <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
+  <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p style="font-size: 12px;">
+【115期】15组136码统计结果：<br>
+共1次：19,20,23,28,41,42,47,48,（8个）xxxxxxx<br>
+共2次：06,13,16,17,18,21,26,30,31,40,43,45,49,（13个）<br>
+共3次：02,04,05,07,08,09,11,12,15,22,24,25,29,32,36,44,（16个）<br>
+共4次：01,03,14,27,33,37,39,（7个）<br>
+共5次：10,34,38,46,（4个）xxxxxxx<br>
+共6次：35,（1个） xxxxxxx
+</p>
 </ul>
 
 <ul class="hidden">
@@ -311,7 +321,7 @@ color: #f00;
   <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 12px;">
-【114期】总12组统计结果：<br>
+【114期】总12组144码统计结果：<br>
 共1次：02,20,26,28,（4个）xxxxxxx<br>
 共2次：04,06,08,14,16,19,23,32,40,41,42,47,（12个）<br>
 共3次：01,05,07,09,11,13,17,18,21,22,<font>30</font>,31,34,36,37,38,43,44,45,48,49,（21个）<br>
