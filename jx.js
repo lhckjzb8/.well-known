@@ -49,7 +49,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.board,.boardtd,.boardss,.boardyz,.boardal{
+.board,.boardtd,.boardss,.boardyz,.boardal,.boardgs{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -82,7 +82,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" id="altw">阿郎特围<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div></div>
+<div class="gszl right" id="gstj">高手统计<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div>
 </div>
 </div>
@@ -204,6 +204,24 @@ font-family: Helvetica, Arial, sans-serif;
     <div class='qrcode'>
 <p>115期：01,05,06,07,09,12,14,15,21,23,24,26,27,28,29,32,33,35,41,42,43,44,45,47,48,（共25个）</p>
 <p>114期：06,08,09,10,11,12,13,14,16,17,18,20,22,23,24,28,<span>30</span>,32,33,34,38,39,40,42,44,46,48,（共27个）</p>
+</div>
+</div>
+<!-- 阿郎特围 -->
+<div class='boardgs' style="display:none;">
+    <div class="heart"><span id="alertSuregs">关闭</span></div>
+    <div class="logo"><span>以上5位高手统计</span></div>
+    <div class='qrcode'>
+  <p style="font-size: 12px;">【115期】5组统计结果：
+共0次：19,（1个）<br>
+共1次：03,04,13,16,18,25,30,31,37,40,（10个）<br>
+共2次：01,07,11,15,20,28,36,38,39,42,43,44,49,（13个）<br>
+共3次：02,06,08,10,12,14,17,23,24,26,27,29,32,34,41,45,46,47,48,（19个）<br>
+共4次：05,09,21,22,33,35,（6个）</p>
+  <p style="font-size: 12px;">【114期】5组统计结果：<br>
+共1次：04,15,27,28,29,35,41,45,47,（9个）xxxxxxx<br>
+共2次：03,05,11,16,19,21,23,26,31,33,36,39,40,43,44,（15个）<br>
+共3次：02,07,09,14,17,20,24,25,32,37,38,42,46,48,49,（15个）<br>
+共4次：01,06,08,10,12,13,18,22,<span>30</span>,34,（10个）</p>
 </div>
 </div>
 
@@ -442,6 +460,10 @@ $("#altw").click(function() {
 $('.mask').css('display','');
 $('.boardal').css('display','');
 });
+$("#gstj").click(function() {
+$('.mask').css('display','');
+$('.boardgs').css('display','');
+});
 
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
@@ -462,6 +484,10 @@ $('.boardyz').css('display','none');
 $("#alertSureal").click(function() {
 $('.mask').css('display','none');
 $('.boardal').css('display','none');
+});
+$("#alertSuregs").click(function() {
+$('.mask').css('display','none');
+$('.boardgs').css('display','none');
 });
 
 
