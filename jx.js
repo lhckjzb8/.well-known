@@ -8,6 +8,7 @@ font-size: 13px;
 color: #fff;
 text-align: center;
 padding:3px 6px;
+margin-top: 1px;
 }
 .gszl{
 float: left;
@@ -49,7 +50,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.board,.boardtd,.boardss,.boardyz,.boardal,.boardgs{
+.board,.boardtd,.boardss,.boardyz,.boardal,.boardgs,.boardlao{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -74,23 +75,26 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="awrh">爱我如何<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl right" id="tdlx">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl" id="ssnl">世事难料<span class="gszlx"><span class="g">ok</span>港</span></div>
+<div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl" onClick="div_none('boardss');">世事难料<span class="gszlx"><span class="g"> </span>港</span></div>
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
+<div style="float: left;width: 29%;">
+<div class="gs" onClick="div_none('boardgs');">高手统计</div>
+</div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl right" id="altw">阿郎特围<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl" id="gstj">高手统计<span class="gszlx"><span class="g">ok</span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl right" onClick="div_none('boardal');">阿郎特围<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl" onClick="div_none('boardlao');">老澳特围<span class="gszlx"><span class="g">ok</span>澳</span></div>
 </div>
 </div>
 </div>
   <!-- 底部透明灰色层 -->
-<div class='mask' style="display:none;"></div>
+<div class='mask' id="mask" style="display:none;"></div>
 <!-- 爱我如何 -->
 <div class='board' style="display:none;">
-    <div class="heart"><span id="alertSure">关闭</span></div>
+    <div class="heart"><span onClick="div_none('board');">关闭</span></div>
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
 <!--p>123期：龙,24,</p-->
@@ -117,7 +121,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 土豆六肖 -->
 <div class='boardtd' style="display:none;">
-    <div class="heart"><span id="alertSuretd">关闭</span></div>
+    <div class="heart"><span onClick="div_none('boardtd');">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
 <p>116期:</p>
@@ -139,7 +143,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 世事难料 -->
 <div class='boardss' style="display:none;">
-    <div class="heart"><span id="alertSuress">关闭</span></div>
+    <div class="heart"><span onClick="div_none('boardss');">关闭</span></div>
     <div class="logo"><span>世事难料</span></div>
     <div class='qrcode'>
 <p>115期：22,06,43,33,31,32,17,49,05,20,39,21,09,27,08,02,16,（主前）</p>
@@ -151,7 +155,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 英子九肖 -->
 <div class='boardyz' style="display:none;">
-    <div class="heart"><span id="alertSureyz">关闭</span></div>
+    <div class="heart"><span onClick="div_none('boardyz');">关闭</span></div>
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
@@ -202,7 +206,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 阿郎特围 -->
 <div class='boardal' style="display:none;">
-    <div class="heart"><span id="alertSureal">关闭</span></div>
+    <div class="heart"><span onClick="div_none('boardal');">关闭</span></div>
     <div class="logo"><span>阿郎特围</span></div>
     <div class='qrcode'>
 <p>116期：</p>
@@ -210,9 +214,9 @@ font-family: Helvetica, Arial, sans-serif;
 <p>114期：06,08,09,10,11,12,13,14,16,17,18,20,22,23,24,28,<span>30</span>,32,33,34,38,39,40,42,44,46,48,（共27个）</p>
 </div>
 </div>
-<!-- 阿郎特围 -->
+<!-- 高手统计 -->
 <div class='boardgs' style="display:none;">
-    <div class="heart"><span id="alertSuregs">关闭</span></div>
+    <div class="heart"><span onClick="div_none('boardgs');">关闭</span></div>
     <div class="logo"><span>以上5位高手统计</span></div>
     <div class='qrcode'>
   <p style="font-size: 13px;">【115期】5组统计结果：<br>
@@ -226,6 +230,15 @@ font-family: Helvetica, Arial, sans-serif;
 共2次：03,05,11,16,19,21,23,26,31,33,36,39,40,43,44,（15个）<br>
 共3次：02,07,09,14,17,20,24,25,32,37,38,42,46,48,49,（15个）<br>
 共4次：01,06,08,10,12,13,18,22,<span>30</span>,34,（10个）</p>
+</div>
+</div>
+<!-- 老澳特围 -->
+<div class='boardlao' style="display:none;">
+    <div class="heart"><span onClick="div_none('boardlao');">关闭</span></div>
+    <div class="logo"><span>老澳特围</span></div>
+    <div class='qrcode'>
+<p>286期：01,02,05,07,09,10,13,15,18,19,21,23,26,27,31,32,33,34,35,37,38,39,41,42,43,44,46,49,=28码</p>
+<p>285期：01,08,10,11,12,14,15,18,20,22,24,26,27,29,31,33,34,35,37,<span>38</span>,39,40,41,42,45,46,47,48,=28码</p>
 </div>
 </div>
 
@@ -459,56 +472,22 @@ color: #f00;
  }
 
 
-$("#awrh").click(function() {
-$('.mask').css('display','');
-$('.board').css('display','');
-});
-$("#tdlx").click(function() {
-$('.mask').css('display','');
-$('.boardtd').css('display','');
-});
-$("#ssnl").click(function() {
-$('.mask').css('display','');
-$('.boardss').css('display','');
-});
-$("#yzjx").click(function() {
-$('.mask').css('display','');
-$('.boardyz').css('display','');
-});
-$("#altw").click(function() {
-$('.mask').css('display','');
-$('.boardal').css('display','');
-});
-$("#gstj").click(function() {
-$('.mask').css('display','');
-$('.boardgs').css('display','');
-});
-
-$("#alertSure").click(function() {
-$('.mask').css('display','none');
-$('.board').css('display','none');
-});
-$("#alertSuretd").click(function() {
-$('.mask').css('display','none');
-$('.boardtd').css('display','none');
-});
-$("#alertSuress").click(function() {
-$('.mask').css('display','none');
-$('.boardss').css('display','none');
-});
-$("#alertSureyz").click(function() {
-$('.mask').css('display','none');
-$('.boardyz').css('display','none');
-});
-$("#alertSureal").click(function() {
-$('.mask').css('display','none');
-$('.boardal').css('display','none');
-});
-$("#alertSuregs").click(function() {
-$('.mask').css('display','none');
-$('.boardgs').css('display','none');
-});
-
+function div_none(theclass){
+var allPageTags = new Array();
+var allPageTags = document.getElementsByTagName("div");
+for (i=0; i<allPageTags.length;i++){
+if(allPageTags[i].className == theclass){
+var obj = allPageTags[i];
+if(obj.style.display == "none"){
+mask.style.display = "";
+obj.style.display = "";
+}else{
+mask.style.display = "none";
+obj.style.display = "none";
+}
+}
+}
+}
 
 var gg=$(".show").height();
 $('.hidden').css('min-height',gg);
