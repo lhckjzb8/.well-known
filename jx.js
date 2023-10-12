@@ -3,6 +3,7 @@ document.write(`
 .gs{
 float: left;
 border-radius: 1px;
+border: 0.5px solid #BA55D3;
 background-color: #BA55D3;
 font-size: 13px;
 color: #fff;
@@ -70,7 +71,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
-<div class="gs">高手资料</div>
+<div class="gs" >高手资料</div>
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
@@ -80,7 +81,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: left;width: 29%;">
-<div class="gs" onClick="div_none('boardgs');">高手统计</div>
+<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计</div>
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"> </span>港</span></div>
