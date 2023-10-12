@@ -81,7 +81,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: right;width: 71%;">
 <div class="gszl right" id="yzjx">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div></div>
+<div class="gszl right" id="altw">阿郎特围<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 </div>
 </div>
@@ -196,6 +196,16 @@ font-family: Helvetica, Arial, sans-serif;
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
 </div>
 </div>
+<!-- 阿郎特围 -->
+<div class='boardal' style="display:none;">
+    <div class="heart"><span id="alertSureal">关闭</span></div>
+    <div class="logo"><span>阿郎特围</span></div>
+    <div class='qrcode'>
+<p>115期：01,05,06,07,09,12,14,15,21,23,24,26,27,28,29,32,33,35,41,42,43,44,45,47,48,（共25个）</p>
+<p>114期：06,08,09,10,11,12,13,14,16,17,18,20,22,23,24,28,<span>30</span>,32,33,34,38,39,40,42,44,46,48,（共27个）</p>
+</div>
+</div>
+
 <style>
 .minVideoViewBox{
     width:100%;padding-bottom:15px;
@@ -427,6 +437,10 @@ $("#yzjx").click(function() {
 $('.mask').css('display','');
 $('.boardyz').css('display','');
 });
+$("#altw").click(function() {
+$('.mask').css('display','');
+$('.boardal').css('display','');
+});
 
 $("#alertSure").click(function() {
 $('.mask').css('display','none');
@@ -443,6 +457,10 @@ $('.boardss').css('display','none');
 $("#alertSureyz").click(function() {
 $('.mask').css('display','none');
 $('.boardyz').css('display','none');
+});
+$("#alertSureal").click(function() {
+$('.mask').css('display','none');
+$('.boardal').css('display','none');
 });
 
 
