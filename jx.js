@@ -346,7 +346,7 @@ color: #f00;
   <p><label>115-120期 </label><font>0头</font><span> (115期03)</span></p>
   <p><label>114-115期 </label>羊马蛇龙兔虎<font>牛</font><span> (今年错3，115期牛)</span> + 猪<span> (今年无错)</span></p><!--D走势 本轮平4，下轮115期平3-->
   <p><label>113-119期 </label><font>03</font>,10,17,24,31,38,45<span> (今年错1，115期03)</span></p>
-  <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p style="text-decoration:line-through;color: #ccc"><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p style="font-size: 13px;">
