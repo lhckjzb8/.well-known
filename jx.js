@@ -255,6 +255,12 @@ color: #8B008B;
 margin-top: 10px;
 margin-left: 3px;
 }
+#list .gg{
+font-size: 8px;
+color: #0000ff;
+margin-top: 10px;
+margin-left: 3px;
+}
 .active{
 background-color: #FFFAF0;
 color: #f00;
@@ -263,7 +269,7 @@ color: #f00;
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">115期<span class="g">?</span></li>
-<li>114期<span class="g">3</span></li>
+<li>114期<span class="gg">3</span></li>
 <li>113期<span class="g">1</span></li>
 <li>112期<span class="g">2</span></li>
 <li>111期<span class="g">1</span></li>
@@ -280,6 +286,7 @@ color: #f00;
   <!--留用p><label>111-115期 </label>6尾,7尾,8尾<span> (22年至今5期极限错2，6期极限无错)</span></p--><!--D6左右1尾-->
   <!--留用p><label>114-116期 </label>兔鼠鸡马牛猪<span> (22年错1,23年错3)</span></p--><!--（114-116期）D1色肖+左右2肖,防拖延1期(22年错1,23年拖1期错1)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
+  <p><label>115-118期 </label>虎狗猫猫猫<span> (无错记录)</span></p>
   <p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
