@@ -8,7 +8,12 @@ background-color: #BA55D3;
 font-size: 13px;
 color: #fff;
 text-align: center;
-padding:3px 6px;
+padding:3px 8px;
+}
+.gs .zlx{
+z-index:1;position: absolute;
+font-size: 6px;
+color: #000;
 }
 .gszl{
 float: left;
@@ -81,7 +86,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: left;width: 29%;">
-<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计</div>
+<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计<span class="zlx" style="margin-top: -2px;margin-left: 0.5px;color: #8B008B;">ok</span><span class="zlx" style="margin-top: 13px;margin-left: 0.5px;">港</span></div>
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"> </span>港</span></div>
