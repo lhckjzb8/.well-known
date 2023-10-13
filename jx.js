@@ -86,10 +86,10 @@ font-family: Helvetica, Arial, sans-serif;
 </div></div>
 <div style="width: 100%;float: left;padding:5px 0 0 0;">
 <div style="float: left;width: 29%;">
-<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计<span class="zlx" style="margin-top: -2px;margin-left: 0.5px;color: #8B008B;">ok</span><span class="zlx" style="margin-top: 13px;margin-left: 0.5px;">港</span></div>
+<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计<span class="zlx" style="margin-top: -2px;margin-left: 0.5px;color: #8B008B;"> </span><span class="zlx" style="margin-top: 13px;margin-left: 0.5px;">港</span></div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" onClick="div_none('boardal');">阿郎特围<span class="gszlx"><span class="g"> </span>港</span></div>
 <div class="gszl" onClick="div_none('boardlao');">老澳特围<span class="gszlx"><span class="g">ok</span>澳</span></div>
 </div>
@@ -151,6 +151,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardss');">关闭</span></div>
     <div class="logo"><span>世事难料</span></div>
     <div class='qrcode'>
+<p>116期：</p>
 <p>115期：22,06,43,33,31,32,17,49,05,20,39,21,09,27,08,02,16,（主前）</p>
 <p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
 <p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
@@ -164,7 +165,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-116期：<br>
+116期：鼠牛虎兔龙蛇马羊狗<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
@@ -335,6 +336,7 @@ color: #f00;
 <li>104期<span class="g">3</span></li>
 </div>
 <ul class="show">
+  <!--留用p><label>120-126期 </label>04,11,18,25,32,39,46<span> (今年错1，115期03)</span></p--><!--7期一轮,下轮（127-133）01到07循环,下轮04+7-->
   <!--留用p><label>116-120期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期L平2加2,3,4三年来最久5期-->
   <!--p style="text-decoration:line-through;color: #ccc"><label>115-119期 </label>牛羊狗龙<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
   <!--留用p><label>115-117期 </label>牛蛇马羊鸡狗猪<span> (今年错1)</span></p--><!--（下轮117期）D6肖+2,3,4,6,7,8-->
