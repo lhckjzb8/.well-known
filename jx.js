@@ -81,8 +81,9 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
-<div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
 <div class="gszl" onClick="div_none('boardxa');">新澳八肖<span class="gszlx"><span class="g">ok</span>澳</span></div>
+</div>
 </div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
@@ -183,6 +184,7 @@ font-family: Helvetica, Arial, sans-serif;
 <p>274期:牛<span>兔</span>蛇鸡,猴马虎鼠 √</p>
 <p>273期:牛羊蛇猪,<span>鼠</span>马虎狗 √</p>
 <p>272期:<span>牛</span>羊兔猪,鼠龙狗马 √</p>
+</div>
 </div>
 
 <style>
