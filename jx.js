@@ -239,7 +239,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 0;
-margin-right: 6px;
+margin-right: 5px;
 }
 #list .g{
 font-size: 8px;
