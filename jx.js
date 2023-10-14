@@ -76,7 +76,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="width: 100%;display: inline-block;padding-top:10px;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
-<div class="gs" >高手资料</div>
+<div class="gs" onClick="copyName();">高手资料</div>
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
@@ -315,6 +315,15 @@ color: #f00;
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p style="font-size: 13px;">
+【117期】15组193码统计结果：<br>
+共1次：17,19,（2个）xxxxxxx<br>
+共2次：05,06,07,09,16,28,41,43,45,（9个）<br>
+共3次：04,08,18,21,29,31,33,40,49,（9个）<br>
+共4次：02,03,11,13,20,25,26,27,30,42,47,48,（12个）<br>
+共5次：10,15,22,23,24,36,37,38,39,44,（10个）<br>
+共6次：01,32,46,（3个）xxxxxxx<br>
+共7次：12,14,35,（3个）xxxxxxx<br>
+共9次：34,（1个）xxxxxxx
 </p>
 </ul>
 
@@ -426,6 +435,7 @@ color: #f00;
   </ul>
 </div>
 
+<div id="show" style="display: none;"></div>
 `);
 
  window.onload=function(){
@@ -495,3 +505,50 @@ var w = window.screen.availWidth-36;
 document.querySelector('.thisDiv').style.marginLeft = `${thisScolljd* thisJd}px`  // 根据上放计算进度，改变下方模拟的位置
       // console.log((thisJd * 100).toFixed(2), '%');  // 当前滚动的百分比
     });
+
+//复制
+function copyToClipboard(text) {
+  const bgColor = '#ff00ff';
+
+  const textarea = document.createElement('textarea');
+  textarea.value =text;
+  textarea.style.background = bgColor;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+
+  // 显示成功提示
+  const successMessage = document.createElement('div');
+  successMessage.textContent = '复制成功!';
+  successMessage.style.position = 'fixed';
+  successMessage.style.top = '100';
+  successMessage.style.right = '50%';
+  successMessage.style.background = bgColor;
+  successMessage.style.color = '#fff';
+  successMessage.style.padding = '8px';
+  document.body.appendChild(successMessage);
+
+  // 3 秒后隐藏提示
+  setTimeout(() => {
+    successMessage.remove();
+    show.innerHTML="";//复制成功,清除容器内容
+  }, 3000);
+}
+
+function copyName() {
+var showq = document.querySelector(".show");
+var show=document.getElementById("show");
+show.innerHTML = showq.innerHTML;
+var label = show.getElementsByTagName("label");
+    for (var i = 0; i <= label.length - 1; i++) {
+      label[i].innerHTML="";
+    }
+var span = show.getElementsByTagName("span");
+    for (var i = 0; i <= span.length - 1; i++) {
+      span[i].innerHTML="";
+    }
+var text = show.innerText;
+copyToClipboard(text);
+}
+//复制结束
