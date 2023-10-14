@@ -84,7 +84,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
 <div class="gszl" onClick="div_none('boardxa');">新澳八肖<span class="gszlx"><span class="g">ok</span>澳</span></div>
 </div>
-</div>
+</div></div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
 <!-- 土豆六肖 -->
