@@ -73,7 +73,7 @@ body{
 font-family: Helvetica, Arial, sans-serif;
 }
 </style>
-<div style="width: 100%;display: inline-block;padding:10px 0;border-bottom: 2px solid #FFC0CB;">
+<div style="width: 100%;display: inline-block;padding:11px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs" >高手资料</div>
@@ -239,7 +239,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 0;
-margin-right: 6.5px;
+margin-right: 6px;
 }
 #list .g{
 font-size: 8px;
@@ -288,6 +288,7 @@ color: #f00;
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
   <p><label>117-120期 </label>03,07,14,19,22,27,32<span> (二中二21组)</span></p>
+  <p><label>117-120期 </label>龙蛇马虎<span> (今年无错)</span></p--><!--永恒赢家-->
   <p><label>117-121期 </label>猴马<span> (17年至今错5)</span></p--><!--壹路发发-->
   <p><label>117-120期 </label>12,13,14,23,24,34,21,31,41,32,42,43<span> (今年无错)</span></p><!--每次6尾期到9尾期必开这些相同号-->
   <p><label>117-121期 </label>兔鼠马鸡<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
