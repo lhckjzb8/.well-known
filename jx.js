@@ -73,7 +73,7 @@ body{
 font-family: Helvetica, Arial, sans-serif;
 }
 </style>
-<div style="width: 100%;display: inline-block;padding:12px 0;border-bottom: 2px solid #FFC0CB;">
+<div style="width: 100%;display: inline-block;padding:15px 0;border-bottom: 2px solid #FFC0CB;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs" >高手资料</div>
