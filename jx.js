@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.boardtd,.boardyz{
+.boardtd,.boardyz,.boardxa{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -80,9 +80,9 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-</div></div>
+<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl" onClick="div_none('boardxa');">新澳八肖<span class="gszlx"><span class="g">ok</span>澳</span></div>
 </div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
@@ -160,6 +160,29 @@ font-family: Helvetica, Arial, sans-serif;
 075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1<br>
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
 </div>
+</div>
+<!-- 新澳八肖 -->
+<div class='boardxa' style="display:none;">
+    <div class="heart"><span onClick="div_none('boardxa');">关闭</span></div>
+    <div class="logo"><span>新澳八肖</span></div>
+    <div class='qrcode'>
+<p>288期:牛羊猪兔,狗猴龙虎</p>
+<p>287期:鸡<span>牛</span>兔羊,龙猴鼠虎 √</p>
+<p>286期:牛蛇兔<span>鸡</span>,鼠虎龙猴 √</p>
+<p>285期:牛蛇羊<span>猪</span>,马狗虎龙 √</p>
+<p>284期:羊蛇兔猪,龙马<span>狗</span>鼠 √</p>
+<p>283期:鸡蛇猪兔,龙猴鼠马 ×</p>
+<p>282期:鸡猪兔蛇,龙猴鼠<span>虎</span> √</p>
+<p>281期:鸡牛猪羊,狗虎猴<span>鼠</span> √</p>
+<p>280期:鸡兔猪牛,猴<span>马</span>虎鼠 √</p>
+<p>279期:鸡兔猪羊,鼠虎<span>马</span>猴 √</p>
+<p>278期:<span>牛</span>羊鸡猪,鼠龙狗马 √</p>
+<p>277期:鸡猪蛇兔,猴鼠虎<span>狗</span> √</p>
+<p>276期:猪兔羊牛,龙<span>猴</span>虎狗 √</p>
+<p>275期:牛鸡羊兔,龙猴虎<span>马</span> √</p>
+<p>274期:牛<span>兔</span>蛇鸡,猴马虎鼠 √</p>
+<p>273期:牛羊蛇猪,<span>鼠</span>马虎狗 √</p>
+<p>272期:<span>牛</span>羊兔猪,鼠龙狗马 √</p>
 </div>
 
 <style>
@@ -293,7 +316,7 @@ color: #f00;
 共1次：06,09,17,19,45,48,（6个）xxxxxxx<br>
 共2次：03,05,07,08,13,18,24,26,28,31,41,42,43,47,49,（15个）<br>
 共3次：02,04,15,16,20,21,23,25,27,29,36,38,（12个）<br>
-共4次：14,30,33,37,40,44,（6个）<br>
+共4次：14,30,33,37,<font>40</font>,44,（6个）<br>
 共5次：01,10,11,12,32,39,46,（7个）<br>
 共6次：22,35,（2个）xxxxxxx<br>
 共7次：34,（1个）xxxxxxx
