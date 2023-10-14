@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.board,.boardtd,.boardss,.boardyz,.boardal,.boardgs,.boardlao{
+.board,.boardtd,.boardyz{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -82,18 +82,8 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g"> </span>港</span></div>
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"> </span>港</span></div>
-<div class="gszl" onClick="div_none('boardss');">世事难料<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
-<div style="width: 100%;float: left;padding:5px 0 0 0;">
-<div style="float: left;width: 29%;">
-<div class="gs" style="color: #000;background-color: #fff;" onClick="div_none('boardgs');">高手统计<span class="zlx" style="margin-top: -2px;margin-left: 0.5px;color: #8B008B;"> </span><span class="zlx" style="margin-top: 13px;margin-left: 0.5px;">港</span></div>
-</div>
-<div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl right" onClick="div_none('boardal');">阿郎特围<span class="gszlx"><span class="g"> </span>港</span></div>
-<div class="gszl" onClick="div_none('boardlao');">老澳特围<span class="gszlx"><span class="g">ok</span>澳</span></div>
-</div>
-</div>
 </div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
@@ -146,19 +136,6 @@ font-family: Helvetica, Arial, sans-serif;
 <p>102期:鼠龙<span>马</span>羊鸡狗</p>
 </div>
 </div>
-<!-- 世事难料 -->
-<div class='boardss' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardss');">关闭</span></div>
-    <div class="logo"><span>世事难料</span></div>
-    <div class='qrcode'>
-<p>116期：</p>
-<p>115期：22,06,43,33,31,32,17,49,05,20,39,21,09,27,08,02,16,（主前）</p>
-<p>114期：02,07,05,06,32,09,17,08,20,04,03,01,21,43,18,19,22,10,38,（主前）</p>
-<p>113期：20,22,21,05,17,43,27,49,06,<span>26</span>,28,32,09,10,04,30,24,18,48,33,（主前）</p>
-<p>112期：20,18,05,17,43,06,07,32,28,41,22,<span>45</span>,49,23,31,09,21,（主前）</p>
-<p>111期：21,33,43,23,25,27,<span>29</span>,05,41,45,47,49,48,32,22,（主前）</p>
-</div>
-</div>
 <!-- 英子九肖 -->
 <div class='boardyz' style="display:none;">
     <div class="heart"><span onClick="div_none('boardyz');">关闭</span></div>
@@ -208,43 +185,6 @@ font-family: Helvetica, Arial, sans-serif;
 076期：鼠<span>牛</span>虎龙马羊猴狗猪 开27牛准<br>
 075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1<br>
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
-</div>
-</div>
-<!-- 阿郎特围 -->
-<div class='boardal' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardal');">关闭</span></div>
-    <div class="logo"><span>阿郎特围</span></div>
-    <div class='qrcode'>
-<p>116期：</p>
-<p>115期：01,05,06,07,09,12,14,15,21,23,24,26,27,28,29,32,33,35,41,42,43,44,45,47,48,（共25个）</p>
-<p>114期：06,08,09,10,11,12,13,14,16,17,18,20,22,23,24,28,<span>30</span>,32,33,34,38,39,40,42,44,46,48,（共27个）</p>
-</div>
-</div>
-<!-- 高手统计 -->
-<div class='boardgs' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardgs');">关闭</span></div>
-    <div class="logo"><span>以上5位高手统计</span></div>
-    <div class='qrcode'>
-  <p style="font-size: 13px;">【115期】5组统计结果：<br>
-共0次：19,（1个）xxxxxxx<br>
-共1次：<span>03</span>,04,13,16,18,25,30,31,37,40,（10个）xxxxxxx<br>
-共2次：01,07,11,15,20,28,36,38,39,42,43,44,49,（13个）<br>
-共3次：02,06,08,10,12,14,17,23,24,26,27,29,32,34,41,45,46,47,48,（19个）<br>
-共4次：05,09,21,22,33,35,（6个）</p>
-  <p style="font-size: 13px;">【114期】5组统计结果：<br>
-共1次：04,15,27,28,29,35,41,45,47,（9个）xxxxxxx<br>
-共2次：03,05,11,16,19,21,23,26,31,33,36,39,40,43,44,（15个）<br>
-共3次：02,07,09,14,17,20,24,25,32,37,38,42,46,48,49,（15个）<br>
-共4次：01,06,08,10,12,13,18,22,<span>30</span>,34,（10个）</p>
-</div>
-</div>
-<!-- 老澳特围 -->
-<div class='boardlao' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardlao');">关闭</span></div>
-    <div class="logo"><span>老澳特围</span></div>
-    <div class='qrcode'>
-<p>286期：01,02,05,07,09,10,13,15,18,19,21,23,26,27,31,32,33,34,35,37,38,39,41,42,43,44,46,49,=28码</p>
-<p>285期：01,08,10,11,12,14,15,18,20,22,24,26,27,29,31,33,34,35,37,<span>38</span>,39,40,41,42,45,46,47,48,=28码</p>
 </div>
 </div>
 
@@ -362,7 +302,14 @@ color: #f00;
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 13px;">
-
+【116期】15组157码统计结果：<br>
+共1次：06,17,19,45,48,（5个）xxxxxxx<br>
+共2次：03,05,07,09,13,18,24,26,28,31,41,42,43,47,49,（15个）<br>
+共3次：02,04,08,15,16,20,21,23,25,29,36,（11个）<br>
+共4次：14,27,30,33,37,38,40,44,（8个）<br>
+共5次：01,11,12,32,39,（5个）<br>
+共6次：10,22,46,（3个）xxxxxxx<br>
+共7次：34,35,（2个）xxxxxxx
 </p>
 </ul>
 
