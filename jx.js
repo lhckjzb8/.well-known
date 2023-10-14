@@ -313,7 +313,7 @@ color: #f00;
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
   <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p><!--下轮116-125期6尾-->
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
-  <p style="border: 2px solid #FFC0CB;"></p>
+  <p style="height: 2px;background-color: #FFC0CB;"></p>
   <p style="font-size: 13px;">
 </p>
 </ul>
@@ -325,7 +325,7 @@ color: #f00;
   <p><label>115-117期 </label>兔<font>鼠</font>鸡马<span> (21年,22年,23年分别错1，116期鼠)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>114-120期 </label>08,16,29,32,39,<font>40</font>,43<span> (今年错1，116期40)</span></p>
   <p style="text-decoration:line-through;color: #ccc"><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
-  <p style="text-decoration:line-through;color: #ccc"><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>  <p style="border: 2px solid #FFC0CB;"></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>  <p style="height: 2px;background-color: #FFC0CB;"></p>
   <p style="font-size: 13px;">
 【116期】14组150码统计结果：<br>
 共1次：06,09,17,19,45,48,（6个）xxxxxxx<br>
@@ -345,7 +345,7 @@ color: #f00;
   <p style="text-decoration:line-through;color: #ccc"><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
   <p style="text-decoration:line-through;color: #ccc"><label>111-115期 </label>兔鸡鼠马<span> (今年无错，21年,22年各错1)</span></p>
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
-  <p style="border: 2px solid #FFC0CB;"></p>
+  <p style="height: 2px;background-color: #FFC0CB;"></p>
   <p style="font-size: 13px;">
 【115期】14组136码统计结果：<br>
 共1次：19,20,23,28,41,42,47,48,（8个）xxxxxxx<br>
@@ -362,7 +362,7 @@ color: #f00;
   <p><label>114-118期 </label>牛羊<font>狗</font>龙<span> (今年无错，114期狗)</span></p><!--L3色肖五期一轮-->
   <p><label>111-120期开码表 </label>03,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30)</span></p>
   <p><label>112-115期</label> 08,16,17,21,27,32,<font>34</font>,<font>39</font><span> (3中3)56组，114期34,39</span></p>
-  <p style="border: 2px solid #FFC0CB;"></p>
+  <p style="height: 2px;background-color: #FFC0CB;"></p>
   <p style="font-size: 13px;">
 【114期】总12组144码统计结果：<br>
 共1次：02,20,26,28,（4个）xxxxxxx<br>
