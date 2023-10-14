@@ -80,7 +80,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
@@ -93,7 +93,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>爱我如何</span></div>
     <div class='qrcode'>
 <!--p>123期：龙,24,</p-->
-<p>116期：</p>
+<p>116期：虎+13,24,01,12,10,34,44,22,</p>
 <p>115期：龙马+40,35,28,07,08,04,</p>
 <p>114期：兔+02,16,26,40,14,12,34,07,31,08,<span>30</span>,</p>
 <p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
@@ -120,18 +120,18 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
 <p>116期:鼠虎蛇马猴狗</p>
-<p>115期:虎蛇马羊狗猪</p>
+<p>115期:虎蛇马羊狗猪 x</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
 <p>112期:虎蛇<span>羊</span>猴鸡狗</p>
-<p>111期:鼠牛虎兔猴鸡</p>
+<p>111期:鼠牛虎兔猴鸡 x</p>
 <p>110期:虎<span>免</span>龙羊猴狗</p>
 <p>109期:虎兔蛇<span>马</span>羊狗</p>
 <p>108期:<span>龙</span>蛇马羊猴狗</p>
 <p>107期:鼠牛<span>兔</span>马羊猪</p>
 <p>106期:兔<span>马</span>羊猴鸡猪</p>
 <p>105期:虎<span>蛇</span>羊猴狗猪</p>
-<p>104期:兔龙马羊鸡狗</p>
+<p>104期:兔龙马羊鸡狗 x</p>
 <p>103期:鼠<span>虎</span>羊马猴狗</p>
 <p>102期:鼠龙<span>马</span>羊鸡狗</p>
 </div>
