@@ -117,7 +117,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class='qrcode'>
 <p>
 117期：<br>
-116期：<span>鼠</span>牛虎兔龙蛇马羊狗<br>
+116期：<span>鼠</span>牛虎兔龙蛇马羊狗 开40鼠准<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
