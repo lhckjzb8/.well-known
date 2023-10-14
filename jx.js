@@ -73,7 +73,7 @@ body{
 font-family: Helvetica, Arial, sans-serif;
 }
 </style>
-<div style="width: 100%;display: inline-block;padding:15px 0 0 0;">
+<div style="width: 100%;display: inline-block;padding-top:15px;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs" >高手资料</div>
@@ -193,22 +193,21 @@ font-family: Helvetica, Arial, sans-serif;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
-    &::-webkit-scrollbar{// 滚动条整体
-        background:none;width: 5px;height:2px;
-    }
-    &::-webkit-scrollbar-thumb{//滑块
-        background: transparent;border-top: 2px solid #FFC0CB;
-        border-radius: 25px;
-    }
-    &::-webkit-scrollbar-track{
-    background-color: #fff;//轨道
-    }
-    &::-webkit-scrollbar-button{//两端按钮
-
-    }
-    &::-webkit-scrollbar-track-piece{//滚动条中间部分
-    }
 }
+footer {
+      //width: 100px;
+      height: 2px;
+      //background-color: rgb(255, 250, 250,0.5);
+      margin: 0px auto;
+      border-radius: 0px;
+      background-color: #FFC0CB;
+    }
+footer>div {
+      width: 10px;
+      height: 2px;
+      background-color: #7B68EE;
+      border-radius: 5px;
+    }
 #tab-list{
 padding:10px 0;
 margin: 0;
@@ -275,6 +274,14 @@ color: #f00;
 <li>105期<span class="g">2</span></li>
 <li>104期<span class="g">3</span></li>
 </div>
+<!-- 用来模拟滚动条区域开始 -->
+  <footer>
+    <!-- 模拟当前滚动的位置 -->
+    <div class="thisDiv">
+    </div>
+  </footer>
+<!-- 用来模拟滚动条区域结束 -->
+
 <ul class="show">
   <!--留用p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
   <!--留用p><label>112-121期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p--><!--1尾期7号10期极限-->
@@ -462,3 +469,25 @@ var gg=$(".show").height();
 $('.hidden').css('min-height',gg);
 var g=document.body.scrollHeight*0.8;
 $('.qrcode').css('max-height',g);
+
+    // 模拟滚动条
+    // 获取滚动元素的父元素
+    let mainBox = document.querySelector('#list')
+var w = window.screen.availWidth-15;
+    let scollAllWidth = w;//document.querySelector('footer').offsetWidth
+    let scollWidth = document.querySelector('footer>div').offsetWidth
+
+    let thisScolljd = scollAllWidth - scollWidth  // 代表模拟滚动条的滚动大小
+
+    // 给元素添加scoll事件，方便获取滚动的具体数据
+    mainBox.addEventListener('scroll', (e) => {
+      // console.log(e)
+      const { target } = e
+      // console.log(target.offsetWidth);  // 可视的宽度
+      // console.log(target.scrollLeft);  // 当前滚动的宽度
+      // console.log(target.scrollWidth); // 滚动区域总宽度
+      // console.log(target.scrollWidth - target.offsetWidth);  // 总滚动的长度
+      let thisJd = target.scrollLeft / (target.scrollWidth - target.offsetWidth)   // 当前滚动的距离 / 代表滚动的总距离
+document.querySelector('.thisDiv').style.marginLeft = `${thisScolljd* thisJd}px`  // 根据上放计算进度，改变下方模拟的位置
+      // console.log((thisJd * 100).toFixed(2), '%');  // 当前滚动的百分比
+    });
