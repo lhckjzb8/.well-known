@@ -325,7 +325,7 @@ color: #f00;
   <p><label>115-117期 </label>兔<font>鼠</font>鸡马<span> (21年,22年,23年分别错1，116期鼠)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>114-120期 </label>08,16,29,32,39,<font>40</font>,43<span> (今年错1，116期40)</span></p>
   <p style="text-decoration:line-through;color: #ccc"><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
-  <p style="text-decoration:line-through;color: #ccc"><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>  <p style="height: 2px;background-color: #FFC0CB;padding:0;"></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
   <p style="height: 2px;background-color: #FFC0CB;padding:0;"></p>
   <p style="font-size: 13px;">
 【116期】14组150码统计结果：<br>
