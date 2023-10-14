@@ -490,7 +490,7 @@ var w = window.screen.availWidth-36;
       // console.log(target.scrollLeft);  // 当前滚动的宽度
       // console.log(target.scrollWidth); // 滚动区域总宽度
       // console.log(target.scrollWidth - target.offsetWidth);  // 总滚动的长度
-      let thisJd = target.scrollLeft / (target.scrollWidth - target.offsetWidth+2)   // 当前滚动的距离 / 代表滚动的总距离
+      let thisJd = target.scrollLeft / (target.scrollWidth - target.offsetWidth+1)   // 当前滚动的距离 / 代表滚动的总距离
 document.querySelector('.thisDiv').style.marginLeft = `${thisScolljd* thisJd}px`  // 根据上放计算进度，改变下方模拟的位置
       // console.log((thisJd * 100).toFixed(2), '%');  // 当前滚动的百分比
     });
