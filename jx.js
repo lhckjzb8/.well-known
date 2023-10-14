@@ -119,7 +119,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardtd');">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
-<p>116期:</p>
+<p>116期:鼠虎蛇马猴狗</p>
 <p>115期:虎蛇马羊狗猪</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
