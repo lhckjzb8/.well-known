@@ -73,7 +73,7 @@ body{
 font-family: Helvetica, Arial, sans-serif;
 }
 </style>
-<div style="width: 100%;display: inline-block;padding-top:15px;">
+<div style="width: 100%;display: inline-block;padding-top:10px;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
 <div class="gs" >高手资料</div>
@@ -190,7 +190,7 @@ font-family: Helvetica, Arial, sans-serif;
 <style>
 .minVideoViewBox::-webkit-scrollbar { width: 0 !important }
 .minVideoViewBox{
-    width:100%;padding-bottom:15px;
+    width:100%;padding-bottom:10px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
