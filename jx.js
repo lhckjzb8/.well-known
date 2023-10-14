@@ -188,11 +188,14 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 
 <style>
+.minVideoViewBox::-webkit-scrollbar { width: 0 !important }
 .minVideoViewBox{
     width:100%;padding-bottom:15px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
+-ms-overflow-style: none;
+overflow: -moz-scrollbars-none;
 }
 footer {
       //width: 100px;
