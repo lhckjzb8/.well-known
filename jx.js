@@ -81,7 +81,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g"> </span>港</span></div>
-<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"> </span>港</span></div>
+<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
 </div>
