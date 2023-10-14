@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.board,.boardtd,.boardyz{
+.boardtd,.boardyz{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -80,46 +80,19 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('board');">爱我如何<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div></div>
 </div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
-<!-- 爱我如何 -->
-<div class='board' style="display:none;">
-    <div class="heart"><span onClick="div_none('board');">关闭</span></div>
-    <div class="logo"><span>爱我如何</span></div>
-    <div class='qrcode'>
-<!--p>123期：龙,24,</p-->
-<p>116期：虎+13,24,01,12,10,34,44,22,</p>
-<p>115期：龙马+40,35,28,07,08,04,</p>
-<p>114期：兔+02,16,26,40,14,12,34,07,31,08,<span>30</span>,</p>
-<p>113期：兔+34,22,12,24,07,40,30,35,21,</p>
-<p>112期：24,38,22,04,16,12,02,36,34,40,46,07,</p>
-<p>111期：龙+13,02,01,34,46,14,<span>29</span>,28,20,</p>
-<p>110期：龙+02,<span>01</span>,07,</p>
-<p>109期：龙+<span>46</span>,08,49,01,13,35,</p>
-<p>108期：兔+02,14,38,<span>12</span>,10,46,48,</p>
-<p>107期：虎+49,<span>37</span>,36,41,</p>
-<p>106期：狗+38,24,45,36,16,43,13,25,44,<span>46</span>,</p>
-<p>105期：龙+34,03,01,13,33,10,22,46,</p>
-<p>104期：虎+25,03,15,04,07,01,13,</p>
-<p>103期：兔+24,06,08,10,<span>14</span>,16,28,</p>
-<p>102期：<span>马</span>+24,13,33,</p>
-<p>101期：<span>龙</span>+16,29,34,</p>
-<p>100期：虎+48,42,10,22,32,13,23,46,08,</p>
-<p>099期：兔+34,40,48,</p>
-<p>098期：兔+11,18,43,24,32,23,10,</p>
-<p>097期：<span>鼠</span>+39,36,33,19,49,</p></div>
-</div>
 <!-- 土豆六肖 -->
 <div class='boardtd' style="display:none;">
     <div class="heart"><span onClick="div_none('boardtd');">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
-<p>116期:鼠虎蛇马猴狗</p>
+<p>117期:</p>
+<p>116期:<span>鼠</span>虎蛇马猴狗</p>
 <p>115期:虎蛇马羊狗猪 x</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
 <p>113期:<span>虎</span>兔马羊狗猪</p>
@@ -142,7 +115,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-116期：鼠牛虎兔龙蛇马羊狗<br>
+117期：<br>
+116期：<span>鼠</span>牛虎兔龙蛇马羊狗<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
 113期：鼠牛蛇马羊猴鸡狗猪 开26虎错5<br>
@@ -261,7 +235,8 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">116期<span class="gg">?</span></li>
+<li class="active">117期<span class="gg">?</span></li>
+<li>116期<span class="gg">4</span></li>
 <li>115期<span class="gg">4</span></li>
 <li>114期<span class="gg">3</span></li>
 <li>113期<span class="g">1</span></li>
@@ -276,37 +251,48 @@ color: #f00;
 <li>104期<span class="g">3</span></li>
 </div>
 <ul class="show">
+  <!--留用p><label>116-125期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p--><!--6尾期7号10期极限-->
+  <!--留用p><label>112-121期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p--><!--1尾期7号10期极限-->
+  <!--留用p><label>111-120期 </label>01,06,08,11,26,35,47<span> (今年错1)</span></p--><!--0尾期7号10期极限-->
+  <!--留用p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p--><!--（1,6期）D6色肖,5期一轮,防拖1期-->
+  <!--留用p><label>116-120期 </label>鼠猪马蛇<span> (两年错1)</span> + 牛羊<span> (三年无错)</span></p--><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <!--留用p><label>120-126期 </label>04,11,18,25,32,39,46<span> (今年错1，115期03)</span></p--><!--7期一轮,下轮（127-133）01到07循环,下轮04+7-->
   <!--留用p><label>116-120期 </label>鼠猪狗马蛇龙<span> (三年无错)</span></p--><!--0,5尾期L平2加2,3,4三年来最久5期-->
-  <!--p style="text-decoration:line-through;color: #ccc"><label>115-119期 </label>牛羊狗龙<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
+  <!--留用p><label>115-119期 </label>牛羊狗龙<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
   <!--留用p><label>115-117期 </label>牛蛇马羊鸡狗猪<span> (今年错1)</span></p--><!--（下轮117期）D6肖+2,3,4,6,7,8-->
-  <!--留用p><label>115-117期 </label>牛蛇马羊鸡狗猪<span> (今年错1)</span></p--><!--（下轮117期）L6肖+2,3,4,6,7,8-->
-  <!--留用p><label>116-118期 </label>虎猴猪蛇兔牛<span> (22年错1,23年错3)</span></p--><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
+  <!--留用p><label>115-117期 </label>马龙兔虎鼠猪狗<span> (今年错1)</span></p--><!--（下轮117期）L6肖+2,3,4,6,7,8-->
   <!--留用p><label>116-118期 </label>兔鸡鼠马牛猪<span> (22年错1,23年错4)</span></p--><!--（1,3,5,7,9尾期）L3色肖+-1,防拖延1期(22年错1,23年错4拖1期错1)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
+  <p><label>117-118期 </label>虎猴猪蛇兔牛<span> (22年错1,23年错3)</span></p><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
+  <p><label>117-120期 </label>03,07,14,19,22,27,32<span> (二中二21组)</span></p>
   <p><label>116-122期 </label>22,30,34,01,39,23,12<span> (今年无错)</span></p><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
-  <p><label>116-120期 </label>鼠猪马蛇<span> (两年错1)</span> + 牛羊<span> (三年无错)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
   <p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p><!--0,5尾期D6左右1尾（拖1期无错）-->
-  <p><label>116-117期 </label>猴羊马蛇龙兔虎<span> (今年错3)</span> + 鼠<span> (今年无错)</span></p><!--D走势 本轮平4，下轮117期平2-->
-  <p><label>115-118期 </label>虎狗牛猫猫<span> (无错记录)</span></p>
-  <p><label>115-117期 </label>兔鼠鸡马<span> (21年,22年,23年分别错1)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
+  <p><label>116-117期 </label>猴羊马蛇龙兔虎<span> (今年错3)</span> + <font>鼠</font><span> (今年无错，116期鼠)</span></p><!--D走势 本轮平4，下轮117期平2-->
+  <p><label>115-118期 </label>虎狗牛鼠猫<span> (无错记录)</span></p>
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
-  <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p>
-  <p><label>114-120期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p>
-  <p><label>113-116期 </label>08,09,10,27,35,38,46<span> (今年错1)</span></p>
-  <p><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
-  <p><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>
+  <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p><!--下轮116-125期6尾-->
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
+  <p style="font-size: 13px;">
+</p>
+</ul>
+
+<ul class="hidden">
+  <p><label>116-117期 </label>猴羊马蛇龙兔虎<span> (今年错3)</span> + <font>鼠</font><span> (今年无错，116期鼠)</span></p><!--D走势 本轮平4，下轮117期平2-->
+  <p><label>116-120期 </label><font>鼠</font>猪马蛇<span> (两年错1，116期鼠)</span> + 牛羊<span> (三年无错)</span></p><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
+  <p><label>115-117期 </label>兔<font>鼠</font>鸡马<span> (21年,22年,23年分别错1，116期鼠)</span></p><!--（1,6期）D6色肖,5期一轮,防拖1期-->
+  <p><label>114-120期 </label>08,16,29,32,39,<font>40</font>,43<span> (今年错1，116期40)</span></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>109-116期 </label>11,22,33,44<span> (主22)</span></p>
+  <p style="text-decoration:line-through;color: #ccc"><label>107-116期 </label>21,33,27,39<span> (至少1次)</span></p>  <p style="padding:8px;border-bottom: 1.5px solid #7B68EE;"></p>
   <p style="font-size: 13px;">
 【116期】15组157码统计结果：<br>
 共1次：06,17,19,45,48,（5个）xxxxxxx<br>
 共2次：03,05,07,09,13,18,24,26,28,31,41,42,43,47,49,（15个）<br>
 共3次：02,04,08,15,16,20,21,23,25,29,36,（11个）<br>
-共4次：14,27,30,33,37,38,40,44,（8个）<br>
+共4次：14,27,30,33,37,38,<font>40</font>,44,（8个）<br>
 共5次：01,11,12,32,39,（5个）<br>
 共6次：10,22,46,（3个）xxxxxxx<br>
 共7次：34,35,（2个）xxxxxxx
