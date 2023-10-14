@@ -522,7 +522,7 @@ function copyToClipboard(text) {
   const successMessage = document.createElement('div');
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
-  successMessage.style.top = '100';
+  successMessage.style.top = '100px';
   successMessage.style.right = '50%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
