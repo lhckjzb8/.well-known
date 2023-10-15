@@ -522,8 +522,8 @@ function copyToClipboard(text) {
   const successMessage = document.createElement('div');
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
-  successMessage.style.top = '100px';
-  successMessage.style.right = '50%';
+  successMessage.style.top = '200px';
+  successMessage.style.right = '35%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
   successMessage.style.padding = '8px';
@@ -548,7 +548,7 @@ var span = show.getElementsByTagName("span");
     for (var i = 0; i <= span.length - 1; i++) {
       span[i].innerHTML="";
     }
-var text = show.innerText;
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g, '\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g, '');
 copyToClipboard(text);
 }
 //复制结束
