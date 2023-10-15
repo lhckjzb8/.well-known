@@ -107,7 +107,7 @@ color:cyan;
 <script type="text/javascript" src="https://xgyh.299333y.com:678/kjjl/base.js"></script>
 <script type="text/javascript" src="https://g.alicdn.com/ilw/cdnjs/jquery/1.8.3/jquery.min.js"></script>
 <div class="color" onclick="se();"><li class="red">红色</li><li class="black">黑色</li><li class="blue">蓝色</li><li class="orange">金色</li><li class="mediumorchid">紫色</li><li class="salmon">粉色</li><li class="qc" id="qc">上色</li></div>
-<div style="margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width:100%;text-align: center;float: left;">号1：<input type="text" id="hm1" name="hm1" value=""> 号2：<input type="text" id="hm2" name="hm2" value=""> 号3：<input type="text" id="hm3" name="hm3" value=""> <input onclick="kj();resetinput();" style="margin: 0 3px;background-color:#DAF7A6;color:#f00;font-size: 12px;width: 38px;" type=button value=提交> 期数：<input type="text" id="q" name="q" value="50"></div>
+<div style="margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width:100%;text-align: center;float: left;">号1：<input type="text" id="hm1" name="hm1" value=""> 号2：<input type="text" id="hm2" name="hm2" value=""> 号3：<input type="text" id="hm3" name="hm3" value=""> <input onclick="kj();resetinput();" style="margin: 0 3px;background-color:#DAF7A6;color:#f00;font-size: 12px;width: 38px;" type=button value=提交 id=tijiao> 期数：<input type="text" id="q" name="q" value="50"></div>
 <div id=lotery-list></div>
 <script>
 function check(num) {  
@@ -135,19 +135,25 @@ var hmsl=3;
 } else {
 var hmsl=0;
 }
+var resulttj = "";
 var result = "<div class='top'><li class='sj'>年份-期数</li><li>平一</li><li>平二</li><li>平三</li><li>平四</li><li>平五</li><li>平六</li><li>特码</li></div>";
 $('#lotery-list').html('');
+$('#tjhmsj').html('');
 for(var i=0;i<q;i++){
 var zh=check(kjjl[i][3])+"</li><li>"+check(kjjl[i][4])+"</li><li>"+check(kjjl[i][5])+"</li><li>"+check(kjjl[i][6])+"</li><li>"+check(kjjl[i][7])+"</li><li>"+check(kjjl[i][8])+"</li><li>"+check(kjjl[i][9]);
+var zhtj=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
+var hmtj=zhtj.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
 var sj=kjjl[i][0][0]+kjjl[i][0][1]+kjjl[i][0][2]+kjjl[i][0][3];
 if(hmsl==0){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+resulttj += sj+","+kjjl[i][2]+","+zhtj+"<br>";
 }
 if(hm1.length>1 && hmsl==1){
 for(var y=3;y<kjjl[0].length;y++){
 if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }
 if(hm1.length>1 && hm2.length>1 && hmsl==2){
@@ -156,6 +162,7 @@ if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 for(var z=3;z<kjjl[0].length;z++){
 if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }}
 }
@@ -167,12 +174,28 @@ if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 for(var n=3;n<kjjl[0].length;n++){
 if(check(kjjl[i][n]).indexOf(hm3)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }}
 }}
 }
 }
 $('#lotery-list').append(result);
+var sjflag = 0;
+$("#tjxs").on('click', function() {
+if (sjflag == 0) {
+$('#tjxs').html('隐藏~统计格式的数据');
+$('#tjhmsj').append(resulttj);
+tjhmsj.style.display = "";
+sjflag = 1;
+} else {
+$('#tjxs').html('显示~统计格式的数据');
+$('#tjhmsj').html('');
+tjhmsj.style.display = "none";
+sjflag = 0;
+};
+})
+
 }
 kj();
 
@@ -243,7 +266,13 @@ allItemList[this.index].style.color = '#fff';
 }
 }
 </script>
-
+<script>
+$("#tijiao").on('click', function() {
+tjxs.style.display = "";
+})
+</script>
+<div id=tjxs style="width: 100%;float: left;border: 0.5px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;">显示~统计格式的数据</div>
+<div id=tjhmsj style="width: 100%;float: left;border: 0.5px solid #ccc;border-top:none;background-color: #fff;font-size: 13px;text-align: center;line-height:23px;margin-bottom:10px;padding:3px 0;display:none;"></div>
 <!--INPUT onclick=addText('"+zh+"'); type=button value=加入 id=tab-list-->
 
 <script>
@@ -722,14 +751,14 @@ color: #f00;
 margin-top:10px;
 }
 </style>
-<div class="foot-Btn" onclick="countma()"><div>统</div></div>
+<div class="foot-Btn" onclick="countma();" id=tjsj><div>统</div></div>
 <!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
 <!-- 提示层 -->
 <div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:40px;left:1%;width:98%;z-index:999;display:none;">
     <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;padding-top:5.4%;margin: 0 auto;text-align:center;">统计结果<span style="float: right;margin-right: 10px;background-color: #fff;color:#f00;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" onClick="copyName();">复制</span><span style="float: left;margin-left: 10px;background-color: #ED171F;color:#fff;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" id="alertSure">关闭</span></span></div>
     <div class='qrcode' style="width: 98%;margin-top:3%;margin-left:1%;text-align:left;word-break: break-all;"><FORM name=form>
-<p><TEXTAREA style="WIDTH: 98%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></TEXTAREA></p>
+<p><textarea style="WIDTH: 98%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></textarea></p>
 <p><INPUT style="WIDTH: 230px;HEIGHT: 35px" onclick=countma(); type=button value=统计号码> <INPUT style="WIDTH: 100px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
 <p><TEXTAREA style="WIDTH: 98%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=PHYSICAL placeholder="统计结果…" readOnly=true id=tjname></TEXTAREA></p>
 </FORM><!--div style="padding:3px 5px;" id="tjsc"></div-->
