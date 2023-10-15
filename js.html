@@ -187,11 +187,13 @@ if (sjflag == 0) {
 $('#tjxs').html('隐藏~统计格式的数据');
 $('#tjhmsj').append(resulttj);
 tjhmsj.style.display = "";
+tjq.style.display = "";
 sjflag = 1;
 } else {
 $('#tjxs').html('显示~统计格式的数据');
 $('#tjhmsj').html('');
 tjhmsj.style.display = "none";
+tjq.style.display = "none";
 sjflag = 0;
 };
 })
@@ -751,7 +753,7 @@ color: #f00;
 margin-top:10px;
 }
 </style>
-<div class="foot-Btn" onclick="countma();" id=tjsj><div>统</div></div>
+<div class="foot-Btn" onclick="countma();" id="tjq" style="display:none;"><div>统</div></div>
 <!-- 底部透明灰色层 -->
 <div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
 <!-- 提示层 -->
