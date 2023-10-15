@@ -548,7 +548,7 @@ var span = show.getElementsByTagName("span");
     for (var i = 0; i <= span.length - 1; i++) {
       span[i].innerHTML="";
     }
-var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'').replace(/\s*/g,'');
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'').replace(/(\s*$)/g,'');
 copyToClipboard(text);
 }
 //复制结束
