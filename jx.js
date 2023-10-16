@@ -81,7 +81,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
-<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boardxa');">新澳八肖<span class="gszlx"><span class="g">ok</span>澳</span></div>
 </div>
 </div></div>
@@ -116,7 +116,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-117期：<br>
+117期：鼠牛虎兔马羊鸡狗猪<br>
 116期：<span>鼠</span>牛虎兔龙蛇马羊狗 开40鼠准<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
@@ -167,7 +167,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardxa');">关闭</span></div>
     <div class="logo"><span>新澳八肖</span></div>
     <div class='qrcode'>
-<p>288期:牛羊猪兔,狗猴龙虎</p>
+<p>289期:鸡蛇猪兔,马鼠虎猴</p>
+<p>288期:牛羊猪兔,狗猴龙虎 ×</p>
 <p>287期:鸡<span>牛</span>兔羊,龙猴鼠虎 √</p>
 <p>286期:牛蛇兔<span>鸡</span>,鼠虎龙猴 √</p>
 <p>285期:牛蛇羊<span>猪</span>,马狗虎龙 √</p>
