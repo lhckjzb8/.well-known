@@ -176,19 +176,19 @@ var hmsl=3;
 $('#lotery-list').html('');
 $('#tjhmsj').html('');
 for(var i=0;i<q;i++){
-var zh=check(kjjl[i][3])+"</li><li>"+check(kjjl[i][4])+"</li><li>"+check(kjjl[i][5])+"</li><li>"+check(kjjl[i][6])+"</li><li>"+check(kjjl[i][7])+"</li><li>"+check(kjjl[i][8])+"</li><li>"+check(kjjl[i][9]);
+var zh=check(kjjl[i][3])+"</li><li class='h'>"+check(kjjl[i][4])+"</li><li class='h'>"+check(kjjl[i][5])+"</li><li class='h'>"+check(kjjl[i][6])+"</li><li class='h'>"+check(kjjl[i][7])+"</li><li class='h'>"+check(kjjl[i][8])+"</li><li class='h'>"+check(kjjl[i][9]);
 var zhtj=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
 var hmtj=zhtj.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
 var sj=kjjl[i][0][0]+kjjl[i][0][1]+kjjl[i][0][2]+kjjl[i][0][3];
 if(hmsl==0){
-result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
 resulttj += sj+","+kjjl[i][2]+","+zhtj+"<br>";
 }
 if(hmsl==1){
 for(var y=3;y<kjjl[0].length;y++){
 if(check(kjjl[i][y]).indexOf(hm1)!=-1){
-result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
 resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 } 
 }
@@ -198,7 +198,7 @@ for(var y=3;y<kjjl[0].length;y++){
 if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 for(var z=3;z<kjjl[0].length;z++){
 if(check(kjjl[i][z]).indexOf(hm2)!=-1){
-result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
 resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }}
@@ -210,7 +210,7 @@ for(var z=3;z<kjjl[0].length;z++){
 if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 for(var n=3;n<kjjl[0].length;n++){
 if(check(kjjl[i][n]).indexOf(hm3)!=-1){
-result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li>"+hm+"</li></div>";
+result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
 resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }}
@@ -292,7 +292,7 @@ qc.style.color = bc;
 }
 }
 function se(){
-var  allItemList = document.querySelectorAll(".kjjl li");
+var  allItemList = document.querySelectorAll(".h");
 for (var i=0;i<allItemList.length;i++) {    //根据tab-list下的li标签长度循环
 allItemList[i].index=i;
 allItemList[i].onmouseover=function() {
@@ -827,3 +827,4 @@ $('.board').css('display','none');
 </script>
 </body>
 </html>
+
