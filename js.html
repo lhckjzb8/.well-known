@@ -346,7 +346,7 @@ var qs=+kjjl[0][2]+1;
 $('#qc').on('click', function() {
 if (flag == 0) {
 $('#qc').html('去色');
-$('#top').html("<div class='kjjl'><li class='sj'>"+nf+"-"+qs+"期</li><li></li><li></li><li></li><li></li><li></li><li></li></div>");
+$('#top').html("<div class='kjjl' style='background-color:#fff;'><li class='sj'>"+nf+"-"+qs+"期</li><li></li><li></li><li></li><li></li><li></li><li></li></div>");
 flag = 1;
 } else {
 $('#qc').html('上色');
@@ -361,7 +361,7 @@ for (var s=0;s<colorlist.length-1;s++) {
 $(colorlist[s]).on('click', function() {
 flag=1;
 $('#qc').html('去色');
-$('#top').html("<div class='kjjl'><li class='sj'>"+nf+"-"+qs+"期</li><li></li><li></li><li></li><li></li><li></li><li></li></div>");
+$('#top').html("<div class='kjjl' style='background-color:#fff;'><li class='sj'>"+nf+"-"+qs+"期</li><li></li><li></li><li></li><li></li><li></li><li></li></div>");
 })
 }
 for (var y=0;y<colorlist.length;y++) {    //根据tab-list下的li标签长度循环
