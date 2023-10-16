@@ -9,19 +9,6 @@
 body{
 font-family: "微软雅黑";
 }
-input{
-outline-style: none ;
-text-align:center;
-border: 1px solid rgb(0, 0, 0, 0.1);
-width: 35px;
-font-size: 13px;
-}
-input:focus{
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
-}
 font{
 background-color:#00ff00;
 color:#f00;
@@ -105,13 +92,75 @@ margin-right: 0px;color:#000;
 .red:active,.black:active,.salmon:active,.orange:active,.mediumorchid:active,.blue:active,.qc:active{
 color:cyan;
 }
+
+.lan{
+margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width:100%;float: left;
+}
+.lan input{
+outline-style: none ;
+text-align:center;
+border: 1px solid rgb(0, 0, 0, 0.1);
+width: 33px;
+font-size: 13px;
+height:18px;
+margin:0 3px;
+}
+.lan input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.lan .left{
+float: left;
+width:82.5%;
+margin: 0 0.5% 0 2%;
+}
+.lan .hao{
+float: left;
+width:100%;
+padding-bottom:10px;
+}
+.lan .hao li{
+display: inline-block;
+list-style-type: none;
+width:25%;
+}
+.lan .q{
+float: left;
+width:100%;
+}
+.lan .q li{
+display: inline-block;
+list-style-type: none;
+}
+.lan .right{
+width:15%;
+float: right;
+}
+.lan .tijiao{
+margin: 0 3px;
+background-color:#DAF7A6;
+color:#f00;
+font-size: 12px;
+width: 90%;
+height:54px;
+line-height:48px;
+}
 </style>
 </head>
 <body>
 <script type="text/javascript" src="https://xgyh.299333y.com:678/kjjl/base.js"></script>
 <script type="text/javascript" src="https://g.alicdn.com/ilw/cdnjs/jquery/1.8.3/jquery.min.js"></script>
 <div class="color" onclick="se();"><li class="red">红色</li><li class="black">黑色</li><li class="blue">蓝色</li><li class="orange">金色</li><li class="mediumorchid">紫色</li><li class="salmon">粉色</li><li class="qc" id="qc">上色</li></div>
-<div style="margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width:100%;text-align: center;float: left;">号1：<input type="text" id="hm1" name="hm1"> 号2：<input type="text" id="hm2" name="hm2" value=""> 号3：<input type="text" id="hm3" name="hm3" value=""> <input onclick="kj();resetinput();" style="margin: 0 3px;background-color:#DAF7A6;color:#f00;font-size: 12px;width: 38px;" type=button value=提交 id=tijiao> 期数：<input type="text" id="q" name="q" value="50"></div>
+<div class="lan">
+<div class="left">
+<div class="hao"><li>号① <input type="text" id="hm1" name="hm1"></li><li>号② <input type="text" id="hm2" name="hm2" value=""></li><li>号③ <input type="text" id="hm3" name="hm3" value=""></li><li style="text-align:right;">期数 <input type="text" id="qs" name="qs" value=""></li></div>
+<div class="q"><li style="float: left;">年份 <input type="text" style="width: 58px;" id="q1" name="q1" value="2023" onclick="qsqc();"> 至 <input type="text" style="width: 58px;" id="q2" name="2023" value="2023" onclick="qsqc();"></li><li style="float: right;">历史同期 <input type="text" id="tq" name="tq" value=""></li></div>
+</div>
+<div class="right">
+ <input onclick="kj();resetinput();" class="tijiao" type=button value=提交 id=tijiao></div>
+</div>
 <div id=lotery-list></div>
 <script>
 function check(num) {  
@@ -122,15 +171,30 @@ function check(num) {
     }  
     return num;  
 }
-
+function check1(num) {  
+    var len = num.length;  
+    while(len < 3) {  
+        num = "0" + num;  
+        len++;  
+    }  
+    return num;  
+}
+function qsqc(){
+document.getElementById("qs").value="";
+document.getElementById("tq").value="";
+}
 function kj(){
 var h1=document.getElementById("hm1").value;
 var h2=document.getElementById("hm2").value;
 var h3=document.getElementById("hm3").value;
-var q=document.getElementById("q").value;
+var qs=document.getElementById("qs").value;
+var q1=document.getElementById("q1").value;
+var q2=document.getElementById("q2").value;
+var tq=document.getElementById("tq").value;
 var hm1=check(h1);
 var hm2=check(h2);
 var hm3=check(h3);
+var length=kjjl.length;
 var resulttj = "";
 var result = "<div class='top'><li class='sj'>年份-期数</li><li>平一</li><li>平二</li><li>平三</li><li>平四</li><li>平五</li><li>平六</li><li>特码</li></div><div id='top'></div>";
 if(isNaN(h1)||h1.length>0 && Number(h1)<1||h1.length>0 && Number(h1)>49){
@@ -142,9 +206,36 @@ var result = "<div class='kjjl'>号码输入错误！请输入01~49的号码！<
  if(isNaN(h3)||h3.length>0&&Number(h3)<1||h3.length>0&&Number(h3)>49){
 var result = "<div class='kjjl'>号码输入错误！请输入01~49的号码！</div>";
 }
- if(isNaN(q)||Number(q)<1){
-document.getElementById("q").value="50";
-var q=document.getElementById("q").value;
+if(isNaN(qs)||Number(qs)<0){
+var result = "<div class='kjjl'>(最近记录)输入错误！请要查找的最近期数！例：100</div>";
+}
+if(Number(qs)>=1){
+var length=qs;
+document.getElementById("q1").value="";
+document.getElementById("q2").value="";
+var q1="1976";
+var q2="2023";
+}
+if(isNaN(q1)||Number(q1)<1976||isNaN(q2)||Number(q2)<Number(q1)){
+var result = "<div class='kjjl'>年份输入错误！请输入正确年份！例：2000 至 2023</div>";
+}
+if(isNaN(tq)||Number(tq)<0||Number(tq)>200){
+var result = "<div class='kjjl'>(历史同期)输入错误！请要查找的最近期数！例：098</div>";
+}
+if(Number(q1)<1&&Number(q2)<1&&Number(qs)<1){
+document.getElementById("qs").value="";
+document.getElementById("q1").value="2023";
+document.getElementById("q2").value="2023";
+var q1="2023";
+var q2="2023";
+var result = "<div class='top'><li class='sj'>年份-期数</li><li>平一</li><li>平二</li><li>平三</li><li>平四</li><li>平五</li><li>平六</li><li>特码</li></div><div id='top'></div>";
+}
+if(Number(tq)>=1){
+document.getElementById("qs").value="";
+document.getElementById("q1").value="";
+document.getElementById("q2").value="";
+var q1="1976";
+var q2="2023";
 }
 var hmsl=0;
 if(h1.length>0 && h2.length<1 && h3.length<1){
@@ -175,7 +266,16 @@ var hmsl=3;
 
 $('#lotery-list').html('');
 $('#tjhmsj').html('');
-for(var i=0;i<q;i++){
+for(var i=0;i<length;i++){
+for(var f=q1;f<=q2;f++){
+if(Number(tq)>=1){
+var lstq=check1(check(tq) ) 
+var cc=kjjl[i][2].indexOf(lstq);
+} else {
+var cc=1;
+}
+if(kjjl[i][0].indexOf(f)!=-1){
+if(cc!=-1){
 var zh=check(kjjl[i][3])+"</li><li class='h'>"+check(kjjl[i][4])+"</li><li class='h'>"+check(kjjl[i][5])+"</li><li class='h'>"+check(kjjl[i][6])+"</li><li class='h'>"+check(kjjl[i][7])+"</li><li class='h'>"+check(kjjl[i][8])+"</li><li class='h'>"+check(kjjl[i][9]);
 var zhtj=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
@@ -217,6 +317,7 @@ resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }}
 }
 }
+}}}
 $('#lotery-list').append(result);
 var sjflag = 0;
 $("#tjxs").on('click', function() {
@@ -316,13 +417,16 @@ $("#tijiao").on('click', function() {
 tjxs.style.display = "none";
 var  xs = document.querySelectorAll("#lotery-list .kjjl").length;
 var  xsli = document.querySelectorAll("#lotery-list .kjjl li").length;
+var h1=document.getElementById("hm1").value;
+var h2=document.getElementById("hm2").value;
+var h3=document.getElementById("hm3").value;
 if(xs>0){
-if(xsli>0){
+if(xsli>0&&h1>0||xsli>0&&h2>0||xsli>0&&h3>0){
 tjxs.style.display = "";
 }
 } else {
 tjhmsj.style.display = "none";
-$("#top").html("<p>查无数据，请增加期数！</p>")
+$("#top").html("<p>查无数据！</p>")
 }
 })
 </script>
