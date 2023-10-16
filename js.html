@@ -10,6 +10,8 @@ body{
 font-family: "微软雅黑";
 background-color: #fff;
 background-image: linear-gradient(#FFB6C1, #fff, #fff,#fff, #fff);
+height:100%;
+padding-bottom:15px;
 }
 font{
 background-color:#00ff00;
@@ -52,7 +54,7 @@ text-align: center;
 width:12%;height:100%;
 }
 .color{
-width:100%;text-align: center;float: left;
+text-align: center;float: left;width:100%;
 padding:0 0 10px 0;
 }
 .color ol{
@@ -61,12 +63,13 @@ margin:0px;
 padding:5px;
 }
 .color li{
+float: left;
 display: inline-block;
 list-style-type: none;
 padding:5px 10px;
 color:#fff;
-margin-right: 5px;
 font-size: 12px;
+margin-right: 3px;
 }
 .color .red{
 background-color:red;
@@ -88,7 +91,8 @@ background-color:Blue;
 }
 .color .qc{
 box-shadow: 0 0 1px 0 rgb(0, 0, 0, 0.5);
-margin-right: 0px;color:#000;
+margin-right: 0px;
+margin-left: 1.5px;color:#000;float: right;
 }
 
 .red:active,.black:active,.salmon:active,.orange:active,.mediumorchid:active,.blue:active,.qc:active{
@@ -102,7 +106,7 @@ margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width
 outline-style: none ;
 text-align:center;
 border: 1px solid rgb(0, 0, 0, 0.1);
-width: 33px;
+width: 32px;
 font-size: 13px;
 height:18px;
 margin:0 3px;
@@ -218,8 +222,10 @@ document.getElementById("q2").value="";
 var q1="1976";
 var q2="2023";
 }
-if(isNaN(q1)||Number(q1)<1976||isNaN(q2)||Number(q2)<Number(q1)){
+if(isNaN(q1)||Number(q1)<1976&&Number(qs)<1&&Number(tq)<1||isNaN(q2)||Number(q2)<Number(q1)&&Number(qs)<1&&Number(tq)<1){
 var result = "<div class='kjjl'>年份输入错误！请输入正确年份！例：2000 至 2023</div>";
+var q1="2023";
+var q2="2023";
 }
 if(isNaN(tq)||Number(tq)<0||Number(tq)>200){
 var result = "<div class='kjjl'>(历史同期)输入错误！请要查找的最近期数！例：098</div>";
@@ -285,13 +291,13 @@ var hmtj=zhtj.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</fo
 var sj=kjjl[i][0][0]+kjjl[i][0][1]+kjjl[i][0][2]+kjjl[i][0][3];
 if(hmsl==0){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
-resulttj += sj+","+kjjl[i][2]+","+zhtj+"<br>";
+resulttj += sj+","+kjjl[i][2]+","+zhtj+"<br>\n";
 }
 if(hmsl==1){
 for(var y=3;y<kjjl[0].length;y++){
 if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
-resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>\n";
 } 
 }
 }
@@ -301,7 +307,7 @@ if(check(kjjl[i][y]).indexOf(hm1)!=-1){
 for(var z=3;z<kjjl[0].length;z++){
 if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
-resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>\n";
 }}
 }}
 }
@@ -313,7 +319,7 @@ if(check(kjjl[i][z]).indexOf(hm2)!=-1){
 for(var n=3;n<kjjl[0].length;n++){
 if(check(kjjl[i][n]).indexOf(hm3)!=-1){
 result += "<div class='kjjl'><li class='sj'>"+sj+"-"+kjjl[i][2]+"期</li><li class='h'>"+hm+"</li></div>";
-resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
+resulttj += sj+","+kjjl[i][2]+","+hmtj+"\n<br>\n";
 }}
 }}
 }}
@@ -321,22 +327,11 @@ resulttj += sj+","+kjjl[i][2]+","+hmtj+"<br>";
 }
 }}}
 $('#lotery-list').append(result);
-var sjflag = 0;
+
 $("#tjxs").on('click', function() {
-$('#tjhmsj').html('');
-if (sjflag == 0) {
-$('#tjxs').html('隐藏~统计格式的数据');
-$('#tjhmsj').append(resulttj);
-tjhmsj.style.display = "";
-tjq.style.display = "";
-sjflag = 1;
-} else {
-$('#tjxs').html('显示~统计格式的数据');
-$('#tjhmsj').html('');
-tjhmsj.style.display = "none";
-tjq.style.display = "none";
-sjflag = 0;
-};
+$('#show').html('');
+$('#show').append(resulttj);
+copyName();
 })
 
 }
@@ -419,446 +414,19 @@ $("#tijiao").on('click', function() {
 tjxs.style.display = "none";
 var  xs = document.querySelectorAll("#lotery-list .kjjl").length;
 var  xsli = document.querySelectorAll("#lotery-list .kjjl li").length;
-var h1=document.getElementById("hm1").value;
-var h2=document.getElementById("hm2").value;
-var h3=document.getElementById("hm3").value;
 if(xs>0){
-if(xsli>0&&h1>0||xsli>0&&h2>0||xsli>0&&h3>0){
+if(xsli>0){
 tjxs.style.display = "";
 }
 } else {
-tjhmsj.style.display = "none";
-$("#top").html("<p>查无数据！</p>")
+$("#top").html("<p>查无数据！</p>");
 }
 })
 </script>
-<div id=tjxs style="width: 100%;float: left;border: 0.5px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;">显示~统计格式的数据</div>
-<div id=tjhmsj style="width: 100%;float: left;border: 0.5px solid #ccc;border-top:none;background-color: #fff;font-size: 13px;text-align: center;line-height:23px;margin-bottom:10px;padding:3px 0;display:none;"></div>
-<!--INPUT onclick=addText('"+zh+"'); type=button value=加入 id=tab-list-->
-
+<div id=tjxs style="width: 100%;float: left;border: 0.5px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;margin-bottom: 10px;">复制~文字格式的数据</div>
+<textarea id="show" style="display:none;"></textarea>
 <script>
-//全角转换为半角函数
-function ToCDB(str0)   
-{
-    var str = str0.replace(/[a-zA-Z\.\s\-、　。，；,':()【】＝=（）\r\n\t]{1,}/g, ",");//替换常见分隔符[\.\s、　。，；-+]为统一分隔符','
-    var tmp = "";
-    for(var i=0;i<str.length;i++)
-    {
-        if(str.charCodeAt(i)>65248&&str.charCodeAt(i)<65375)
-        {
-            tmp += String.fromCharCode(str.charCodeAt(i)-65248);
-        }
-        else
-        {
-            tmp += String.fromCharCode(str.charCodeAt(i)); 
-        }
-    }
-    return tmp;
-} 
-
-//按钮点击后向统计框输入
-function addText(vtxt)
-{
-    var oldstr = ","+document.form.inputtxt.value;
-    if(oldstr.charAt(oldstr.length - 1) != ",")
-    {
-        document.form.inputtxt.value += ",\n"+vtxt;
-    }
-    else
-    {
-        document.form.inputtxt.value += vtxt;
-    }
-}
-
-//输入号段
-function addteduan()
-{
-    var hao_from = document.form.hao_from.value;
-    var hao_to = document.form.hao_to.value;
-    if(hao_from == null || hao_to == null)
-    {
-        alert("输入号码段错误！null\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
-        return false ;
-    }    
-    if(hao_from.length <=0 || hao_to.length <=0)
-    {
-        alert("输入号码段错误！0\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
-        return false ;
-    }
-    var from = parseInt(hao_from,10);
-    var to = parseInt(hao_to,10);
-    if(from < to && from >0 && to <=49)
-    {
-        var instr ="";
-        for (var i=from; i<= to; i++)
-        {
-            instr += i+",";
-        }
-        addText(instr);
-    }
-    else
-    {
-        alert("输入号码段错误！d\n如：01-08 或 20-49 或 31-41 等\n请按自己须要输入号码段");
-        return false ;
-    }
-}
-//清空
-function resetinput()
-{
-    document.form.inputtxt.value = "";
-}
-
-function strtoarr(inputstr)
-{
-    var a= 'aaa';
-}
-//
-//去掉数组重复
-function unique(data){
-    data = data || [];
-    var a = {};
-    for (var i=0; i<data.length; i++) {
-        var v = data[i];
-        if (typeof(a[v]) == 'undefined'){
-            a[v] = 1;
-        }
-    };
-    data.length=0; 
-    for (var i in a){
-        data[data.length] = i;
-    }
-    return data;
-}
-//数字升序排序
-function compareNumbers(a, b) {
-    return a - b;// 降序 return b - a;
-}
-
-//统计
-function tongji(allmastr){
-    var ma_arr = allmastr.split(",");
-    //
-    var manum2 = new Array(50);//保存1－49对应的个数
-    for(var i =0;i < manum2.length ; i++)
-    {
-        manum2[i] = 0;
-    }
-    //累加统计个数
-    for(var i =0;i < ma_arr.length ; i++)
-    {
-        var i2 = parseInt(ma_arr[i],10);
-        manum2[i2]+=1;
-    }
-    //获取次数列表
-    var numarr = new Array();
-    for(var i =1;i<=49 ; i++)
-    {
-        numarr.push(manum2[i]);
-    }
-    //去掉重复次数
-    numarr = unique(numarr);
-    //次数从低到高排序
-    numarr.sort(compareNumbers);
-    //
-    var tjstr = "【期】统计结果：";
-    for(var i=0;i< numarr.length;i++)
-    {
-        var ci = numarr[i];
-        //var cistr = "〖"+ci+"次〗";
-        var cistr = "\n共"+ci+"次：";
-        var mashu = 0;
-        for(var j =1;j<=49 ; j++)
-        {
-            if(manum2[j] == ci)
-            {
-                mashu +=1 ;
-                if(j < 10)
-                {
-                    j = "0"+j;
-                }
-                cistr += j+',' ;
-            }
-        }
-        cistr += '（'+ mashu +'个）' ;
-        tjstr += cistr ;
-    }
-    tjstr += "";
-    return tjstr;
-}
-
-//统计
-function tongji1(allmastr){
-    var ma_arr = allmastr.split(",");
-    //
-    var manum2 = new Array(50);//保存1－49对应的个数
-    for(var i =0;i < manum2.length ; i++)
-    {
-        manum2[i] = 0;
-    }
-    //累加统计个数
-    for(var i =0;i < ma_arr.length ; i++)
-    {
-        var i2 = parseInt(ma_arr[i],10);
-        manum2[i2]+=1;
-    }
-    //获取次数列表
-    var numarr = new Array();
-    for(var i =1;i<=49 ; i++)
-    {
-        numarr.push(manum2[i]);
-    }
-    //去掉重复次数
-    numarr = unique(numarr);
-    //次数从低到高排序
-    numarr.sort(compareNumbers);
-    //
-    var tjstr = "【期】统计结果：";
-    for(var i=0;i< numarr.length;i++)
-    {
-        var ci = numarr[i];
-        //var cistr = "〖"+ci+"次〗";
-        var cistr = "<br>共"+ci+"次：";
-        var mashu = 0;
-        for(var j =1;j<=49 ; j++)
-        {
-            if(manum2[j] == ci)
-            {
-                mashu +=1 ;
-                if(j < 10)
-                {
-                    j = "0"+j;
-                }
-                cistr += j+',' ;
-            }
-        }
-        cistr += '（'+ mashu +'个）' ;
-        tjstr += cistr ;
-    }
-    tjstr += "";
-    return tjstr;
-}
-
-var lianstr = "红绿蓝兰金木水火土鼠牛虎兔龙蛇马羊猴鸡狗猪大小单双";
-//统计码数
-function countma()
-{
-$('.mask').css('display','block');
-$('.board').css('display','block');
-    var inputstr = document.form.inputtxt.value;
-    if(inputstr.length >0 )
-    {
-        inputstr += ",";
-        inputstr = ToCDB(inputstr);//转全角为半角
-        //
-        var allmastr = "";
-        //专门提取数字
-        var ma_str0 = inputstr.match(/\d{1,}\b[^次码个头尾合门段余]/g);//忽略掉数字后面包含的文字集
-        if(ma_str0 != null)
-        {
-            var ma_str1 = ma_str0.join(",")+",";
-            var ma_str = ma_str1.match(/\d{1,}/g);
-            if(ma_str != null)
-            {
-                var tmparr = new Array();
-                for(var i=0; i< ma_str.length; i++)
-                {
-                    var shuxing = "n_"+ma_str[i];
-                    if(shuxing in document.form2 )
-                    {
-                        allmastr += document.form2[shuxing].title;
-                    }                    
-                }
-            }
-        }
-        //
-        inputstr = inputstr.split(",");
-        //过滤元素
-        for(var i =0;i< inputstr.length;i++)
-        {
-            var shuxing = "n_"+inputstr[i];
-            if(shuxing in document.form)
-            {
-                allmastr += document.form[shuxing].title;
-            }
-            else
-            {
-                //连续中文字
-                for(var j = 2;j< shuxing.length;j++)
-                {
-                    var tmpstr = shuxing.charAt(j);
-                    if(lianstr.indexOf(tmpstr) != -1)
-                    {
-                        allmastr += document.form["n_"+tmpstr].title;
-                    }
-                }
-            }
-        }
-        //
-        document.form.resultstxt.value = tongji(allmastr);
-tjsc.innerHTML = tongji1(allmastr);
-    }
-}
-///
-
-
-//其它类型统计
-function countstyle(tjstylestr)
-{
-    //var tjstylestr = '鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪' ;
-    var tjstyle = tjstylestr.split(",");
-    var inputstr = document.form.inputtxt.value;
-    if(inputstr.length >0 )
-    {
-        inputstr = ToCDB(inputstr+",");
-        var tmpinputarr = inputstr.split(",");
-        var inputarr = new Array();
-        //判断连续的中文，并分隔
-        for(var i =0;i< tmpinputarr.length;i++)
-        {
-            var shuxing = "n_"+tmpinputarr[i];
-            if(shuxing in document.form)
-            {
-                inputarr.push(tmpinputarr[i]);
-            }
-            else
-            {
-                //连续中文字
-                for(var j = 2;j< shuxing.length;j++)
-                {
-                    var tmpstr = shuxing.charAt(j);
-                    if(lianstr.indexOf(tmpstr) != -1)
-                    {
-                        inputarr.push(tmpstr);
-                    }                    
-                }
-            }
-        }
-        //初始化次数
-        var sxnum = new Array(tjstyle.length);
-        for(var i=0;i < tjstyle.length;i++)
-        {
-            sxnum[i] = 0;
-        }
-        //
-        for(var j=0;j< inputarr.length;j++)
-        {
-            if(tjstylestr.indexOf(inputarr[j]) != -1)
-            {
-                for(var i=0;i < tjstyle.length;i++)
-                {
-                    var sxn = tjstyle[i];
-                    var inputvalue = inputarr[j];
-                    if(inputvalue.length == 1 && "红绿蓝".indexOf(inputvalue) != -1)
-                    {
-                        inputvalue += "波";
-                    }
-                    if(sxn == inputvalue )
-                    {
-                        sxnum[i] += 1;//累加统计
-                        break;
-                    }
-                }
-            }
-        }
-        //次数列表
-        var cinumarr = new Array();
-        for(var i=0;i < tjstyle.length;i++)
-        {
-            cinumarr.push(sxnum[i]);
-        }
-        //去掉重复次数
-        cinumarr = unique(cinumarr);
-        //次数从低到高排序
-        cinumarr.sort(compareNumbers);        
-        //转化为输出字符串
-        var tjstr = "【期】统计结果：";
-        for(var i=0;i< cinumarr.length;i++)
-        {
-            var ci = cinumarr[i];
-            //var cistr = "〖"+ci+"次〗";
-            var cistr = "\n共"+ci+"次：";
-            var geshu = 0;
-            for(var j =0;j< tjstyle.length ; j++)
-            {
-                if(sxnum[j] == ci)
-                {
-                    geshu += 1;
-                    cistr += tjstyle[j]+",";
-                }                
-            }
-            cistr += '（'+ geshu +'个）' ;
-            tjstr += cistr ;            
-        }
-        tjstr += "";
-        document.form.resultstxt.value = tjstr;
-        //return tjstr;        
-    }
-}
-</script>
-<FORM name=form2>
-<INPUT title=01, type=hidden value=01 name=n_01>
-<INPUT title=02, type=hidden value=02 name=n_02> 
-<INPUT title=03, type=hidden value=03 name=n_03> 
-<INPUT title=04, type=hidden value=04 name=n_04> 
-<INPUT title=05, type=hidden value=05 name=n_05> 
-<INPUT title=06, type=hidden value=06 name=n_06> 
-<INPUT title=07, type=hidden value=07 name=n_07> 
-<INPUT title=08, type=hidden value=08 name=n_08> 
-<INPUT title=09, type=hidden value=09 name=n_09> 
-<INPUT title=10, type=hidden value=10 name=n_10> 
-<INPUT title=11, type=hidden value=11 name=n_11> 
-<INPUT title=12, type=hidden value=12 name=n_12> 
-<INPUT title=13, type=hidden value=13 name=n_13> 
-<INPUT title=14, type=hidden value=14 name=n_14> 
-<INPUT title=15, type=hidden value=15 name=n_15> 
-<INPUT title=16, type=hidden value=16 name=n_16> 
-<INPUT title=17, type=hidden value=17 name=n_17> 
-<INPUT title=18, type=hidden value=18 name=n_18> 
-<INPUT title=19, type=hidden value=19 name=n_19> 
-<INPUT title=20, type=hidden value=20 name=n_20> 
-<INPUT title=21, type=hidden value=21 name=n_21> 
-<INPUT title=22, type=hidden value=22 name=n_22> 
-<INPUT title=23, type=hidden value=23 name=n_23> 
-<INPUT title=24, type=hidden value=24 name=n_24> 
-<INPUT title=25, type=hidden value=25 name=n_25> 
-<INPUT title=26, type=hidden value=26 name=n_26> 
-<INPUT title=27, type=hidden value=27 name=n_27> 
-<INPUT title=28, type=hidden value=28 name=n_28> 
-<INPUT title=29, type=hidden value=29 name=n_29> 
-<INPUT title=30, type=hidden value=30 name=n_30> 
-<INPUT title=31, type=hidden value=31 name=n_31> 
-<INPUT title=32, type=hidden value=32 name=n_32> 
-<INPUT title=33, type=hidden value=33 name=n_33> 
-<INPUT title=34, type=hidden value=34 name=n_34> 
-<INPUT title=35, type=hidden value=35 name=n_35> 
-<INPUT title=36, type=hidden value=36 name=n_36> 
-<INPUT title=37, type=hidden value=37 name=n_37> 
-<INPUT title=38, type=hidden value=38 name=n_38> 
-<INPUT title=39, type=hidden value=39 name=n_39> 
-<INPUT title=40, type=hidden value=40 name=n_40> 
-<INPUT title=41, type=hidden value=41 name=n_41> 
-<INPUT title=42, type=hidden value=42 name=n_42> 
-<INPUT title=43, type=hidden value=43 name=n_43> 
-<INPUT title=44, type=hidden value=44 name=n_44> 
-<INPUT title=45, type=hidden value=45 name=n_45> 
-<INPUT title=46, type=hidden value=46 name=n_46> 
-<INPUT title=47, type=hidden value=47 name=n_47> 
-<INPUT title=48, type=hidden value=48 name=n_48> 
-<INPUT title=49, type=hidden value=49 name=n_49> 
-<INPUT title=1, type=hidden value=1 name=n_1> 
-<INPUT title=2, type=hidden value=2 name=n_2> 
-<INPUT title=3, type=hidden value=3 name=n_3> 
-<INPUT title=4, type=hidden value=4 name=n_4>
-<INPUT title=5, type=hidden value=5 name=n_5>
-<INPUT title=6, type=hidden value=6 name=n_6> 
-<INPUT title=7, type=hidden value=7 name=n_7> 
-<INPUT title=8, type=hidden value=8 name=n_8> 
-<INPUT title=9, type=hidden value=9 name=n_9>
-</FORM>
-
-<script type="text/javascript">
 //复制
-
 function copyToClipboard(text) {
   const bgColor = '#ff00ff';
 
@@ -874,8 +442,8 @@ function copyToClipboard(text) {
   const successMessage = document.createElement('div');
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
-  successMessage.style.bottom = '20px';
-  successMessage.style.right = '36%';
+  successMessage.style.top = '200px';
+  successMessage.style.right = '35%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
   successMessage.style.padding = '8px';
@@ -884,53 +452,18 @@ function copyToClipboard(text) {
   // 3 秒后隐藏提示
   setTimeout(() => {
     successMessage.remove();
+    show.innerHTML="";//复制成功,清除容器内容
   }, 3000);
 }
 
 function copyName() {
-  const input = document.getElementById('tjname');
-  copyToClipboard(input.value);
+setTimeout(() => {
+var showq = document.querySelector("#show");
+var text = showq.value;
+copyToClipboard(text);
+  }, 100);
 }
 //复制结束
 </script>
-<style>
-.foot-Btn{
-  width: 45px;
-  height: 45px;
-  position: fixed;
-  right: 0;
-  transform: translateX(-20%);
-  z-index: 99;
-background-color: rgba(255,255,255,0.8);
-border-radius: 50%;
-box-shadow: 0px 0px 2px 0px rgba(0,0,0,1);
-bottom:80px;
-text-align: center;
-}
-.foot-Btn div{
-color: #f00;
-margin-top:10px;
-}
-</style>
-<div class="foot-Btn" onclick="countma();" id="tjq" style="display:none;"><div>统</div></div>
-<!-- 底部透明灰色层 -->
-<div class='mask' style="position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;display:none;background-color:#000;opacity:0.5;overflow:hidden;"></div>
-<!-- 提示层 -->
-<div class='board' style="position:fixed;border-radius:12px;background-color:#fff;top:40px;left:1%;width:98%;z-index:999;display:none;">
-    <div class="logo"><span style="display:block;color:#000;font-size:16px;font-weight:700;padding-top:5.4%;margin: 0 auto;text-align:center;">统计结果<span style="float: right;margin-right: 10px;background-color: #fff;color:#f00;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" onClick="copyName();">复制</span><span style="float: left;margin-left: 10px;background-color: #ED171F;color:#fff;border:1px solid #FFA500;padding:1px 8px;font-size: 12px;border-radius:5px;" id="alertSure">关闭</span></span></div>
-    <div class='qrcode' style="width: 98%;margin-top:3%;margin-left:1%;text-align:left;word-break: break-all;"><FORM name=form>
-<p><textarea style="WIDTH: 98%;HEIGHT: 200px" name=inputtxt wrap=PHYSICAL></textarea></p>
-<p><INPUT style="WIDTH: 230px;HEIGHT: 35px" onclick=countma(); type=button value=统计号码> <INPUT style="WIDTH: 100px; HEIGHT: 35px;float: right;" onclick=resetinput(); type=button value=清空></p>
-<p><TEXTAREA style="WIDTH: 98%; WORD-BREAK: break-all; HEIGHT: 200px" name=resultstxt wrap=PHYSICAL placeholder="统计结果…" readOnly=true id=tjname></TEXTAREA></p>
-</FORM><!--div style="padding:3px 5px;" id="tjsc"></div-->
-</div>
-</div>
-<script>
-$("#alertSure").click(function() {
-$('.mask').css('display','none');
-$('.board').css('display','none');
-});
-</script>
 </body>
 </html>
-
