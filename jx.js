@@ -80,8 +80,8 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
+<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
 <div></div>
 </div>
 </div></div>
@@ -92,7 +92,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardtd');">关闭</span></div>
     <div class="logo"><span>土豆六肖</span></div>
     <div class='qrcode'>
-<p>117期:鼠蛇羊鸡狗猪</p>
+<p>118期:</p>
+<p>117期:鼠蛇羊<span>鸡</span>狗猪</p>
 <p>116期:<span>鼠</span>虎蛇马猴狗</p>
 <p>115期:虎蛇马羊狗猪 x</p>
 <p>114期:兔龙马鸡<span>狗</span>猪</p>
@@ -116,7 +117,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-117期：鼠牛虎兔马羊鸡狗猪<br>
+118期：<br>
+117期：鼠牛虎兔马羊<span>鸡</span>狗猪 开鸡31准<br>
 116期：<span>鼠</span>牛虎兔龙蛇马羊狗 开40鼠准<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
@@ -238,7 +240,8 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">117期<span class="gg">?</span></li>
+<li class="active">118期<span class="gg">?</span></li>
+<li>117期<span class="gg">3</span></li>
 <li>116期<span class="gg">4</span></li>
 <li>115期<span class="gg">4</span></li>
 <li>114期<span class="gg">3</span></li>
@@ -262,6 +265,10 @@ color: #f00;
 <!-- 用来模拟滚动条区域结束 -->
 
 <ul class="show">
+  <!--p><label>117-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p--><!--6尾期7号10期极限-->
+  <!--留用p><label>117-120期 </label>12,13,14,23,24,34,21,31,41,32,42,43<span> (今年无错)</span></p--><!--每次6尾期到9尾期必开这些相同号-->
+  <!--留用p><label>117-121期 </label>兔鼠马<font>鸡</font><span> (今年无错,21年,22年各错1，117期鸡)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
+
   <!--留用p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
   <!--留用p><label>112-121期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p--><!--1尾期7号10期极限-->
   <!--留用p><label>111-120期 </label>01,06,08,11,26,35,47<span> (今年错1)</span></p--><!--0尾期7号10期极限-->
@@ -274,18 +281,15 @@ color: #f00;
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
   <p><label>117-120期 </label>03,07,14,19,22,27,32<span> (二中二21组)</span></p>
+  <p><label>118-119期 </label>猴羊马蛇鸡狗猪<span> (今年错4)</span> + <font>兔</font><span> (今年无错)</span></p><!--D走势 本轮平2，下轮119期平1-->
   <p><label>117-118期 </label>马<span> (今年无错)</span></p>
   <p><label>117-118期 </label>猪蛇狗龙马鼠<span> (今年错1)</span></p>
   <p><label>117-119期 </label>马龙虎猴<span> (今年错1)</span></p>
   <p><label>117-120期 </label>龙蛇马虎<span> (今年无错)</span></p><!--永恒赢家-->
   <p><label>117-121期 </label>猴马<span> (17年至今错5)</span></p--><!--壹路发发-->
-  <p><label>117-120期 </label>12,13,14,23,24,34,21,31,41,32,42,43<span> (今年无错)</span></p><!--每次6尾期到9尾期必开这些相同号-->
-  <p><label>117-121期 </label>兔鼠马鸡<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
-  <p><label>117-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p><!--6尾期7号10期极限-->
   <p><label>117-121期 </label>牛羊狗龙<span> (21年,22年,23年各错1)</span></p--><!--（1,6期）D6色肖,5期一轮,防拖1期-->
   <p><label>117-118期 </label>虎猴猪蛇兔牛<span> (22年错1,23年错3)</span></p><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
   <p><label>116-122期 </label>22,30,34,01,39,23,12<span> (今年无错)</span></p><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
-  <p><label>116-117期 </label>猴羊马蛇龙兔虎<span> (今年错3)</span> + <font>鼠</font><span> (今年无错，116期鼠)</span></p><!--D走势 本轮平4，下轮117期平2-->
   <p><label>115-118期 </label>虎狗牛鼠猫<span> (无错记录)</span></p>
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
@@ -294,10 +298,20 @@ color: #f00;
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p style="font-size: 13px;">
+
+</p>
+</ul>
+
+<ul class="hidden">
+  <p><label>117-121期 </label>兔鼠马<font>鸡</font><span> (今年无错,21年,22年各错1，117期鸡)</span></p><!--平开01,当期特色肖5期之内开,特开01不要-->
+  <p><label>117-120期 </label>12,13,14,23,24,34,21,<font>31</font>,41,32,42,43<span> (今年无错，117期31)</span></p><!--每次6尾期到9尾期必开这些相同号-->
+  <p><label>117-126期 </label>01,29,<font>31</font>,40,42,47,48<span> (今年错1，117期31)</span></p><!--6尾期7号10期极限-->
+  <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
+  <p style="font-size: 13px;">
 【117期】18组237码统计结果：<br>
 共1次：19,（1个）xxxxxxx<br>
 共2次：07,09,17,43,45,（5个）xxxxxxx<br>
-共3次：05,06,16,21,28,31,33,41,49,（9个）<br>
+共3次：05,06,16,21,28,<font>31</font>,33,41,49,（9个）<br>
 共4次：03,04,08,13,18,25,27,29,40,（9个）<br>
 共5次：02,11,15,20,26,30,37,39,42,47,（10个）<br>
 共6次：01,23,38,44,48,（5个）<br>
