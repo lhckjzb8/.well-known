@@ -81,7 +81,7 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
-<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 </div>
 </div></div>
@@ -117,8 +117,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span>英子九肖</span></div>
     <div class='qrcode'>
 <p>
-118期：<br>
-117期：鼠牛虎兔马羊<span>鸡</span>狗猪 开鸡31准<br>
+118期：鼠牛虎兔龙马羊鸡猪<br>
+117期：鼠牛虎兔马羊<span>鸡</span>狗猪 开31鸡准<br>
 116期：<span>鼠</span>牛虎兔龙蛇马羊狗 开40鼠准<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
 114期：牛虎兔龙蛇马羊猴<span>狗</span> 开30狗准<br>
@@ -265,10 +265,11 @@ color: #f00;
 <!-- 用来模拟滚动条区域结束 -->
 
 <ul class="show">
-  <!--p><label>117-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p--><!--6尾期7号10期极限-->
+  <!--留用p><label>118-120期 </label>虎狗兔马鼠鸡<span> (连准多轮)</span></p--><!--（下轮122期-124期,）3,7,1,5,9尾期L4色肖+-4-->
+
+  <!--留用><label>117-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p--><!--6尾期7号10期极限-->
   <!--留用p><label>117-120期 </label>12,13,14,23,24,34,21,31,41,32,42,43<span> (今年无错)</span></p--><!--每次6尾期到9尾期必开这些相同号-->
   <!--留用p><label>117-121期 </label>兔鼠马<font>鸡</font><span> (今年无错,21年,22年各错1，117期鸡)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
-
   <!--留用p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
   <!--留用p><label>112-121期 </label>08,16,29,32,39,40,43<span> (今年错1)</span></p--><!--1尾期7号10期极限-->
   <!--留用p><label>111-120期 </label>01,06,08,11,26,35,47<span> (今年错1)</span></p--><!--0尾期7号10期极限-->
@@ -298,7 +299,16 @@ color: #f00;
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p style="font-size: 13px;">
-
+【118期】15组211码统计结果：<br>
+共1次：13,49,（2个）xxxxxxx<br>
+共2次：09,19,21,25,31,43,45,（7个）xxxxxxx<br>
+共3次：07,16,17,28,33,37,40,41,47,（9个）<br>
+共4次：01,02,04,05,06,08,11,26,29,42,48,（11个）<br>
+共5次：03,18,20,23,24,27,38,（7个）<br>
+共6次：10,14,15,32,36,44,（6个）<br>
+共7次：22,30,35,39,46,（5个）xxxxxxx<br>
+共8次：12,（1个）xxxxxxx<br>
+共10次：34,（1个）xxxxxxx<br>
 </p>
 </ul>
 
