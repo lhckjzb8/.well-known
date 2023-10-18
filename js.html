@@ -9,8 +9,8 @@
 body{
 font-family: "微软雅黑";
 background-color: #fff;
-background-image: linear-gradient(#FFB6C1, #fff, #fff,#fff, #fff);
-height:100%;
+//background-image: linear-gradient(#FFB6C1, #fff, #fff,#fff, #fff);
+//height:100%;
 padding-bottom:15px;
 }
 font{
@@ -55,7 +55,7 @@ width:12%;height:100%;
 }
 .color{
 text-align: center;float: left;width:100%;
-padding:0 0 10px 0;
+padding:5px 0 10px 0;
 }
 .color ol{
 list-style-type: none;
@@ -100,7 +100,7 @@ color:cyan;
 }
 
 .lan{
-margin-bottom:10px;border: 0.5px solid #ccc;padding:10px 0;font-size: 12px;width:100%;float: left;background-color: #fff;
+margin-bottom:10px;border: 0.1px solid #ccc;padding:10px 0;font-size: 12px;width:100%;float: left;background-color: #fff;
 }
 .lan input{
 outline-style: none ;
@@ -165,8 +165,10 @@ line-height:48px;
 <div class="q"><li style="float: left;">年份 <input type="text" style="width: 58px;" id="q1" name="q1" value="2023" onclick="qsqc();"> 至 <input type="text" style="width: 58px;" id="q2" name="2023" value="2023" onclick="qsqc();"></li><li style="float: right;">历史同期 <input type="text" id="tq" name="tq" value=""></li></div>
 </div>
 <div class="right">
- <input onclick="kj();resetinput();" class="tijiao" type=button value=提交 id=tijiao></div>
+ <input onclick="kj();" class="tijiao" type=button value=提交 id=tijiao></div>
 </div>
+<div style="width: 100%;float: left;border: 0.1px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: right;padding:3px 0;display:none;margin-bottom: 10px;line-height:25px;" id="fhcxqs"><div style="margin-right: 10px;"><input type="checkbox" name="fhqs" id="fhqs" onclick="kj();" style="vertical-align: middle;"> <span style="vertical-align: middle;">仅显示查询符合的期数</span></div></div>
+<div style="width: 100%;float: left;border: 0.1px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: right;padding:3px 0;display:none;margin-bottom: 10px;line-height:25px;" id="wstqxs"><div style="margin-right: 10px;"><input type="checkbox" name="tqxq" id="tqxq" onclick="kj();" style="vertical-align: middle;"> <span style="vertical-align: middle;">显示查询期数的下 <input type="text" id="xqs" name="xqs" style="color:#0000ff;text-align:center;width: 15px;height:10px;" value="1"> 期</span> <input type="checkbox" name="wstq" id="wstq" onclick="kj();" style="vertical-align: middle;"> <span style="vertical-align: middle;">显示查询同尾期的期数</span></div></div>
 <div id=lotery-list></div>
 <script>
 function check(num) {  
@@ -212,8 +214,19 @@ var result = "<div class='kjjl'>号码输入错误！请输入01~49的号码！<
  if(isNaN(h3)||h3.length>0&&Number(h3)<1||h3.length>0&&Number(h3)>49){
 var result = "<div class='kjjl'>号码输入错误！请输入01~49的号码！</div>";
 }
+if(Number(q1)<1&&Number(q2)<1&&Number(qs)<1&&Number(tq)<1){
+document.getElementById("qs").value="";
+document.getElementById("q1").value="2023";
+document.getElementById("q2").value="2023";
+var q1="2023";
+var q2="2023";
+var result = "<div class='top'><li class='sj'>年份-期数</li><li>平一</li><li>平二</li><li>平三</li><li>平四</li><li>平五</li><li>平六</li><li>特码</li></div><div id='top'></div>";
+}
 if(isNaN(qs)||Number(qs)<0){
-var result = "<div class='kjjl'>(最近记录)输入错误！请要查找的最近期数！例：100</div>";
+var result = "<div class='kjjl'>(最近记录)输入错误！请输入要查找的期数！例：100</div>";
+var q1="2023";
+var q2="2023";
+var length="0";
 }
 if(Number(qs)>=1){
 var length=qs;
@@ -226,17 +239,13 @@ if(isNaN(q1)||Number(q1)<1976&&Number(qs)<1&&Number(tq)<1||isNaN(q2)||Number(q2)
 var result = "<div class='kjjl'>年份输入错误！请输入正确年份！例：2000 至 2023</div>";
 var q1="2023";
 var q2="2023";
+var length="0";
 }
 if(isNaN(tq)||Number(tq)<0||Number(tq)>200){
 var result = "<div class='kjjl'>(历史同期)输入错误！请要查找的最近期数！例：098</div>";
-}
-if(Number(q1)<1&&Number(q2)<1&&Number(qs)<1){
-document.getElementById("qs").value="";
-document.getElementById("q1").value="2023";
-document.getElementById("q2").value="2023";
 var q1="2023";
 var q2="2023";
-var result = "<div class='top'><li class='sj'>年份-期数</li><li>平一</li><li>平二</li><li>平三</li><li>平四</li><li>平五</li><li>平六</li><li>特码</li></div><div id='top'></div>";
+var length="0";
 }
 if(Number(tq)>=1){
 document.getElementById("qs").value="";
@@ -246,44 +255,133 @@ var q1="1976";
 var q2="2023";
 }
 var hmsl=0;
-if(h1.length>0 && h2.length<1 && h3.length<1){
+fhcxqs.style.display = "none";
+var fh=document.getElementById("fhqs");
+if(Number(h1)>=1 && Number(h2)<1 && Number(h3)<1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=1;
+} else {
+var hmsl=0;
+};
 }
-if(h1.length<1 && h2.length>0 && h3.length<1){
+if(Number(h1)<1 && Number(h2)>=1 && Number(h3)<1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=1;
+} else {
+var hmsl=0;
+};
 var hm1=check(h2);
 }
-if(h1.length<1 && h2.length<1 && h3.length>0){
+if(Number(h1)<1 && Number(h2)<1 && Number(h3)>=1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=1;
+} else {
+var hmsl=0;
+};
 var hm1=check(h3);
 }
-if(h1.length>0 && h2.length>0 && h3.length<1){
+if(Number(h1)>=1 && Number(h2)>=1 && Number(h3)<1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=2;
-} 
-if(h1.length>0 && h2.length<1 && h3.length>0){
+} else {
+var hmsl=0;
+};
+}
+if(Number(h1)>=1 && Number(h2)<1 && Number(h3)>=1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=2;
+} else {
+var hmsl=0;
+};
 var hm2=check(h3);
-} 
-if(h1.length<1 && h2.length>0 && h3.length>0){
+}
+if(Number(h1)<1 && Number(h2)>=1 && Number(h3)>=1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=2;
+} else {
+var hmsl=0;
+};
 var hm1=check(h3);
-} 
-if(h1.length>0 && h2.length>0 && h3.length>0){
+}
+if(Number(h1)>=1 && Number(h2)>=1 && Number(h3)>=1){
+fhcxqs.style.display = "";
+if(fh.checked){
 var hmsl=3;
-} 
+} else {
+var hmsl=0;
+};
+}
 
 $('#lotery-list').html('');
 $('#tjhmsj').html('');
 for(var i=0;i<length;i++){
 for(var f=q1;f<=q2;f++){
 if(Number(tq)>=1){
-var lstq=check1(check(tq) ) 
-var cc=kjjl[i][2].indexOf(lstq);
+wstqxs.style.display = "";
+var tw1=document.getElementById("wstq").checked;
+var tw2=document.getElementById("tqxq").checked;
+var xqs=document.getElementById("xqs").value;
+if(xqs>3){
+var result = "<div class='kjjl'>(显示下期)输入错误！目前只支持最多3期</div>";
+var xqs=3;
+document.getElementById("xqs").value="3";
+}
+var lstq=check1(check(tq));
+var lstqw=lstq[2];
+var lstqw1=+lstq[2]+1;//期尾显示下1期结果
+var lstqw2=+lstq[2]+2;//期尾显示下2期结果
+var lstqw3=+lstq[2]+3;//期尾显示下3期结果
+var lstq1=lstq[0]+lstq[1]+lstqw1;//同期显示下1期结果
+var lstq2=lstq[0]+lstq[1]+lstqw2;//同期显示下2期结果
+var lstq3=lstq[0]+lstq[1]+lstqw3;//同期显示下3期结果
+
+var aa=kjjl[i][2].indexOf(lstq);
+var bb=aa;
+var cc=aa;
+var dd=aa;
+if(tw1==true&&tw2==false){//显示同尾期
+var aa=kjjl[i][2][2].indexOf(lstqw);
+}
+if(tw1==false&&tw2==true){//显示下期
+if(xqs==1){
+var bb=kjjl[i][2].indexOf(lstq1);
+} else if(xqs==2){
+var bb=kjjl[i][2].indexOf(lstq1);
+var cc=kjjl[i][2].indexOf(lstq2);
+} else if(xqs==3){
+var bb=kjjl[i][2].indexOf(lstq1);
+var cc=kjjl[i][2].indexOf(lstq2);
+var dd=kjjl[i][2].indexOf(lstq3);
+};
+}
+if(tw1==true&&tw2==true){//显示同尾期下期
+var aa=kjjl[i][2][2].indexOf(lstqw);
+if(xqs==1){
+var bb=kjjl[i][2][2].indexOf(lstqw1);
+} else if(xqs==2){
+var bb=kjjl[i][2][2].indexOf(lstqw1);
+var cc=kjjl[i][2][2].indexOf(lstqw2);
+} else if(xqs==3){
+var bb=kjjl[i][2][2].indexOf(lstqw1);
+var cc=kjjl[i][2][2].indexOf(lstqw2);
+var dd=kjjl[i][2][2].indexOf(lstqw3);
+};
+}
 } else {
-var cc=1;
+wstqxs.style.display = "none";
+var aa=1;
+var bb=aa;
+var cc=aa;
+var dd=aa;
 }
 if(kjjl[i][0].indexOf(f)!=-1){
-if(cc!=-1){
+if(aa!=-1||bb!=-1||cc!=-1||dd!=-1){
 var zh=check(kjjl[i][3])+"</li><li class='h'>"+check(kjjl[i][4])+"</li><li class='h'>"+check(kjjl[i][5])+"</li><li class='h'>"+check(kjjl[i][6])+"</li><li class='h'>"+check(kjjl[i][7])+"</li><li class='h'>"+check(kjjl[i][8])+"</li><li class='h'>"+check(kjjl[i][9]);
 var zhtj=check(kjjl[i][3])+","+check(kjjl[i][4])+","+check(kjjl[i][5])+","+check(kjjl[i][6])+","+check(kjjl[i][7])+","+check(kjjl[i][8])+","+check(kjjl[i][9]);
 var hm=zh.replace(hm1,"<font>"+hm1+"</font>").replace(hm2,"<font>"+hm2+"</font>").replace(hm3,"<font>"+hm3+"</font>");
@@ -327,7 +425,7 @@ resulttj += sj+","+kjjl[i][2]+","+hmtj+"\n<br>\n";
 }
 }}}
 $('#lotery-list').append(result);
-
+g();
 $("#tjxs").on('click', function() {
 $('#show').html('');
 $('#show').append(resulttj);
@@ -417,13 +515,15 @@ var  xsli = document.querySelectorAll("#lotery-list .kjjl li").length;
 if(xs>0){
 if(xsli>0){
 tjxs.style.display = "";
+g();
 }
 } else {
 $("#top").html("<p>查无数据！</p>");
+g();
 }
 })
 </script>
-<div id=tjxs style="width: 100%;float: left;border: 0.5px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;margin-bottom: 10px;">复制~文字格式的数据</div>
+<div id=tjxs style="width: 100%;float: left;border: 0.1px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;margin-bottom: 10px;">复制~文字格式的数据</div>
 <textarea id="show" style="display:none;"></textarea>
 <script>
 //复制
@@ -464,6 +564,14 @@ copyToClipboard(text);
   }, 100);
 }
 //复制结束
+function g(){
+var g=document.body.scrollHeight+30;
+window.parent.postMessage({msgcx: g}, "*");
+window.parent.postMessage({msgxa: g}, "*");
+window.parent.postMessage({msgxg: g}, "*");
+window.parent.postMessage({msgla: g}, "*");
+}
+g();
 </script>
 </body>
 </html>
