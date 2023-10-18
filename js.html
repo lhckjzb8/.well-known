@@ -187,6 +187,18 @@ function check1(num) {
     }  
     return num;  
 }
+function check10(i){
+                //方法一，用三元运算符
+                var num;
+                i<10?num="0"+i:num=i;
+                return num;
+}
+function check100(i){
+                //方法一，用三元运算符
+                var num;
+                i<100?num="0"+i:num=i;
+                return num;
+}
 function qsqc(){
 document.getElementById("qs").value="";
 document.getElementById("tq").value="";
@@ -332,14 +344,21 @@ var result = "<div class='kjjl'>(显示下期)输入错误！目前只支持最�
 var xqs=3;
 document.getElementById("xqs").value="3";
 }
-var lstq=check1(check(tq));
+var lstq=check100(check10(tq));
 var lstqw=lstq[2];
-var lstqw1=+lstq[2]+1;//期尾显示下1期结果
-var lstqw2=+lstq[2]+2;//期尾显示下2期结果
-var lstqw3=+lstq[2]+3;//期尾显示下3期结果
-var lstq1=lstq[0]+lstq[1]+lstqw1;//同期显示下1期结果
-var lstq2=lstq[0]+lstq[1]+lstqw2;//同期显示下2期结果
-var lstq3=lstq[0]+lstq[1]+lstqw3;//同期显示下3期结果
+var tqq1=+tq+1;
+var tqq2=+tq+2;
+var tqq3=+tq+3;
+var ttqq1=check100(check10(tqq1)); 
+var ttqq2=check100(check10(tqq2)); 
+var ttqq3=check100(check10(tqq3)); 
+var lstqw1=ttqq1[2];//期尾显示下1期结果
+var lstqw2=ttqq2[2];//期尾显示下2期结果
+var lstqw3=ttqq3[2];//期尾显示下3期结果
+
+var lstq1=ttqq1;//同期显示下1期结果
+var lstq2=ttqq2;//同期显示下2期结果
+var lstq3=ttqq3;//同期显示下3期结果
 
 var aa=kjjl[i][2].indexOf(lstq);
 var bb=aa;
@@ -434,7 +453,28 @@ copyName();
 
 }
 kj();
-
+</script>
+<script>
+$("#tijiao").on('click', function() {
+tjxs.style.display = "none";
+$('#qc').html('上色');
+$('#top').html('')
+qc.style.color = '';
+flag = 0;
+var  xs = document.querySelectorAll("#lotery-list .kjjl").length;
+var  xsli = document.querySelectorAll("#lotery-list .kjjl li").length;
+if(xs>0){
+if(xsli>0){
+tjxs.style.display = "";
+g();
+}
+} else {
+$("#top").html("<p>查无数据！</p>");
+g();
+}
+})
+</script>
+<script>
 var flag = 0;
 var nf=kjjl[0][0][0]+kjjl[0][0][1]+kjjl[0][0][2]+kjjl[0][0][3];
 var qs=+kjjl[0][2]+1;
@@ -507,22 +547,7 @@ allItemList[this.index].style.color = '#fff';
 }
 }
 </script>
-<script>
-$("#tijiao").on('click', function() {
-tjxs.style.display = "none";
-var  xs = document.querySelectorAll("#lotery-list .kjjl").length;
-var  xsli = document.querySelectorAll("#lotery-list .kjjl li").length;
-if(xs>0){
-if(xsli>0){
-tjxs.style.display = "";
-g();
-}
-} else {
-$("#top").html("<p>查无数据！</p>");
-g();
-}
-})
-</script>
+
 <div id=tjxs style="width: 100%;float: left;border: 0.1px solid #ccc;background-color: Snow;font-size: 13px;color: #f00;text-align: center;padding:3px 0;display:none;margin-bottom: 10px;">复制~文字格式的数据</div>
 <textarea id="show" style="display:none;"></textarea>
 <script>
