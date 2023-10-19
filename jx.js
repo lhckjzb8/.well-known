@@ -167,17 +167,17 @@ font-family: Helvetica, Arial, sans-serif;
 <!-- 英子九肖 -->
 <div class='boarday' style="display:none;">
     <div class="heart"><span onClick="div_none('boarday');">关闭</span></div>
-    <div class="logo"><span onClick="copyName('.boarday');">阿远原创资料</span></div>
+    <div class="logo"><span onClick="copyName('.boarday');">阿远精品原创</span></div>
     <div class='qrcode'>
-<p>118期生肖：鼠龙蛇兔+羊牛虎+马猴<br>
-118期尾数：1尾,2尾,3尾,4尾,+0尾,5尾<br>
-118期头数：0头,1头,2头,4头,</p>
-<p>117期生肖：猴猪羊狗+鼠兔虎+<span>鸡</span>牛<br>
-117期尾数：0尾,<span>1尾</span>,2尾,9尾,+8尾,7尾<br>
-117期头数：0头,2头,<span>3头</span>,4头,</p>
-<p>116期生肖：猴鸡猪蛇+<span>鼠</span>马狗+羊牛<br>
-116期尾数：6尾,7尾,8尾,9尾,+5尾,<span>0尾</span><br>
-116期头数：0头,1头,3头,<span>4头</span>,</p>
+<p>118期：鼠龙蛇兔+羊牛虎+马猴<br>
+118期：1尾,2尾,3尾,4尾,+0尾,5尾<br>
+118期：0头,1头,2头,4头</p>
+<p>117期：猴猪羊狗+鼠兔虎+<span>鸡</span>牛<br>
+117期：0尾,<span>1尾</span>,2尾,9尾,+8尾,7尾<br>
+117期：0头,2头,<span>3头</span>,4头</p>
+<p>116期：猴鸡猪蛇+<span>鼠</span>马狗+羊牛<br>
+116期：6尾,7尾,8尾,9尾,+5尾,<span>0尾</span><br>
+116期：0头,1头,3头,<span>4头</span></p>
 </div>
 </div>
 
