@@ -76,7 +76,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="width: 100%;display: inline-block;padding-top:10px;">
 <div style="width: 100%;float: left;">
 <div style="float: left;width: 29%;">
-<div class="gs" onClick="copyName('.show,show,label,span');">高手资料</div>
+<div class="gs" onClick="copyName('.show','label','span');">高手资料</div>
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
@@ -89,8 +89,8 @@ font-family: Helvetica, Arial, sans-serif;
 <div class='mask' id="mask" style="display:none;"></div>
 <!-- 土豆六肖 -->
 <div class='boardtd' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardtd');">关闭</span></div>
-    <div class="logo"><span onClick="copyName('.boardtd,show');">土豆六肖</span></div>
+    <div class="heart"><span onClick="div_none('boardtd');"><label>关闭</label></span></div>
+    <div class="logo"><span onClick="copyName('.boardtd','label');">土豆六肖</span></div>
     <div class='qrcode'>
 <p>118期:</p>
 <p>117期:鼠蛇羊<span>鸡</span>狗猪</p>
@@ -113,8 +113,8 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 英子九肖 -->
 <div class='boardyz' style="display:none;">
-    <div class="heart"><span onClick="div_none('boardyz');">关闭</span></div>
-    <div class="logo"><span onClick="copyName('.boardyz,show');">英子九肖</span></div>
+    <div class="heart"><span onClick="div_none('boardyz');"><label>关闭</label></span></div>
+    <div class="logo"><span onClick="copyName('.boardyz','label');">英子九肖</span></div>
     <div class='qrcode'>
 <p>
 118期：鼠牛虎兔龙马羊鸡猪<br>
@@ -166,8 +166,8 @@ font-family: Helvetica, Arial, sans-serif;
 </div>
 <!-- 英子九肖 -->
 <div class='boarday' style="display:none;">
-    <div class="heart"><span onClick="div_none('boarday');">关闭</span></div>
-    <div class="logo"><span onClick="copyName('.boarday,show');">阿远精品原创</span></div>
+    <div class="heart"><span onClick="div_none('boarday');"><label>关闭</label></span></div>
+    <div class="logo"><span onClick="copyName('.boarday','label');">阿远精品原创</span></div>
     <div class='qrcode'>
 <p>118期：鼠龙蛇兔+羊牛虎+马猴<br>
 118期：1尾,2尾,3尾,4尾,+0尾,5尾<br>
@@ -457,6 +457,7 @@ color: #f00;
 </div>
 
 <div id="show" style="display: none;"></div>
+
 `);
 
  window.onload=function(){
@@ -558,15 +559,15 @@ successMessage.style.zIndex = '999';
   }, 3000);
 }
 
-function copyName(a,b,c,d) {
+function copyName(a,b,c) {
 var showq = document.querySelector(a);
-var show=document.getElementById(b);
+var show=document.getElementById('show');
 show.innerHTML = showq.innerHTML;
-var label = show.getElementsByTagName(c);
+var label = show.getElementsByTagName(b);
     for (var i = 0; i <= label.length - 1; i++) {
       label[i].innerHTML="";
     }
-var span = show.getElementsByTagName(d);
+var span = show.getElementsByTagName(c);
     for (var i = 0; i <= span.length - 1; i++) {
       span[i].innerHTML="";
     }
