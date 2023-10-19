@@ -314,7 +314,6 @@ color: #f00;
   <p><label>116-122期 </label>22,30,34,01,39,23,12<span> (今年无错)</span></p><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
-  <p><label>114-118期 </label>05,07,15,25,29,35</p>
   <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,<font>44</font>,46,（13码）<span> (至少开2期，114期30，115期03，118期44)</span></p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p style="font-size: 13px;">
