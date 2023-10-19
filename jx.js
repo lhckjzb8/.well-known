@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.boardtd,.boardyz{
+.boardtd,.boardyz,.boarday{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -82,7 +82,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div></div>
+<div class="gszl" onClick="div_none('boarday');">阿远九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div>
 </div></div>
   <!-- 底部透明灰色层 -->
@@ -162,6 +162,22 @@ font-family: Helvetica, Arial, sans-serif;
 076期：鼠<span>牛</span>虎龙马羊猴狗猪 开27牛准<br>
 075期：牛兔龙蛇马羊鸡鼠虎 开18狗错1<br>
 074期：鼠牛虎兔<span>龙</span>蛇羊鸡猪 开36龙准</p>
+</div>
+</div>
+<!-- 英子九肖 -->
+<div class='boarday' style="display:none;">
+    <div class="heart"><span onClick="div_none('boarday');">关闭</span></div>
+    <div class="logo"><span>阿远原创资料</span></div>
+    <div class='qrcode'>
+<p>118期生肖：鼠龙蛇兔+羊牛虎+马猴<br>
+118期尾数：1尾,2尾,3尾,4尾,+0尾,5尾<br>
+118期头数：0头,1头,2头,4头,</p>
+<p>117期生肖：猴猪羊狗+鼠兔虎+<span>鸡</span>牛<br>
+117期尾数：0尾,<span>1尾</span>,2尾,9尾,+8尾,7尾<br>
+117期头数：0头,2头,<span>3头</span>,4头,</p>
+<p>116期生肖：猴鸡猪蛇+<span>鼠</span>马狗+羊牛<br>
+116期尾数：6尾,7尾,8尾,9尾,+5尾,<span>0尾</span><br>
+116期头数：0头,1头,3头,<span>4头</span>,</p>
 </div>
 </div>
 
