@@ -92,7 +92,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardtd');"><label>关闭</label></span></div>
     <div class="logo"><span onClick="copyName('.boardtd','label');">土豆六肖</span></div>
     <div class='qrcode'>
-<p>118期:牛虎蛇马狗猪</p>
+<p>118期:牛虎蛇马狗猪 x</p>
 <p>117期:鼠蛇羊<span>鸡</span>狗猪</p>
 <p>116期:<span>鼠</span>虎蛇马猴狗</p>
 <p>115期:虎蛇马羊狗猪 x</p>
@@ -117,7 +117,8 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="logo"><span onClick="copyName('.boardyz','label');">英子九肖</span></div>
     <div class='qrcode'>
 <p>
-118期：鼠牛虎兔龙马羊鸡猪<br>
+119期：鼠虎龙蛇马羊猴鸡猪<br>
+118期：鼠牛虎兔龙马羊鸡猪 开44猴错5<br>
 117期：鼠牛虎兔马羊<span>鸡</span>狗猪 开31鸡准<br>
 116期：<span>鼠</span>牛虎兔龙蛇马羊狗 开40鼠准<br>
 115期：<span>牛</span>虎兔龙蛇马羊猴猪 开03牛准<br>
@@ -169,9 +170,12 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boarday');"><label>关闭</label></span></div>
     <div class="logo"><span onClick="copyName('.boarday','label');">阿远精品原创</span></div>
     <div class='qrcode'>
-<p>118期：鼠龙蛇兔+羊牛虎+马猴<br>
-118期：1尾,2尾,3尾,4尾,+0尾,5尾<br>
-118期：0头,1头,2头,4头</p>
+<p>119期：蛇兔龙羊+马猴鸡+狗猪<br>
+119期：2尾,3尾,4尾,5尾,+1尾,6尾<br>
+119期：1头,2头,3头,4头</p>
+<p>118期：鼠龙蛇兔+羊牛虎+马<span>猴</span><br>
+118期：1尾,2尾,3尾,<span>4尾</span>,+0尾,5尾<br>
+118期：0头,1头,2头,<span>4头</span></p>
 <p>117期：猴猪羊狗+鼠兔虎+<span>鸡</span>牛<br>
 117期：0尾,<span>1尾</span>,2尾,9尾,+8尾,7尾<br>
 117期：0头,2头,<span>3头</span>,4头</p>
@@ -256,7 +260,8 @@ color: #f00;
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">118期<span class="gg">?</span></li>
+<li class="active">119期<span class="gg">?</span></li>
+<li>118期<span class="gg">6</span></li>
 <li>117期<span class="gg">3</span></li>
 <li>116期<span class="gg">4</span></li>
 <li>115期<span class="gg">4</span></li>
@@ -281,9 +286,10 @@ color: #f00;
 <!-- 用来模拟滚动条区域结束 -->
 
 <ul class="show">
-  <!--留用p><label>118-120期 </label>虎狗兔马鼠鸡<span> (连准多轮)</span></p--><!--（下轮122期-124期,）3,7,1,5,9尾期L4色肖+-4-->
+  <!--留用p><label>118-119期 </label>猴羊鸡狗猪鼠牛<span> (今年错4)</span> + 蛇<span> (今年无错)</span></p--><!--D走势 本轮平2，下轮119期平1-->
+  <!--留用p><label>117-121期 </label>猴马<span> (17年至今错5)</span></p--><!--壹路发发-->
+  <!--留用p><label>120-122期 </label>等<span> (22年错1,23年错3)</span></p><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
 
-  <!--留用><label>117-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p--><!--6尾期7号10期极限-->
   <!--留用p><label>117-120期 </label>12,13,14,23,24,34,21,31,41,32,42,43<span> (今年无错)</span></p--><!--每次6尾期到9尾期必开这些相同号-->
   <!--留用p><label>117-121期 </label>兔鼠马<font>鸡</font><span> (今年无错,21年,22年各错1，117期鸡)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
   <!--留用p><label>116-120期 </label>0尾,1尾,2尾<span> (22年至今错2)</span></p--><!--0,5尾期D6左右1尾（拖1期无错）-->
@@ -297,22 +303,32 @@ color: #f00;
   <!--留用p><label>118-120期 </label>鼠猪狗虎猴蛇<span> (22年错1,23年错4)</span></p--><!--（1,3,5,7,9尾期）L3色肖+-1,防拖延1期(22年错1,23年错4拖1期错1)-->
   <!--留用p><label>111-120期 </label>龙兔虎<span> (今年错1)</span></p--><!--0尾期L2减1.2-->
   <!--留用p><label>112-121期 </label>04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<span> (21年至今无错)</span></p--><!--(1尾期)D1,5,左右各4个,总18码-->
+  <p><label>119-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p><!--6尾期7号10期极限-->
+  <p><label>119-120期 </label>虎狗兔马鼠鸡<span> (连准多轮)</span></p><!--（下轮122期-124期,）3,7,1,5,9尾期L4色肖+-4-->
+  <p><label>119-128期特尾 </label>6尾<span> (22年至今错1)</span></p><!--m不凡,藐视是3尾期特尾-->
   <p><label>117-120期 </label>03,07,14,19,22,27,32<span> (二中二21组)</span></p>
-  <p><label>118-119期 </label>猴羊鸡狗猪鼠牛<span> (今年错4)</span> + 蛇<span> (今年无错)</span></p><!--D走势 本轮平2，下轮119期平1-->
   <p><label>118-121期 </label>22,30,34,01,12,39,23<span> (今年错1)</span></p><!--7期一轮,下轮122-128取121期7个号-->
-  <p><label>117-118期 </label>猪蛇狗龙马鼠<span> (今年错1)</span></p>
-  <p><label>117-119期 </label>马龙虎猴<span> (今年错1)</span></p>
   <p><label>117-120期 </label>龙蛇马虎<span> (今年无错)</span></p><!--永恒赢家-->
-  <p><label>117-121期 </label>猴马<span> (17年至今错5)</span></p--><!--壹路发发-->
   <p><label>117-121期 </label>牛羊狗龙<span> (21年,22年,23年各错1)</span></p--><!--（1,6期）D6色肖,5期一轮,防拖1期-->
-  <p><label>117-118期 </label>虎猴猪蛇兔牛<span> (22年错1,23年错3)</span></p><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
   <p><label>116-122期 </label>22,30,34,01,39,23,12<span> (今年无错)</span></p><!--(下轮121期)平特7码,7期一轮错1，拖1期无错-->
   <p><label>115-118期 </label>虎狗牛鼠鸡<span> (无错记录)</span></p>
   <p><label>115-120期 </label>32,33,34,35,36,37,38<span> (今年错2)</span></p><!--0尾期L3左右3(错061-070)-->
   <p><label>115-120期 </label>01,11,12,14,34,35,36,37,46</p>
   <p><label>114-118期 </label>05,07,15,25,29,35</p>
-  <p><label>114-118期特尾 </label>4尾<span> (22年至今错1)</span></p><!--下轮116-125期6尾-->
-  <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,44,46,（13码）<span> (至少开2期，114期30，115期03)</span></p>
+  <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,<font>44</font>,46,（13码）<span> (至少开2期，114期30，115期03，118期44)</span></p>
+  <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
+  <p style="font-size: 13px;">
+
+</p>
+</ul>
+
+<ul class="hidden">
+  <p><label>118-119期 </label><font>猴</font>羊鸡狗猪鼠牛<span> (今年错4，118期猴)</span> + 蛇<span> (今年无错)</span></p><!--D走势 本轮平2，下轮119期平1-->
+  <p><label>117-119期 </label>马龙虎<font>猴</font><span> (今年错1，118期猴)</span></p>
+  <p><label>117-121期 </label><font>猴</font>马<span> (17年至今错5，118期猴)</span></p><!--壹路发发-->
+  <p><label>117-118期 </label>虎<font>猴</font>猪蛇兔牛<span> (22年错1,23年错3)</span></p><!--（1,3,5,7,9尾期）D1色肖+-1,防拖延1期(22年错1,23年错3拖1期错1)-->
+  <p><label>114-118期特尾 </label><font>4尾</font><span> (22年至今错1，118期44)</span></p>
+  <p><label>111-120期开码表 </label><font>03</font>,10,12,15,18,20,27,<font>30</font>,32,35,39,<font>44</font>,46,（13码）<span> (至少开2期，114期30，115期03，118期44)</span></p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p style="font-size: 13px;">
 【118期】15组211码统计结果：<br>
@@ -321,7 +337,7 @@ color: #f00;
 共3次：07,16,17,28,33,37,40,41,（8个）<br>
 共4次：01,02,04,05,06,08,26,29,42,47,48,（11个）<br>
 共5次：03,10,11,18,20,24,27,38,（8个）<br>
-共6次：14,15,22,23,32,36,44,46,（8个）xxxxxxx<br>
+共6次：14,15,22,23,32,36,<font>44</font>,46,（8个）<br>
 共7次：30,39,（2个）xxxxxxx<br>
 共8次：12,35,（2个）xxxxxxx<br>
 共9次：34,（1个）xxxxxxx
