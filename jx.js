@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.boardtd,.boardyz,.boarday{
+.boardtd,.boardyz,.boarday,.boardtk{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo span{
@@ -83,6 +83,11 @@ font-family: Helvetica, Arial, sans-serif;
 <div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boarday');">阿远九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
+</div>
+<div style="float: right;width: 71%;">
+<div class="gszl right" onClick="div_none('boardtk');">天空特围<span class="gszlx"><span class="g">ok</span>港</span></div>
+<div></div>
+<div></div>
 </div>
 </div></div>
   <!-- 底部透明灰色层 -->
@@ -182,6 +187,20 @@ font-family: Helvetica, Arial, sans-serif;
 <p>116期：猴鸡猪蛇+<span>鼠</span>马狗+羊牛<br>
 116期：6尾,7尾,8尾,9尾,+5尾,<span>0尾</span><br>
 116期：0头,1头,3头,<span>4头</span></p>
+</div>
+</div>
+<!-- 天空特围 -->
+<div class='boardtk' style="display:none;">
+    <div class="heart"><span onClick="div_none('boardtk');"><label>关闭</label></span></div>
+    <div class="logo"><span onClick="copyName('.boardtk','label');">天空特围</span></div>
+    <div class='qrcode'>
+<p>119期：01,02,03,04,05,07,09,11,12,13,15,16,19,22,26,28,30,31,32,34,35,36,38,39,40,42,44,（27个）</p>
+<p>118期：02,03,04,05,06,09,12,14,23,24,25,26,31,32,34,36,39,41,43,<span>44</span>,46,49,（22个）</p>
+<p>117期：01,03,05,11,12,13,14,15,20,23,24,25,28,29,30,<span>31</span>,33,36,39,40,44,45,47,49,（24个）</p>
+<p>116期：01,02,03,04,05,09,10,12,14,15,16,21,23,27,29,31,35,37,38,<span>40</span>,43,46,48,（23个）</p>
+<p>115期：01,<span>03</span>,06,08,10,11,12,13,16,17,18,21,23,27,29,32,33,34,35,37,38,39,41,47,48,（25个）</p>
+<p>114期：01,02,03,04,07,10,11,12,13,16,21,22,23,26,27,29,<span>30</span>,31,32,33,37,41,42,43,44,46,47,（27个）</p>
+<p>113期：01,02,05,08,09,10,15,18,20,21,<span>26</span>,27,28,29,33,34,36,38,40,41,42,43,47,48,49,（25个）</p>
 </div>
 </div>
 
