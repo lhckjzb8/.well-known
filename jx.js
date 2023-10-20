@@ -58,7 +58,7 @@ position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:
 .boardtd,.boardyz,.boarday,.boardtk{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
-.logo span{
+.logo{
 display:block;color:#000;font-size:16px;font-weight:700;text-align:center;padding:8px;margin: 0 auto;border-bottom: 2px solid #FFC0CB;
 }
 .heart{
@@ -84,11 +84,16 @@ font-family: Helvetica, Arial, sans-serif;
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boarday');">阿远九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div>
+<div style="width: 100%;float: left;">
+
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtk');">天空特围<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 <div></div>
 </div>
+
+</div>
+
 </div></div>
   <!-- 底部透明灰色层 -->
 <div class='mask' id="mask" style="display:none;"></div>
