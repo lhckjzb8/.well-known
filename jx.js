@@ -345,6 +345,8 @@ border: 1px solid rgb(0,0,0,0.05);
 </p>
   <p><p style="height: 2px;background-color: #FFC0CB;padding:0;"></p></p>
   <p><label>117-120期 </label>03,07,14,19,22,27,32<span> (二中二21组)</span></p>
+  <p><label>119-125期 </label>01,02,49<span> (今年无错)</span></p>
+  <p><label>119-123期 </label>虎猴猪蛇<span> (今年无错,21年,22年各错1)</span></p--><!--平开01,当期特色肖5期之内开,特开01不要-->
   <p><label>119-120期平特 </label>35</p><!--中年大叔-->
   <p><label>119-122期 </label>红波<span> (今年错1)</span></p><!--1,6尾期L1波,有一次延长,本轮117-121-->
   <p><label>119-126期 </label>01,29,31,40,42,47,48<span> (今年错1)</span></p><!--6尾期7号10期极限-->
