@@ -55,7 +55,7 @@ line-height:23px;
 .mask{
 position:fixed;top:0;left:0;z-index:998;width:100%;height:100%;background-color:#000;opacity:0.5;overflow:hidden;
 }
-.boardtd,.boardyz,.boarday,.boardtk{
+.boardtd,.boardyz,.boarday,.boardtk,.boardfy{
 position:fixed;border-radius:12px;background-color:#fff;top:50px;left:1%;width:98%;z-index:999;
 }
 .logo{
@@ -80,7 +80,7 @@ font-family: Helvetica, Arial, sans-serif;
 <div style="text-align: center;">➡︎</div>
 </div>
 <div style="float: right;width: 71%;">
-<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g"></span>港</span></div>
+<div class="gszl right" onClick="div_none('boardtd');">土豆六肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl right" onClick="div_none('boardyz');">英子九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div class="gszl" onClick="div_none('boarday');">阿远九肖<span class="gszlx"><span class="g">ok</span>港</span></div>
 </div>
@@ -88,7 +88,7 @@ font-family: Helvetica, Arial, sans-serif;
 
 <div style="float: right;width: 71%;">
 <div class="gszl right" onClick="div_none('boardtk');">天空特围<span class="gszlx"><span class="g">ok</span>港</span></div>
-<div></div>
+<div class="gszl right" onClick="div_none('boardfy');">风云公式汇总<span class="gszlx"><span class="g">ok</span>港</span></div>
 <div></div>
 </div>
 
@@ -102,6 +102,7 @@ font-family: Helvetica, Arial, sans-serif;
     <div class="heart"><span onClick="div_none('boardtd');"><label>关闭</label></span></div>
     <div class="logo"><span onClick="copyName('.boardtd','label');">土豆六肖</span></div>
     <div class='qrcode'>
+<p>119期:鼠马羊牛龙鸡</p>
 <p>118期:牛虎蛇马狗猪 x</p>
 <p>117期:鼠蛇羊<span>鸡</span>狗猪</p>
 <p>116期:<span>鼠</span>虎蛇马猴狗</p>
@@ -206,6 +207,17 @@ font-family: Helvetica, Arial, sans-serif;
 <p>115期：01,<span>03</span>,06,08,10,11,12,13,16,17,18,21,23,27,29,32,33,34,35,37,38,39,41,47,48,（25个）</p>
 <p>114期：01,02,03,04,07,10,11,12,13,16,21,22,23,26,27,29,<span>30</span>,31,32,33,37,41,42,43,44,46,47,（27个）</p>
 <p>113期：01,02,05,08,09,10,15,18,20,21,<span>26</span>,27,28,29,33,34,36,38,40,41,42,43,47,48,49,（25个）</p>
+</div>
+</div>
+<!-- 风云公式汇总 -->
+<div class='boardfy' style="display:none;">
+    <div class="heart"><span onClick="div_none('boardfy');"><label>关闭</label></span></div>
+    <div class="logo"><span onClick="copyName('.boardfy','label');">风云公式汇总</span></div>
+    <div class='qrcode'>
+<p>119期：猴羊狗兔</p>
+<p>118期：<span>猴</span>马龙牛</p>
+<p>117期：龙猪<span>鸡</span></p>
+<p>116期：<span>鼠</span></p>
 </div>
 </div>
 
