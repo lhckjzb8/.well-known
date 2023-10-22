@@ -35,11 +35,12 @@ margin: 0;
 display: block;
 padding:3px 0 0 0;
 text-align: left;
+height: 530px;
 }
 .show p,.hidden p{
 margin: 0;
 display: block;
-padding:3px 0;
+padding:2px;
 text-align: left;
 }
 .hidden{
@@ -47,6 +48,7 @@ padding:3px 0 0 0;
 margin:0;
 display: none;
 text-align: left;
+height: 530px;
 }
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
