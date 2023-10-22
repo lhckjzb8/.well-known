@@ -51,7 +51,7 @@ text-align: left;
 }
 .show font,.hidden font,.show span,.hidden span{color: #f00;}
 .show label,.hidden label{color: #7B68EE;}
-.jxzl span{color: #BC8F8F;}
+.jxzl span{color: #BC8F8F;font-size: 13px;}
 #list li{
 //width:50px;
 display: inline-block;
