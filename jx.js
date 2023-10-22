@@ -94,6 +94,7 @@ float: right;font-size: 12px;color:#ccc;
 .jxzlyk{
 background-color: rgb(0, 0, 0, 0.03);
 }
+.jxzlyk font{color: #000;}
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
