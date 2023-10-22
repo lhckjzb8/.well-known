@@ -175,7 +175,9 @@ color: #f00;
 </ul>
 </div>
 `);
-
+var gg=window.outerHeight;
+$('.show').css('max-height',gg*0.8);
+$('.hidden').css('max-height',gg*0.5);
  window.onload=function(){
   var tab=document.getElementById('tab-list');
   var list=document.getElementById('list').getElementsByTagName('li');
