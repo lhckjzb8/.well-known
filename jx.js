@@ -33,7 +33,7 @@ width:100%;word-break: break-all;
 .show{
 margin: 0;
 display: block;
-padding:5px 0 0 0;
+padding:0;
 text-align: left;
 }
 .show p,.hidden p{
@@ -45,14 +45,14 @@ line-height:25px;
 }
 .hidden{
 padding:10px 0 0 0;
+margin-top:10px;
 margin:0;
 display: none;
 text-align: left;
 }
-.show font,.hidden font{color: #f00;}
+.show font,.hidden font,.hidden span{color: #f00;}
 .show label,.hidden label{color: #7B68EE;}
-.show span,.hidden span{color: #BC8F8F;}
-p span{color: #f00;}
+.show span{color: #BC8F8F;}
 #list li{
 //width:50px;
 display: inline-block;
