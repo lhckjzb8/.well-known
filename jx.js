@@ -84,15 +84,15 @@ border: 0.1px solid rgba(0,0,0,0.15);
 background-color: rgb(255, 192, 203, 0.05);
 //font-size: 13px;
 text-align: left;
-padding:10px;
+padding:5px 8px;
 margin-top:10px;
 line-height:25px;
 }
 .jxzl .gdjx{
-float: right;font-size: 12px;color:#ccc;margin-top:-8px;
+float: right;font-size: 12px;color:#ccc;
 }
 .jxzl .gdkj{
-float: right;font-size: 12px;color:#ccc;margin-bottom:-8px;
+float: right;font-size: 12px;color:#ccc;
 }
 .jxzlyk{
 background-color: rgb(0, 0, 0, 0.03);
