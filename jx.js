@@ -45,14 +45,13 @@ line-height:25px;
 }
 .hidden{
 padding:10px 0 0 0;
-margin-top:10px;
 margin:0;
 display: none;
 text-align: left;
 }
-.show font,.hidden font,.hidden span{color: #f00;}
+.show font,.hidden font,.show span,.hidden span{color: #f00;}
 .show label,.hidden label{color: #7B68EE;}
-.show span{color: #BC8F8F;}
+.jxzl span{color: #BC8F8F;}
 #list li{
 //width:50px;
 display: inline-block;
@@ -92,6 +91,9 @@ line-height:25px;
 .jxzl .gdjx{
 float: right;font-size: 12px;color:#ccc;margin-top:-8px;
 }
+.jxzl .gdkj{
+float: right;font-size: 12px;color:#ccc;margin-bottom:-8px;
+}
 .jxzlyk{
 background-color: rgb(0, 0, 0, 0.03);
 }
@@ -125,12 +127,12 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限③ <font>已开</font></div><br>
 鼠猪马蛇 + 牛羊<br>
-<span>(两年错1，加肖三年无错) 116期开鼠</span>
+<span>(两年错1，加肖三年无错) </span><div class="gdkj">116期开鼠</div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
 <div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
 0尾,1尾,2尾<br>
-<span> (22年至今错2) 116期开40</span>
+<span> (22年至今错2) </span><div class="gdkj">116期开40</div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl"><label>119-123期：</label><div class="gdjx">固定极限⑤ <font>未开</font></div><br>
@@ -140,22 +142,22 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl jxzlyk"><label>117-121期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
 猴马<br>
-<span> (17年至今错5) 118期开猴</span>
+<span> (17年至今错5) </span><div class="gdkj">118期开猴</div>
 </div><!--壹路发发-->
 
 <div class="jxzl jxzlyk"><label>112-121期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
 04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<br>
-<span> (21年至今无错) 116期开40</span>
+<span> (21年至今无错) </span><div class="gdkj">116期开40</div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
 <div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
 鼠猪狗马蛇龙<br>
-<span> (三年无错) 116期开鼠</span>
+<span> (三年无错) </span><div class="gdkj">116期开鼠</div>
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
 <!-- 英子九肖 -->
-<ul class="hidden">
+<ul class="hidden"><div style="padding:10px 0 0 0;">
 <p><label>120期：</label>鼠牛虎兔蛇马羊狗猪</p>
 <p><label>119期：</label><span>鼠</span>虎龙蛇马羊猴鸡猪</p>
 <p><label>118期：</label>鼠牛虎兔龙马羊鸡猪 x5</p>
@@ -203,9 +205,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>076期：</label>鼠<span>牛</span>虎龙马羊猴狗猪</p>
 <p><label>075期：</label>牛兔龙蛇马羊鸡鼠虎 x1</p>
 <p><label>074期：</label>鼠牛虎兔<span>龙</span>蛇羊鸡猪</p>
-</ul>
+</div></ul>
 <!-- 土豆六肖 -->
-<ul class="hidden">
+<ul class="hidden"><div style="padding:10px 0 0 0;">
 <p><label>119期：</label>鼠马羊牛龙鸡</p>
 <p><label>118期：</label>牛虎蛇马狗猪 x</p>
 <p><label>117期：</label>鼠蛇羊<span>鸡</span>狗猪</p>
@@ -224,9 +226,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>104期：</label>兔龙马羊鸡狗 x</p>
 <p><label>103期：</label>鼠<span>虎</span>羊马猴狗</p>
 <p><label>102期：</label>鼠龙<span>马</span>羊鸡狗</p>
-</ul>
+</div></ul>
 <!-- 天空特围 -->
-<ul class="hidden">
+<ul class="hidden"><div style="padding:10px 0 0 0;">
 <p><label>120期：</label>01,03,04,07,08,09,11,13,17,18,20,21,23,24,25,27,28,31,33,35,36,40,41,43,44,46,48,49,（28个）</p>
 <p><label>119期：</label>01,02,03,04,05,07,09,11,12,13,15,16,19,22,26,28,30,31,32,34,35,36,38,39,40,42,44,（27个）</p>
 <p><label>118期：</label>02,03,04,05,06,09,12,14,23,24,25,26,31,32,34,36,39,41,43,<span>44</span>,46,49,（22个）</p>
@@ -235,7 +237,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>115期：</label>01,<span>03</span>,06,08,10,11,12,13,16,17,18,21,23,27,29,32,33,34,35,37,38,39,41,47,48,（25个）</p>
 <p><label>114期：</label>01,02,03,04,07,10,11,12,13,16,21,22,23,26,27,29,<span>30</span>,31,32,33,37,41,42,43,44,46,47,（27个）</p>
 <p><label>113期：</label>01,02,05,08,09,10,15,18,20,21,<span>26</span>,27,28,29,33,34,36,38,40,41,42,43,47,48,49,（25个）</p>
-</ul>
+</div></ul>
 </div>
 `);
 
