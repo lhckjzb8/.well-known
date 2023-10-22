@@ -81,7 +81,7 @@ color: #f00;
 .jxzl{
 border-radius: 8px;
 border: 0.1px solid rgba(0,0,0,0.15);
-background-color: rgb(255, 192, 203, 0.05);
+background-color: rgb(255, 192, 203, 0.15);
 //font-size: 13px;
 text-align: left;
 padding:5px 8px;
