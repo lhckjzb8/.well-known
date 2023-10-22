@@ -175,7 +175,7 @@ color: #f00;
 </ul>
 </div>
 `);
-var gg=window.outerHeight;
+var gg=screen.availHeight;
 $('.show').css('max-height',gg*0.8);
 $('.hidden').css('max-height',gg*0.5);
  window.onload=function(){
