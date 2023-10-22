@@ -44,7 +44,7 @@ text-align: left;
 line-height:25px;
 }
 .hidden{
-padding:5px 0 0 0;
+padding:10px 0 0 0;
 margin:0;
 display: none;
 text-align: left;
@@ -81,7 +81,7 @@ color: #f00;
 }
 .jxzl{
 border-radius: 8px;
-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.15);
+border: 0.1px solid rgba(0,0,0,0.15);
 background-color: rgb(255, 192, 203, 0.05);
 //font-size: 13px;
 text-align: left;
@@ -90,7 +90,7 @@ margin-top:10px;
 line-height:25px;
 }
 .jxzl .gdjx{
-float: right;font-size: 12px;color:#ccc;
+float: right;font-size: 12px;color:#ccc;margin-top:-8px;
 }
 .jxzlyk{
 background-color: rgb(0, 0, 0, 0.03);
