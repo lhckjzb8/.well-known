@@ -79,26 +79,10 @@ background-color: #FFFAF0;
 color: #f00;
 }
 </style>
-<style>
-.szs{
-border-radius: 8px;
-border: 0.5px solid #ccc;
-background-color: #fff;
-font-size: 13px;
-text-align: left;
-padding:10px;
-margin:5px 0;
-line-height:25px;
-}
-</style>
-<div class=szs>
-<font color=#A15888>120期-123期：</font><br>
-02,09,14,16,23,26,27,28,33,（9个）<br>
-<font color=#W15788>二中二36组，三中三84组</font>
-</div>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
-<li class="active">英子九肖<span class="gg">ok</span></li>
+<li class="active">极限资料<span class="gg">ok</span></li>
+<li>英子九肖<span class="gg">ok</span></li>
 <li>土豆六肖<span class="gg"></span></li>
 <li>天空特围<span class="gg">ok</span></li>
 </div>
@@ -109,8 +93,50 @@ line-height:25px;
     </div>
   </footer>
 <!-- 用来模拟滚动条区域结束 -->
-<!-- 英子九肖 -->
+<!-- 极限资料 -->
 <ul class="show">
+<p><label>120期-123期：</label><br>
+02,09,14,16,23,26,27,28,33,（9个）<br>
+<font color=#W15788>二中二36组，三中三84组</font>
+</p>
+
+<p><label>119-128期：</label><br>
+特尾6尾<br>
+<span> (22年至今错1)</span>
+</p><!--m不凡,藐视是3尾期特尾-->
+
+<!--已开p><label>116-120期：</label><br>
+鼠猪马蛇 + 牛羊<br>
+<span>(两年错1，加肖三年无错)</span>
+</p--><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
+
+<!--已开p><label>116-120期：</label><br>
+0尾,1尾,2尾<br>
+<span> (22年至今错2)</span>
+</p--><!--0,5尾期D6左右1尾（拖1期无错）-->
+
+<!--已开p><label>116-120期：</label><br>
+鼠猪狗马蛇龙<br>
+<span> (三年无错)</span>
+</p--><!--0,5尾期L平2加2,3,4三年来最久5期-->
+
+<!--已开p><label>112-121期：</label><br>
+04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<br>
+<span> (21年至今无错)</span>
+</p--><!--(1尾期)D1,5,左右各4个,总18码--> 
+
+<p><label>119-123期：</label><br>
+虎猴猪蛇<br>
+<span> (今年无错,21年,22年各错1)</span>
+</p><!--平开01,当期特色肖5期之内开,特开01不要-->
+
+<!--已开p><label>117-121期：</label><br>
+猴马<br>
+<span> (17年至今错5)</span>
+</p--><!--壹路发发-->
+</ul>
+<!-- 英子九肖 -->
+<ul class="hidden">
 <p><label>120期：</label>鼠牛虎兔蛇马羊狗猪</p>
 <p><label>119期：</label><span>鼠</span>虎龙蛇马羊猴鸡猪</p>
 <p><label>118期：</label>鼠牛虎兔龙马羊鸡猪 x5</p>
