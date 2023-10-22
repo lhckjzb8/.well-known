@@ -81,7 +81,7 @@ color: #f00;
 .jxzl{
 border-radius: 8px;
 border: 0.5px solid #ccc;
-background-color: #fff;
+background-color: rgb(255, 192, 203, 0.01);
 //font-size: 13px;
 text-align: left;
 padding:10px;
@@ -89,7 +89,7 @@ margin-top:10px;
 line-height:25px;
 }
 .jxzl .gdjx{
-float: right;font-size: 13px;
+float: right;font-size: 12px;color:#ccc;
 }
 </style>
 <div id="tab-list">
