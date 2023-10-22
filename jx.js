@@ -35,6 +35,8 @@ margin: 0;
 display: block;
 padding:3px 0 0 0;
 text-align: left;
+word-break: break-all;
+overflow-y: scroll;
 height: 530px;
 }
 .show p,.hidden p{
@@ -48,6 +50,8 @@ padding:3px 0 0 0;
 margin:0;
 display: none;
 text-align: left;
+word-break: break-all;
+overflow-y: scroll;
 height: 530px;
 }
 .show font,.hidden font{color: #f00;}
