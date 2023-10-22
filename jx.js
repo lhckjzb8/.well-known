@@ -39,8 +39,9 @@ text-align: left;
 .show p,.hidden p{
 margin: 0;
 display: block;
-padding:2px;
+padding:0 2px;
 text-align: left;
+line-height:25px;
 }
 .hidden{
 padding:5px 0 0 0;
@@ -78,6 +79,23 @@ background-color: #FFFAF0;
 color: #f00;
 }
 </style>
+<style>
+.szs{
+border-radius: 8px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+font-size: 13px;
+text-align: left;
+padding:10px;
+margin:5px 0;
+line-height:25px;
+}
+</style>
+<div class=szs>
+<font color=#A15888>120期-123期：</font><br>
+02,09,14,16,23,26,27,28,33,（9个）<br>
+<font color=#W15788>二中二36组，三中三84组</font>
+</div>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">英子九肖<span class="gg">ok</span></li>
