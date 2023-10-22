@@ -117,7 +117,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="show">
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
 02,09,14,16,23,26,27,28,33,（9个）<br>
-<span>二中二36组，三中三84组</span><div class="gdkj">还有<font>4期</font></div>
+<span>二中二36组，三中三84组 (上轮开2个)</span><div class="gdkj">还有<font>4期</font></div>
 </div>
 
 <div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>未开</font></div><br>
