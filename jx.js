@@ -175,9 +175,7 @@ color: #f00;
 </ul>
 </div>
 `);
-var gg=screen.availHeight;
-$('.show').css('max-height',gg*0.8);
-$('.hidden').css('max-height',gg*0.5);
+
  window.onload=function(){
   var tab=document.getElementById('tab-list');
   var list=document.getElementById('list').getElementsByTagName('li');
@@ -194,11 +192,13 @@ $('.hidden').css('max-height',gg*0.5);
    for(var i=0;i<list.length;i++){
     list[i].className="";
     div[i].className="hidden";
-       g();
+       var g=document.body.scrollHeight;
+window.parent.postMessage({msgjx: g}, "*");
    }
    list[curIndex].className="active";
    div[curIndex].className="show";
-      g();
+      var g=document.body.scrollHeight;
+window.parent.postMessage({msgjx: g}, "*");
    index=curIndex;
   }
  }
