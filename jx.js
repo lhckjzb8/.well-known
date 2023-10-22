@@ -52,6 +52,7 @@ text-align: left;
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #7B68EE;}
 .show span,.hidden span{color: #BC8F8F;}
+p span{color: #f00;}
 #list li{
 //width:50px;
 display: inline-block;
