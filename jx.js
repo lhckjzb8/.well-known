@@ -80,8 +80,8 @@ color: #f00;
 }
 .jxzl{
 border-radius: 8px;
-border: 0.5px solid #ccc;
-background-color: rgb(255, 192, 203, 0.01);
+box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.15);
+background-color: rgb(255, 192, 203, 0.05);
 //font-size: 13px;
 text-align: left;
 padding:10px;
@@ -90,6 +90,9 @@ line-height:25px;
 }
 .jxzl .gdjx{
 float: right;font-size: 12px;color:#ccc;
+}
+.jxzlyk{
+background-color: rgb(0, 0, 0, 0.03);
 }
 </style>
 <div id="tab-list">
@@ -110,7 +113,7 @@ float: right;font-size: 12px;color:#ccc;
 <ul class="show">
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
 02,09,14,16,23,26,27,28,33,（9个）<br>
-<font color=#W15788>二中二36组，三中三84组</font>
+<span>二中二36组，三中三84组</span>
 </div>
 
 <div class="jxzl"><label>119-128期：</label><div class="gdjx">固定极限② <font>未开</font></div><br>
@@ -118,35 +121,35 @@ float: right;font-size: 12px;color:#ccc;
 <span> (22年至今错1)</span>
 </div><!--m不凡,藐视是3尾期特尾-->
 
-<!--已开div class="jxzl"><label>116-120期：</label><div class="gdjx">固定极限③ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限③ <font>已开</font></div><br>
 鼠猪马蛇 + 牛羊<br>
 <span>(两年错1，加肖三年无错)</span>
-</div--><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
+</div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
-<!--已开div class="jxzl"><label>116-120期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
 0尾,1尾,2尾<br>
 <span> (22年至今错2)</span>
-</div--><!--0,5尾期D6左右1尾（拖1期无错）-->
+</div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl"><label>119-123期：</label><div class="gdjx">固定极限⑤ <font>未开</font></div><br>
 虎猴猪蛇<br>
 <span> (今年无错,21年,22年各错1)</span>
 </div><!--平开01,当期特色肖5期之内开,特开01不要-->
 
-<!--已开div class="jxzl"><label>117-121期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>117-121期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
 猴马<br>
 <span> (17年至今错5)</span>
-</div--><!--壹路发发-->
+</div><!--壹路发发-->
 
-<!--已开div class="jxzl"><label>112-121期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>112-121期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
 04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<br>
 <span> (21年至今无错)</span>
-</div--><!--(1尾期)D1,5,左右各4个,总18码--> 
+</div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
-<!--已开div class="jxzl"><label>116-120期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>116-120期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
 鼠猪狗马蛇龙<br>
 <span> (三年无错)</span>
-</div--><!--0,5尾期L平2加2,3,4三年来最久5期-->
+</div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
 <!-- 英子九肖 -->
