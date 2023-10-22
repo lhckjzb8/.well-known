@@ -82,7 +82,7 @@ color: #f00;
 border-radius: 8px;
 border: 0.5px solid #ccc;
 background-color: #fff;
-font-size: 13px;
+//font-size: 13px;
 text-align: left;
 padding:10px;
 margin-top:10px;
@@ -105,45 +105,45 @@ line-height:25px;
 <!-- 用来模拟滚动条区域结束 -->
 <!-- 极限资料 -->
 <ul class="show">
-<p class="jxzl"><label>120期-123期：</label><br>
+<div class="jxzl"><label>120期-123期：</label><br>
 02,09,14,16,23,26,27,28,33,（9个）<br>
 <font color=#W15788>二中二36组，三中三84组</font>
-</p>
+</div>
 
-<p class="jxzl"><label>119-128期：</label><br>
+<div class="jxzl"><label>119-128期：</label><br>
 特尾6尾<br>
 <span> (22年至今错1)</span>
-</p><!--m不凡,藐视是3尾期特尾-->
+</div><!--m不凡,藐视是3尾期特尾-->
 
-<!--已开p class="jxzl"><label>116-120期：</label><br>
+<!--已开div class="jxzl"><label>116-120期：</label><br>
 鼠猪马蛇 + 牛羊<br>
 <span>(两年错1，加肖三年无错)</span>
-</p--><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
+</div--><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
-<!--已开p class="jxzl"><label>116-120期：</label><br>
+<!--已开div class="jxzl"><label>116-120期：</label><br>
 0尾,1尾,2尾<br>
 <span> (22年至今错2)</span>
-</p--><!--0,5尾期D6左右1尾（拖1期无错）-->
+</div--><!--0,5尾期D6左右1尾（拖1期无错）-->
 
-<!--已开p class="jxzl"><label>116-120期：</label><br>
+<!--已开div class="jxzl"><label>116-120期：</label><br>
 鼠猪狗马蛇龙<br>
 <span> (三年无错)</span>
-</p--><!--0,5尾期L平2加2,3,4三年来最久5期-->
+</div--><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
-<!--已开p class="jxzl"><label>112-121期：</label><br>
+<!--已开div class="jxzl"><label>112-121期：</label><br>
 04,05,06,07,08,09,10,11,12,36,37,38,39,40,41,42,43,44<br>
 <span> (21年至今无错)</span>
-</p--><!--(1尾期)D1,5,左右各4个,总18码--> 
+</div--><!--(1尾期)D1,5,左右各4个,总18码--> 
 
-<p class="jxzl"><label>119-123期：</label><br>
+<div class="jxzl"><label>119-123期：</label><br>
 虎猴猪蛇<br>
 <span> (今年无错,21年,22年各错1)</span>
-</p><!--平开01,当期特色肖5期之内开,特开01不要-->
+</div><!--平开01,当期特色肖5期之内开,特开01不要-->
 
-<!--已开p class="jxzl"><label>117-121期：</label><br>
+<!--已开div class="jxzl"><label>117-121期：</label><br>
 猴马<br>
 <span> (17年至今错5)</span>
-</p--><!--壹路发发-->
+</div--><!--壹路发发-->
 </ul>
 <!-- 英子九肖 -->
 <ul class="hidden">
