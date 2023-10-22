@@ -35,9 +35,6 @@ margin: 0;
 display: block;
 padding:3px 0 0 0;
 text-align: left;
-word-break: break-all;
-overflow-y: scroll;
-height: 530px;
 }
 .show p,.hidden p{
 margin: 0;
@@ -50,9 +47,6 @@ padding:3px 0 0 0;
 margin:0;
 display: none;
 text-align: left;
-word-break: break-all;
-overflow-y: scroll;
-height: 530px;
 }
 .show font,.hidden font{color: #f00;}
 .show label,.hidden label{color: #A15888;}
@@ -200,9 +194,11 @@ $('.hidden').css('max-height',gg*0.5);
    for(var i=0;i<list.length;i++){
     list[i].className="";
     div[i].className="hidden";
+       g();
    }
    list[curIndex].className="active";
    div[curIndex].className="show";
+      g();
    index=curIndex;
   }
  }
