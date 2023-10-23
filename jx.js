@@ -342,7 +342,7 @@ successMessage.style.zIndex = '999';
   setTimeout(() => {
     successMessage.remove();
     show.innerHTML="";//复制成功,清除容器内容
-  }, 1000);
+  }, 500);
 }
 
 
@@ -352,7 +352,7 @@ showq[i].index=i;
 showq[i].ondblclick=function() {
 var show=document.getElementById('show');
 show.innerHTML = showq[this.index].innerHTML;
-var Y=showq[this.index].offsetTop*0.5;
+var Y=showq[this.index].offsetTop;
 var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
 copyToClipboard(text,Y);
 }
@@ -367,7 +367,7 @@ var div = show.getElementsByTagName("div");
     for (var i = 0; i <= div.length - 1; i++) {
       div[i].innerHTML="";
     }
-var Y=showjx[this.index].offsetTop*0.5;
+var Y=showjx[this.index].offsetTop;
 var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'')+Y;
 copyToClipboard(text,Y);
 }
