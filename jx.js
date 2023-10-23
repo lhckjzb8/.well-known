@@ -39,9 +39,9 @@ text-align: left;
 .show p,.hidden p{
 margin: 0;
 display: block;
-padding:0 2px;
+padding:5px 2px;
 text-align: left;
-line-height:25px;
+line-height:20px;
 }
 .hidden{
 padding:10px 0 0 0;
@@ -178,7 +178,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 </ul>
 <!-- 英子九肖 -->
-<ul class="hidden"><div style="padding:10px 0 0 0;">
+<ul class="hidden"><div style="padding:5px 0 0 0;">
 <p><label>120期：</label>鼠牛虎兔蛇马羊狗猪</p>
 <p><label>119期：</label><span>鼠</span>虎龙蛇马羊猴鸡猪</p>
 <p><label>118期：</label>鼠牛虎兔龙马羊鸡猪 x5</p>
@@ -228,7 +228,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>074期：</label>鼠牛虎兔<span>龙</span>蛇羊鸡猪</p>
 </div></ul>
 <!-- 土豆六肖 -->
-<ul class="hidden"><div style="padding:10px 0 0 0;">
+<ul class="hidden"><div style="padding:5px 0 0 0;">
 <p><label>119期：</label>鼠马羊牛龙鸡</p>
 <p><label>118期：</label>牛虎蛇马狗猪 x</p>
 <p><label>117期：</label>鼠蛇羊<span>鸡</span>狗猪</p>
@@ -249,7 +249,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>102期：</label>鼠龙<span>马</span>羊鸡狗</p>
 </div></ul>
 <!-- 天空特围 -->
-<ul class="hidden"><div style="padding:10px 0 0 0;">
+<ul class="hidden"><div style="padding:5px 0 0 0;">
 <p><label>120期：</label>01,03,04,07,08,09,11,13,17,18,20,21,23,24,25,27,28,31,33,35,36,40,41,43,44,46,48,49,（28个）</p>
 <p><label>119期：</label>01,02,03,<span>04</span>,05,07,09,11,12,13,15,16,19,22,26,28,30,31,32,34,35,36,38,39,40,42,44,（27个）</p>
 <p><label>118期：</label>02,03,04,05,06,09,12,14,23,24,25,26,31,32,34,36,39,41,43,<span>44</span>,46,49,（22个）</p>
@@ -260,6 +260,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>113期：</label>01,02,05,08,09,10,15,18,20,21,<span>26</span>,27,28,29,33,34,36,38,40,41,42,43,47,48,49,（25个）</p>
 </div></ul>
 </div>
+
+<div id="show" style="display: none;"></div>
+
 `);
 
  window.onload=function(){
@@ -309,3 +312,60 @@ var w = window.screen.availWidth-36;
 document.querySelector('.thisDiv').style.marginLeft = `${thisScolljd* thisJd}px`  // 根据上放计算进度，改变下方模拟的位置
       // console.log((thisJd * 100).toFixed(2), '%');  // 当前滚动的百分比
     });
+//复制
+function copyToClipboard(text) {
+  const bgColor = '#ff00ff';
+
+  const textarea = document.createElement('textarea');
+  textarea.value =text;
+  textarea.style.background = bgColor;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+
+  // 显示成功提示
+  const successMessage = document.createElement('div');
+  successMessage.textContent = '复制成功!';
+  successMessage.style.position = 'fixed';
+successMessage.style.zIndex = '999';
+  successMessage.style.top = '200px';
+  successMessage.style.right = '35%';
+  successMessage.style.background = bgColor;
+  successMessage.style.color = '#fff';
+  successMessage.style.padding = '8px';
+  document.body.appendChild(successMessage);
+
+  // 3 秒后隐藏提示
+  setTimeout(() => {
+    successMessage.remove();
+    show.innerHTML="";//复制成功,清除容器内容
+  }, 1000);
+}
+
+
+var showq = document.querySelectorAll("p");
+for(i=0;i<showq.length;i++){
+showq[i].index=i;
+showq[i].ondblclick=function() {
+var show=document.getElementById('show');
+show.innerHTML = showq[this.index].innerHTML;
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
+copyToClipboard(text);
+}
+}
+var showjx = document.querySelectorAll(".jxzl");
+for(i=0;i<showjx.length;i++){
+showjx[i].index=i;
+showjx[i].ondblclick=function() {
+var show=document.getElementById('show');
+show.innerHTML = showjx[this.index].innerHTML;
+var div = show.getElementsByTagName("div");
+    for (var i = 0; i <= div.length - 1; i++) {
+      div[i].innerHTML="";
+    }
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
+copyToClipboard(text);
+}
+}
+//复制结束
