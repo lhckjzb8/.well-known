@@ -116,9 +116,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 用来模拟滚动条区域结束 -->
 <!-- 极限资料 -->
 <ul class="show">
-<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>未开</font></div><br>
+<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
 03,05,43,45 <span>(有10轮在5期内开,2轮在第7期)</span><br>
-<span> (今年至今12轮无错,本次第13轮) </span><div class="gdkj">还有<font>10期</font></div>
+<span> (今年至今12轮,无错,本轮第13轮) </span><div class="gdkj">还有<font>10期</font></div>
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
@@ -126,27 +126,27 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今总7轮,无错,等待机会) </span><div class="gdkj">❤ 119期开鼠</div>
 </div><!--定位平六01的特肖四期内开2022换肖来至今无错,+色肖五期21年至今无错-->
 
-<div class="jxzl"><label>111期-120期：</label><div class="gdjx">机会极限③ <font>未开</font></div><br>
+<div class="jxzl"><label>111期-120期：</label><div class="gdjx">机会极限③ <font>待开</font></div><br>
 11,41 <span>(包肖+尾99.99%稳)</span><div class="gdkj">一年只有几次机会</div><br>
 <span> (20,21,22年各1轮,23年第3轮,无错) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--定位平六06的平一+对冲同尾,十期内开-->
 
-<div class="jxzl"><label>119期-122期：</label><div class="gdjx">机会极限④ <font>未开</font></div><br>
+<div class="jxzl"><label>119期-122期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
 狗龙<div class="gdkj">一年只有几次机会</div><br>
 <span> (20年1轮,21年3轮,22年1轮,23年第2轮,无错) </span><div class="gdkj">还有<font>3期</font></div>
 </div><!--定位平六49的平一+对冲,四期内开-->
 
-<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>未开</font></div><br>
+<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 特5尾<div class="gdkj">一年只有几次机会</div><br>
 <span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>10期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
-<div class="jxzl"><label>119期-122期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
+<div class="jxzl"><label>119期-122期：</label><div class="gdjx">固定极限① <font>待开</font></div><br>
 01,03,05,<font>08</font>,<font>12</font>,19,25,36,40,（9个）<br>
 <span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>3期</font></div>
 </div>
 
-<div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>未开</font></div><br>
+<div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>待开</font></div><br>
 特6尾<br>
 <span> (22年至今错1)</span><div class="gdkj">还有<font>9期</font></div>
 </div><!--m不凡,藐视是3尾期特尾-->
@@ -161,7 +161,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今错2，加1期无错) </span><div class="gdkj">❤ 116期开40</div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
-<div class="jxzl"><label>119期-123期：</label><div class="gdjx">固定极限⑤ <font>未开</font></div><br>
+<div class="jxzl"><label>119期-123期：</label><div class="gdjx">固定极限⑤ <font>待开</font></div><br>
 虎猴猪蛇<br>
 <span> (21,22年各错1,今年无错)</span><div class="gdkj">还有<font>4期</font></div>
 </div><!--平开01,当期特色肖5期之内开,特开01不要-->
