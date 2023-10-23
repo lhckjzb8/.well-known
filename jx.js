@@ -121,9 +121,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今无错，一年只有几次。等机会！) </span><div class="gdkj">119期开鼠</div>
 </div><!--定位平六01的特肖四期内开2022换肖来至今无错,+色肖五期21年至今无错-->
 
-<div class="jxzl jxzlyk"><label>111期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
-11,41 <span>(包肖+尾100%稳)</span><br>
-<span> (20,21,22年各1轮，23年第3轮。无错) </span><div class="gdkj">119期开鼠</div>
+<div class="jxzl"><label>111期-120期：</label><div class="gdjx">机会极限② <font>未开</font></div><br>
+11,41 <span>(包肖+尾99.99%稳)</span><br>
+<span> (20,21,22年各1轮，23年第3轮。无错) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--定位平六06的平一+对冲同尾,十期内开-->
 
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
