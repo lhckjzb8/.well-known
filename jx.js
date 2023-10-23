@@ -368,7 +368,7 @@ var div = show.getElementsByTagName("div");
       div[i].innerHTML="";
     }
 var Y=showjx[this.index].offsetTop;
-var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'')+Y;
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
 copyToClipboard(text,Y);
 }
 }
