@@ -137,7 +137,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </div--><!--定位平六08的平一尾+特尾,十期内开-->
 
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
-02,09,14,16,23,26,27,28,33,（9个）<br>
+01,03,05,<a>08</a>,<a>12</a>,19,25,36,40,（9个）<br>
 <span>二中二36组，三中三84组 (上轮开2个)</span><div class="gdkj">还有<font>4期</font></div>
 </div>
 
