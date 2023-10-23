@@ -138,7 +138,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>119期-122期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
 01,03,05,<font>08</font>,<font>12</font>,19,25,36,40,（9个）<br>
-<span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>4期</font></div>
+<span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>3期</font></div>
 </div>
 
 <div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>未开</font></div><br>
