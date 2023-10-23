@@ -329,7 +329,7 @@ function copyToClipboard(text) {
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
 successMessage.style.zIndex = '999';
-  successMessage.style.top = '200px';
+  successMessage.style.top = '50%';
   successMessage.style.right = '35%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
