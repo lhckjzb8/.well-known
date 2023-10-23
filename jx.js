@@ -118,7 +118,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="show">
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限① <font>已开</font></div><br>
 <a>鼠</a><div class="gdkj">一年只有几次机会</div><br>
-<span> (22年至今总7轮,无错,等待机会) </span><div class="gdkj">119期开鼠</div>
+<span> (22年至今总7轮,无错,等待机会) </span><div class="gdkj">❤ 119期开鼠</div>
 </div><!--定位平六01的特肖四期内开2022换肖来至今无错,+色肖五期21年至今无错-->
 
 <div class="jxzl"><label>111期-120期：</label><div class="gdjx">机会极限② <font>未开</font></div><br>
@@ -130,6 +130,11 @@ background-color: rgb(0, 0, 0, 0.03);
 狗龙<div class="gdkj">一年只有几次机会</div><br>
 <span> (20年1轮,21年3轮,22年1轮,23年第2轮,无错) </span><div class="gdkj">还有<font>3期</font></div>
 </div><!--定位平六49的平一+对冲,四期内开-->
+
+<!--div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限③ <font>未开</font></div><br>
+特5尾<div class="gdkj">一年只有几次机会</div><br>
+<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>10期</font></div>
+</div--><!--定位平六08的平一尾+特尾,十期内开-->
 
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
 02,09,14,16,23,26,27,28,33,（9个）<br>
@@ -143,12 +148,12 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl jxzlyk"><label>116期-120期：</label><div class="gdjx">固定极限③ <font>已开</font></div><br>
 <a>鼠</a>猪马蛇 + 牛羊<br>
-<span>(两年错1，加肖三年无错) </span><div class="gdkj">116期开鼠</div>
+<span>(两年错1，加肖三年无错) </span><div class="gdkj">❤ 116期开鼠</div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
 <div class="jxzl jxzlyk"><label>116期-120期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
 <a>0尾</a>,1尾,2尾<br>
-<span> (22年至今错2，加1期无错) </span><div class="gdkj">116期开40</div>
+<span> (22年至今错2，加1期无错) </span><div class="gdkj">❤ 116期开40</div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl"><label>119期-123期：</label><div class="gdjx">固定极限⑤ <font>未开</font></div><br>
@@ -158,17 +163,17 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl jxzlyk"><label>117期-121期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
 <a>猴</a>马<br>
-<span> (17年至今错5) </span><div class="gdkj">118期开猴</div>
+<span> (17年至今错5) </span><div class="gdkj">❤ 118期开猴</div>
 </div><!--壹路发发-->
 
 <div class="jxzl jxzlyk"><label>112期-121期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
 04,05,06,07,08,09,10,11,12,36,37,38,39,<a>40</a>,41,42,43,44<br>
-<span> (21年至今无错) </span><div class="gdkj">116期开40</div>
+<span> (21年至今无错) </span><div class="gdkj">❤ 116期开40</div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
 <div class="jxzl jxzlyk"><label>116期-120期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
 <a>鼠</a>猪狗马蛇龙<br>
-<span> (三年无错) </span><div class="gdkj">116期开鼠</div>
+<span> (三年无错) </span><div class="gdkj">❤ 116期开鼠</div>
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
