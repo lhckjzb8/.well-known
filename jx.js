@@ -126,6 +126,11 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (20,21,22年各1轮，23年第3轮。无错) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--定位平六06的平一+对冲同尾,十期内开-->
 
+<div class="jxzl"><label>119期-122期：</label><div class="gdjx">机会极限③ <font>未开</font></div><br>
+狗龙<div class="gdkj">一年只有几次机会</div><br>
+<span> (20年1轮,21年3轮,22年1轮，23年第2轮。无错) </span><div class="gdkj">还有<font>3期</font></div>
+</div><!--定位平六49的平一+对冲,四期内开-->
+
 <div class="jxzl"><label>120期-123期：</label><div class="gdjx">固定极限① <font>未开</font></div><br>
 02,09,14,16,23,26,27,28,33,（9个）<br>
 <span>二中二36组，三中三84组 (上轮开2个)</span><div class="gdkj">还有<font>4期</font></div>
