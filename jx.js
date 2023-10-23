@@ -312,8 +312,9 @@ var w = window.screen.availWidth-36;
 document.querySelector('.thisDiv').style.marginLeft = `${thisScolljd* thisJd}px`  // 根据上放计算进度，改变下方模拟的位置
       // console.log((thisJd * 100).toFixed(2), '%');  // 当前滚动的百分比
     });
+
 //复制
-function copyToClipboard(text) {
+function copyToClipboard(text,Y) {
   const bgColor = '#ff00ff';
 
   const textarea = document.createElement('textarea');
@@ -326,14 +327,11 @@ function copyToClipboard(text) {
 
   // 显示成功提示
   const successMessage = document.createElement('div');
-var Y="25%";
-if(document.body.scrollHeight>500){
-var Y="75%";
-}
+var YY=Y+"px";
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
 successMessage.style.zIndex = '999';
-  successMessage.style.top = Y;
+  successMessage.style.top = YY;
   successMessage.style.right = '35%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
@@ -354,8 +352,9 @@ showq[i].index=i;
 showq[i].ondblclick=function() {
 var show=document.getElementById('show');
 show.innerHTML = showq[this.index].innerHTML;
+var Y=showq[this.index].offsetTop*0.5;
 var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
-copyToClipboard(text);
+copyToClipboard(text,Y);
 }
 }
 var showjx = document.querySelectorAll(".jxzl");
@@ -368,8 +367,9 @@ var div = show.getElementsByTagName("div");
     for (var i = 0; i <= div.length - 1; i++) {
       div[i].innerHTML="";
     }
-var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'');
-copyToClipboard(text);
+var Y=showjx[this.index].offsetTop*0.5;
+var text = show.innerText.replace(/(\n[\s\t]*\r*\n)/g,'\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g,'')+Y;
+copyToClipboard(text,Y);
 }
 }
 //复制结束
