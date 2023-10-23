@@ -326,10 +326,14 @@ function copyToClipboard(text) {
 
   // 显示成功提示
   const successMessage = document.createElement('div');
+var Y="25%";
+if(document.body.scrollHeight>500){
+var Y="75%";
+}
   successMessage.textContent = '复制成功!';
   successMessage.style.position = 'fixed';
 successMessage.style.zIndex = '999';
-  successMessage.style.top = '50%';
+  successMessage.style.top = Y;
   successMessage.style.right = '35%';
   successMessage.style.background = bgColor;
   successMessage.style.color = '#fff';
