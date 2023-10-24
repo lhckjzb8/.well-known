@@ -104,7 +104,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <div class="minVideoViewBox" id="list">
 <li class="active">极限资料<span class="gg">nb</span></li>
 <li>英子九肖<span class="gg">ok</span></li>
-<li>土豆六肖<span class="gg"></span></li>
+<li>土豆六肖<span class="gg">ok</span></li>
 <li>天空特围<span class="gg">ok</span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
@@ -114,6 +114,7 @@ background-color: rgb(0, 0, 0, 0.03);
     </div>
   </footer>
 <!-- 用来模拟滚动条区域结束 -->
+<!--留用p><label>120-126期 </label>04,11,18,25,32,39,46<span> (今年错1)</span></p--><!--7期一轮,下轮（127-133）01到07循环,下轮05+7-->
 <!-- 极限资料 -->
 <ul class="show">
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
@@ -234,6 +235,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </div></ul>
 <!-- 土豆六肖 -->
 <ul class="hidden"><div style="padding:5px 0 0 0;">
+<p><label>120期：</label>狗牛虎兔龙羊</p>
 <p><label>119期：</label><span>鼠</span>马羊牛龙鸡</p>
 <p><label>118期：</label>牛虎蛇马狗猪 x</p>
 <p><label>117期：</label>鼠蛇羊<span>鸡</span>狗猪</p>
