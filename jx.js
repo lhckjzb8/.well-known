@@ -103,9 +103,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">极限资料<span class="gg">nb</span></li>
-<li>英子九肖<span class="gg">ok</span></li>
-<li>土豆六肖<span class="gg">ok</span></li>
-<li>天空特围<span class="gg">ok</span></li>
+<li>天空特围<span class="gg"></span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
   <footer>
@@ -178,77 +176,6 @@ background-color: rgb(0, 0, 0, 0.03);
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
-<!-- 英子九肖 -->
-<ul class="hidden"><div style="padding:5px 0 0 0;">
-<p><label>120期：</label>鼠牛虎兔蛇马羊狗猪 x6</p>
-<p><label>119期：</label><span>鼠</span>虎龙蛇马羊猴鸡猪</p>
-<p><label>118期：</label>鼠牛虎兔龙马羊鸡猪 x5</p>
-<p><label>117期：</label>鼠牛虎兔马羊<span>鸡</span>狗猪</p>
-<p><label>116期：</label><span>鼠</span>牛虎兔龙蛇马羊狗</p>
-<p><label>115期：</label><span>牛</span>虎兔龙蛇马羊猴猪</p>
-<p><label>114期：</label>牛虎兔龙蛇马羊猴<span>狗</span></p>
-<p><label>113期：</label>鼠牛蛇马羊猴鸡狗猪 x5</p>
-<p><label>112期：</label>鼠牛虎兔马<span>羊</span>猴狗猪</p>
-<p><label>111期：</label>鼠牛虎兔龙马猴狗<span>猪</span></p>
-<p><label>110期：</label>鼠牛虎<span>兔</span>蛇马猴狗猪</p>
-<p><label>109期：</label>鼠牛虎龙<span>马</span>羊鸡狗猪</p>
-<p><label>108期：</label>牛兔<span>龙</span>蛇马羊猴狗猪</p>
-<p><label>107期：</label>鼠虎<span>兔</span>龙马羊猴狗猪</p>
-<p><label>106期：</label>牛虎龙蛇<span>马</span>羊猴狗猪</p>
-<p><label>105期：</label>鼠牛虎<span>蛇</span>马羊猴鸡猪</p>
-<p><label>104期：</label>鼠牛龙<span>蛇</span>马羊猴鸡猪</p>
-<p><label>103期：</label>鼠牛<span>虎</span>兔龙马羊狗猪</p>
-<p><label>102期：</label>鼠虎兔龙<span>马</span>羊猴鸡猪</p>
-<p><label>101期：</label>鼠牛<span>龙</span>蛇马猴鸡狗猪</p>
-<p><label>100期：</label>鼠牛虎<span>龙</span>蛇羊猴鸡狗</p>
-<p><label>099期：</label><span>鼠</span>兔龙蛇马羊猴鸡猪</p>
-<p><label>098期：</label>鼠牛虎<span>龙</span>蛇马羊鸡猪</p>
-<p><label>097期：</label><span>鼠</span>牛虎兔龙马羊猴狗</p>
-<p><label>096期：</label><span>牛</span>虎龙蛇马羊猴鸡狗</p>
-<p><label>095期：</label>鼠虎龙蛇马<span>猴</span>鸡狗猪</p>
-<p><label>094期：</label>牛虎兔龙马羊猴鸡猪 x4</p>
-<p><label>093期：</label>鼠牛虎龙蛇羊<span>猴</span>鸡猪</p>
-<p><label>092期：</label>鼠牛龙马羊猴鸡<span>狗</span>猪</p>
-<p><label>091期：</label>鼠牛兔龙蛇马羊猴<span>猪</span></p>
-<p><label>090期：</label><span>鼠</span>牛虎龙蛇羊猴狗猪</p>
-<p><label>089期：</label>鼠虎兔<span>龙</span>蛇马猴鸡猪</p>
-<p><label>088期：</label>牛兔蛇马羊猴鸡狗<span>猪</span></p>
-<p><label>087期：</label><span>鼠</span>牛虎蛇马羊猴鸡猪</p>
-<p><label>086期：</label>牛虎兔龙蛇马<span>羊</span>鸡狗</p>
-<p><label>085期：</label>牛虎兔龙马羊猴狗猪 x3</p>
-<p><label>084期：</label>鼠牛<span>虎</span>龙蛇羊猴狗猪</p>
-<p><label>083期：</label><span>牛</span>虎兔蛇马羊猴狗猪</p>
-<p><label>082期：</label>牛虎兔龙马猴鸡狗猪 x2</p>
-<p><label>081期：</label>牛兔龙<span>蛇</span>马羊猴鸡猪</p>
-<p><label>080期：</label>牛兔龙蛇马羊猴<span>狗</span>猪</p>
-<p><label>079期：</label>鼠<span>牛</span>虎兔龙蛇马狗猪</p>
-<p><label>078期：</label>鼠牛兔龙蛇马<span>羊</span>鸡狗</p>
-<p><label>077期：</label>鼠牛虎<span>兔</span>蛇羊猴鸡猪</p>
-<p><label>076期：</label>鼠<span>牛</span>虎龙马羊猴狗猪</p>
-<p><label>075期：</label>牛兔龙蛇马羊鸡鼠虎 x1</p>
-<p><label>074期：</label>鼠牛虎兔<span>龙</span>蛇羊鸡猪</p>
-</div></ul>
-<!-- 土豆六肖 -->
-<ul class="hidden"><div style="padding:5px 0 0 0;">
-<p><label>120期：</label>狗牛虎兔龙羊 x</p>
-<p><label>119期：</label><span>鼠</span>马羊牛龙鸡</p>
-<p><label>118期：</label>牛虎蛇马狗猪 x</p>
-<p><label>117期：</label>鼠蛇羊<span>鸡</span>狗猪</p>
-<p><label>116期：</label><span>鼠</span>虎蛇马猴狗</p>
-<p><label>115期：</label>虎蛇马羊狗猪 x</p>
-<p><label>114期：</label>兔龙马鸡<span>狗</span>猪</p>
-<p><label>113期：</label><span>虎</span>兔马羊狗猪</p>
-<p><label>112期：</label>虎蛇<span>羊</span>猴鸡狗</p>
-<p><label>111期：</label>鼠牛虎兔猴鸡 x</p>
-<p><label>110期：</label>虎<span>免</span>龙羊猴狗</p>
-<p><label>109期：</label>虎兔蛇<span>马</span>羊狗</p>
-<p><label>108期：</label><span>龙</span>蛇马羊猴狗</p>
-<p><label>107期：</label>鼠牛<span>兔</span>马羊猪</p>
-<p><label>106期：</label>兔<span>马</span>羊猴鸡猪</p>
-<p><label>105期：</label>虎<span>蛇</span>羊猴狗猪</p>
-<p><label>104期：</label>兔龙马羊鸡狗 x</p>
-<p><label>103期：</label>鼠<span>虎</span>羊马猴狗</p>
-<p><label>102期：</label>鼠龙<span>马</span>羊鸡狗</p>
 </div></ul>
 <!-- 天空特围 -->
 <ul class="hidden"><div style="padding:5px 0 0 0;">
