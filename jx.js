@@ -147,12 +147,12 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今错1)</span><div class="gdkj">还有<font>8期</font></div>
 </div><!--m不凡,藐视是3尾期特尾-->
 
-<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
+<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
 羊牛鼠马 + 虎猴<br>
 <span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
-<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限④ <font>待开</font></div><br>
+<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限④ <font>待开</font></div><br>
 8尾,9尾,0尾<br>
 <span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
