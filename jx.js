@@ -104,7 +104,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <div class="minVideoViewBox" id="list">
 <li class="active">极限资料<span class="gg">nb</span></li>
 <li>天空特围<span class="gg">ok</span></li>
-<li>六六无忧<span class="gg">ok</span></li>
+<li>六喜多多<span class="gg">ok</span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
   <footer>
@@ -190,7 +190,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <p><label>113期：</label>01,02,05,08,09,10,15,18,20,21,<span>26</span>,27,28,29,33,34,36,38,40,41,42,43,47,48,49,（25个）</p>
 </div>
 </ul>
-<!-- 六六无忧 -->
+<!-- 六喜多多 -->
 <ul class="hidden"><div style="padding:5px 0 0 0;">
 <p>
 <label>【121期】</label><br>
