@@ -103,7 +103,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">极限资料<span class="gg">nb</span></li>
-<li>天空特围<span class="gg"></span></li>
+<li>天空特围<span class="gg">ok</span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
   <footer>
@@ -178,6 +178,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </ul>
 <!-- 天空特围 -->
 <ul class="hidden"><div style="padding:5px 0 0 0;">
+<p><label>121期：</label>01,02,03,05,08,09,10,11,13,17,18,22,24,26,28,29,31,33,35,36,38,40,42,43,44,45,46,（27个）</p>
 <p><label>120期：</label>01,03,04,07,<span>08</span>,09,11,13,17,18,20,21,23,24,25,27,28,31,33,35,36,40,41,43,44,46,48,49,（28个）</p>
 <p><label>119期：</label>01,02,03,<span>04</span>,05,07,09,11,12,13,15,16,19,22,26,28,30,31,32,34,35,36,38,39,40,42,44,（27个）</p>
 <p><label>118期：</label>02,03,04,05,06,09,12,14,23,24,25,26,31,32,34,36,39,41,43,<span>44</span>,46,49,（22个）</p>
