@@ -118,7 +118,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="show">
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
 03,05,43,45 <span>(有10轮5期内开,2轮第7期开)</span><br>
-<span> (今年至今12轮,无错,本轮第13轮) </span><div class="gdkj">还有<font>9期</font></div>
+<span> (今年至今12轮,无错,本轮第13轮) </span><div class="gdkj">还有<font>8期</font></div>
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
@@ -133,27 +133,27 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
 特5尾<div class="gdkj">一年只有几次机会</div><br>
-<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>9期</font></div>
+<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>8期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
 <div class="jxzl"><label>119期-122期：</label><div class="gdjx">固定极限① <font>待开</font></div><br>
 01,03,05,<font>08</font>,<font>12</font>,19,25,36,40,（9个）<br>
-<span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>2期</font></div>
+<span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>1期</font></div>
 </div>
 
 <div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>待开</font></div><br>
 特6尾<br>
-<span> (22年至今错1)</span><div class="gdkj">还有<font>8期</font></div>
+<span> (22年至今错1)</span><div class="gdkj">还有<font>7期</font></div>
 </div><!--m不凡,藐视是3尾期特尾-->
 
 <div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
 羊牛鼠马 + 虎猴<br>
-<span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>5期</font></div>
+<span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>4期</font></div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
 <div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限④ <font>待开</font></div><br>
 8尾,9尾,0尾<br>
-<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>5期</font></div>
+<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>4期</font></div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl jxzlyk"><label>119期-123期：</label><div class="gdjx">固定极限⑤ <font>已开</font></div><br>
