@@ -122,13 +122,13 @@ background-color: rgb(0, 0, 0, 0.03);
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
-<a>鼠</a><div class="gdkj">一年只有几次机会</div><br>
+<a>鼠</a><div class="gdkj">等待机会</div><br>
 <span> (22年至今总7轮,无错,等待机会) </span><div class="gdkj">❤ 119期开鼠</div>
 </div><!--定位平六01的特肖四期内开2022换肖来至今无错,+色肖五期21年至今无错-->
 
-<div class="jxzl"><label>119期-122期：</label><div class="gdjx">机会极限③ <font>待开</font></div><br>
-狗龙<div class="gdkj">一年只有几次机会</div><br>
-<span> (20年1轮,21年3轮,22年1轮,23年第2轮,无错) </span><div class="gdkj">还有<font>2期</font></div>
+<div class="jxzl jxzlyk"><label>119期-122期：</label><div class="gdjx">机会极限③ <font>已开</font></div><br>
+狗<a>龙</a><div class="gdkj">等待机会</div><br>
+<span> (20年1轮,21年3轮,22年1轮,23年第2轮,无错) </span><div class="gdkj">❤ 121期开龙</font></div>
 </div><!--定位平六49的平一+对冲,四期内开-->
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
@@ -166,20 +166,20 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (17年至今错5) </span><div class="gdkj">❤ 118期开猴</div>
 </div><!--壹路发发-->
 
-<div class="jxzl jxzlyk"><label>112期-121期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
-04,05,06,07,08,09,10,11,12,36,37,38,39,<a>40</a>,41,42,43,44<br>
-<span> (21年至今无错) </span><div class="gdkj">❤ 116期开40</div>
+<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑦ <font>待开</font></div><br>
+07,08,09,10,11,12,13,14,15,29,30,31,32,33,34,35,36,37,<br>
+<span> (21年至今无错) </span><div class="gdkj">还有<font>10期</font></div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
-<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限⑧ <font>待开</font></div><br>
-蛇龙兔猪狗鸡<br>
-<span> (三年无错) </span><div class="gdkj">还有<font>5期</font></div>
+<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
+蛇<a>龙</a>兔猪狗鸡<br>
+<span> (三年无错) </span><div class="gdkj">❤ 121期开龙</font></div>
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
 <!-- 天空特围 -->
 <ul class="hidden"><div style="padding:5px 0 0 0;">
-<p><label>121期：</label>01,02,03,05,08,09,10,11,13,17,18,22,24,26,28,29,31,33,35,36,38,40,42,43,44,45,46,（27个）</p>
+<p><label>121期：</label>01,02,03,05,08,09,10,11,13,17,18,22,<span>24</span>,26,28,29,31,33,35,36,38,40,42,43,44,45,46,（27个）</p>
 <p><label>120期：</label>01,03,04,07,<span>08</span>,09,11,13,17,18,20,21,23,24,25,27,28,31,33,35,36,40,41,43,44,46,48,49,（28个）</p>
 <p><label>119期：</label>01,02,03,<span>04</span>,05,07,09,11,12,13,15,16,19,22,26,28,30,31,32,34,35,36,38,39,40,42,44,（27个）</p>
 <p><label>118期：</label>02,03,04,05,06,09,12,14,23,24,25,26,31,32,34,36,39,41,43,<span>44</span>,46,49,（22个）</p>
@@ -194,10 +194,10 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="hidden"><div style="padding:5px 0 0 0;">
 <p>
 <label>【121期】</label><br>
-鼠,虎,兔,龙,蛇,马,羊,狗,猪,（9个）<br>
-02,05,07,08,09,13,15,16,17,18,19,20,22,24,25,27,29,30,31,32,35,36,37,38,40,42,43,45,48,49,（30个）<br>
+鼠,虎,兔,<span>龙</span>,蛇,马,羊,狗,猪,（9个）<br>
+02,05,07,08,09,13,15,16,17,18,19,20,22,<span>24</span>,25,27,29,30,31,32,35,36,37,38,40,42,43,45,48,49,（30个）<br>
 <span style="color:#A51888">【二合一综合结果】</span><br>
-02,05,09,13,16,17,18,22,24,25,29,30,35,36,37,38,40,42,45,48,49,（21个）
+02,05,09,13,16,17,18,22,<span>24</span>,25,29,30,35,36,37,38,40,42,45,48,49,（21个）
 </p>
 <p>
 <label>【120期】</label><br>
