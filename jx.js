@@ -128,7 +128,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl jxzlyk"><label>119期-122期：</label><div class="gdjx">机会极限③ <font>已开</font></div><br>
 狗<a>龙</a><div class="gdkj">等待机会</div><br>
-<span> (20年1轮,21年3轮,22年1轮,23年第2轮,无错) </span><div class="gdkj">❤ 121期开龙</font></div>
+<span> (20年1轮,21年3轮,22年1轮,23年2轮,无错) </span><div class="gdkj">❤ 121期开龙</font></div>
 </div><!--定位平六49的平一+对冲,四期内开-->
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
