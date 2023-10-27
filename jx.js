@@ -114,6 +114,10 @@ background-color: rgb(0, 0, 0, 0.03);
   </footer>
 <!-- 用来模拟滚动条区域结束 -->
 <!--留用p><label>120-126期 </label>04,11,18,25,32,39,46<span> (今年错1)</span></p--><!--7期一轮,下轮（127-133）01到07循环,下轮05+7-->
+
+<!--留用p><label>121-120期 </label>42,43,44,45,46<span> (2019至今11轮,无错,本轮第12轮)</span></p--><!--定位平六29,上上期特左右2个,10期内开,1期第11期开-->
+<!--留用p><label>121-125期 </label>02,03,04,05,06,07,08,09,10,42,43,44,45,46<span> (2019至今11轮,无错,本轮第12轮)</span></p--><!--定位平六29,本期加上2期特左右2个,5期内开,1期第6期开（这1轮出现开重复号）-->
+
 <!-- 极限资料 -->
 <ul class="show">
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
@@ -131,7 +135,12 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (20年1轮,21年3轮,22年1轮,23年2轮,无错) </span><div class="gdkj">❤ 121期开龙</font></div>
 </div><!--定位平六49的平一+对冲,四期内开-->
 
-<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
+<div class="jxzl"><label>122期-126期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
+马龙 <span> (第一期开出现6次)</span><div class="gdkj">一年只有几次机会</div><br>
+<span> (19年至今11轮,无错,本轮第12轮) </span><div class="gdkj">还有<font>5期</font></div>
+</div><!--定位平六29,下期特和减2两只,5期内开（出现第1期6次,第4期3次,第5期2次）-->
+
+<div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 特5尾<div class="gdkj">一年只有几次机会</div><br>
 <span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>8期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
