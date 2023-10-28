@@ -141,6 +141,11 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (18年至今11轮,无错,本轮第12轮) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--定位平六29,下期特和减2两只,5期内开（出现第1期6次,第4期3次,第5期2次）-->
 
+<div class="jxzl"><label>122期-123期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
+4尾,9尾 + 3尾,5尾 <span> (连续9轮开前2尾)</span><div class="gdkj">今年第5次机会</div><br>
+<span> (18年至今16轮,无错,本轮第17轮) </span><div class="gdkj">还有<font>2期</font></div>
+</div><!--定位平五49,下期特尾左右1尾和加5一尾,2期内开（有1轮拖1期开）-->
+
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 特5尾<div class="gdkj">今年第3次机会</div><br>
 <span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>8期</font></div>
@@ -171,9 +176,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (21,22年各错1,今年无错)</span><div class="gdkj">❤ 120期开猴</font></div>
 </div><!--平开01,当期特色肖5期之内开,特开01不要-->
 
-<div class="jxzl jxzlyk"><label>117期-121期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
-<a>猴</a>马<br>
-<span> (17年至今错5) </span><div class="gdkj">❤ 118期开猴</div>
+<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
+鼠狗<br>
+<span> (17年至今错5) </span><div class="gdkj">还有<font>10期</font></div>
 </div><!--壹路发发-->
 
 <div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑦ <font>待开</font></div><br>
