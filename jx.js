@@ -61,7 +61,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 3px 3px 6px;
-margin-right: 10px;
+margin-right: 3px;
 }
 #list .g{
 font-size: 8px;
@@ -329,10 +329,10 @@ if(list[curIndex].offsetLeft<glist.offsetWidth*0.1){
 gdiv.style.marginLeft ="";
 glist.scrollLeft="";
 }
-//if(list[curIndex].offsetLeft>glist.offsetWidth*0.9){
-//gdiv.style.marginLeft =list[curIndex].offsetLeft+"px";;
-//glist.scrollLeft=list[curIndex].offsetLeft;
-//}
+if(list[curIndex].offsetLeft>glist.offsetWidth*0.9){
+gdiv.style.marginLeft =list[curIndex].offsetLeft+"px";;
+glist.scrollLeft=list[curIndex].offsetLeft;
+}
       var g=document.body.scrollHeight;
 window.parent.postMessage({msgjx: g}, "*");
    index=curIndex;
