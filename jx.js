@@ -321,19 +321,7 @@ window.parent.postMessage({msgjx: g}, "*");
    }
    list[curIndex].className="active";
    div[curIndex].className="show";
-      var glist=document.querySelector('#list');
-var gdiv=document.querySelector('.thisDiv');
-gdiv.style.marginLeft =list[curIndex].offsetLeft*0.2+"px";
-glist.scrollLeft=list[curIndex].offsetLeft*0.2;
-if(list[curIndex].offsetLeft<glist.offsetWidth*0.1){
-gdiv.style.marginLeft ="";
-glist.scrollLeft="";
-}
-if(list[curIndex].offsetLeft>glist.offsetWidth*0.9){
-gdiv.style.marginLeft =list[curIndex].offsetLeft+"px";;
-glist.scrollLeft=list[curIndex].offsetLeft;
-}
-      var g=document.body.scrollHeight;
+ var g=document.body.scrollHeight;
 window.parent.postMessage({msgjx: g}, "*");
    index=curIndex;
   }
@@ -420,3 +408,20 @@ copyToClipboard(text,Y);
 }
 }
 //复制结束
+var  glistli = document.querySelectorAll("#list li");
+var  gglist = document.getElementById("list");
+var ggdiv=document.querySelector('.thisDiv');
+for (var y=0;y<glistli.length;y++) {    //根据tab-list下的li标签长度循环
+glistli[y].index=y;
+glistli[y].onclick=function() {
+ggdiv.style.marginLeft =glistli[this.index].offsetLeft*0.25+"px";
+gglist.scrollLeft=glistli[this.index].offsetLeft*0.25;
+if(glistli[this.index].offsetLeft<gglist.offsetWidth*0.1){
+ggdiv.style.marginLeft ="";
+gglist.scrollLeft="";
+}
+if(glistli[this.index].offsetLeft>gglist.offsetWidth*0.9){
+ggdiv.style.marginLeft =glistli[this.index].offsetLeft+"px";;
+gglist.scrollLeft=glistli[this.index].offsetLeft;
+}
+}}
