@@ -2,7 +2,7 @@ document.write(`
 <style>
 .minVideoViewBox::-webkit-scrollbar { width: 0 !important }
 .minVideoViewBox{
-    width:100%;padding-bottom:10px;
+    width:100%;padding-bottom:9px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
@@ -61,7 +61,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 3px 3px 6px;
-margin-right: 5px;
+margin-right: 3px;
 }
 #list .g{
 font-size: 8px;
