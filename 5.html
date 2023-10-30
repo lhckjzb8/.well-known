@@ -6,7 +6,7 @@
 <title>五不中查询验证</title>
 <style>
 div{word-wrap:break-word;
-width: 100%;float: left;font-size: 13px;margin:5px 0;}
+float: left;font-size: 13px;margin:5px 0;}
 span{margin-right: 3px;}
 a{color: #7B68EE;}
 li{
@@ -15,12 +15,17 @@ display: inline-block;
 text-decoration: none;
 list-style-type: none;
 text-align: left;
-font-size: 13px;margin-right: 18px;
+font-size: 13px;margin-right: 20px;
 }
 </style>
 <script type="text/javascript" src="https://g.alicdn.com/ilw/cdnjs/jquery/1.8.3/jquery.min.js"></script>
-<div style="text-align: center;margin-bottom:10px;">输入查询 → 年份 <input type="text" id="nf" name="nf" value=2023 style="text-align: center;width: 50px;margin:0 5px;"> 最近 <input type="text" id="qs" name="qs" value=30 style="text-align: center;width: 50px;margin:0 5px;">期 <input onclick="kjtj();" type=button value=提交 style="margin:0 5px;"></div>
-<div style="text-align: center;">按 2.208 赔率，每组1000，最后一组为4个号。</div>
+<div style="width: 100%;text-align: center;">第一组 <input type="text" id="h1" placeholder="号码用逗号分开" name="h1" value=01,13,25,37,49 style="text-align: center;width: 103px;margin:0 5px;"> 第二组 <input type="text" id="h2" placeholder="号码用逗号分开" name="h2" value=03,15,27,39,05 style="text-align: center;width: 103px;margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;">第三组 <input type="text" id="h3" placeholder="号码用逗号分开" name="h3" value=17,29,41,07,19 style="text-align: center;width: 103px;margin:0 5px;"> 第四组 <input type="text" id="h4" placeholder="号码用逗号分开" name="h4" value=31,43,09,21,33 style="text-align: center;width: 103px;margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;">第五组 <input type="text" id="h5" placeholder="号码用逗号分开" name="h5" value=45,11,23,35,47 style="text-align: center;width: 103px;margin:0 5px;"> 第六组 <input type="text" id="h6" placeholder="号码用逗号分开" name="h6" value=02,14,26,38,04 style="text-align: center;width: 103px;margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;">第七组 <input type="text" id="h7" placeholder="号码用逗号分开" name="h7" value=16,28,40,06,18 style="text-align: center;width: 103px;margin:0 5px;"> 第八组 <input type="text" id="h8" placeholder="号码用逗号分开" name="h8" value=30,42,08,20,32 style="text-align: center;width: 103px;margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;margin-bottom:10px;">第九组 <input type="text" id="h9" placeholder="号码用逗号分开" name="h9" value=44,10,22,34,46 style="text-align: center;width: 103px;margin:0 5px;"> 第十组 <input type="text" id="h10" placeholder="号码用逗号分开" name="h10" value=12,24,36,48 style="text-align: center;width: 103px;margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;margin-bottom:10px;">输入查询 → 年份 <input type="text" id="nf" name="nf" value=2023 style="text-align: center;width: 50px;margin:0 5px;"> 最近 <input type="text" id="qs" name="qs" value=30 style="text-align: center;width: 50px;margin:0 5px;">期 <input onclick="kjtj();" type=button value=提交 style="margin:0 5px;"></div>
+<div style="width: 100%;text-align: center;">按 2.208 赔率，每组1000，最后一组为4个号。</div>
 <div style="padding:0 20%">
 新奥开出：<a><span id=zkai1></span></a>组 【盈利】<a><span id=zong1></span></a></div>
 <div style="padding:0 20%">老奥开出：<a><span id=zkai2></span></a>组 【盈利】<a><span id=zong2></span></a></div>
@@ -30,7 +35,6 @@ font-size: 13px;margin-right: 18px;
 <li id="show2">老奥<br></li>
 <li style="margin-right: 0px;" id=jiner>盈/亏<br></li>
 </div>
-
 
 <script>
 function check(i){
@@ -48,6 +52,7 @@ if(i<10){num="0"+i;}
 else {num=i;}
 return num;          
 }
+
 function kj(u,y,j){
 $('#show1').html("新奥<br>");
 $('#show2').html("老奥<br>");
@@ -69,6 +74,10 @@ url:u,
 			var arrLen = data.data.recordList.length;
 			var datas = data.data.recordList;
 var qs=document.getElementById('qs').value;
+if(qs<1){
+var qs=arrLen;
+document.getElementById('qs').value=arrLen;
+}
 //document.getElementById('qs').value=arrLen;
 			var result = "";
 var resultkai = "";
@@ -78,16 +87,26 @@ var hm=datas[i]['numberList'][0]['number'] +","+datas[i]['numberList'][1]['numbe
 var sx=datas[i]['numberList'][0]['shengXiao'] +","+datas[i]['numberList'][1]['shengXiao'] +","+datas[i]['numberList'][2]['shengXiao'] +","+datas[i]['numberList'][3]['shengXiao'] +","+datas[i]['numberList'][4]['shengXiao'] +","+datas[i]['numberList'][5]['shengXiao'] +","+datas[i]['numberList'][6]['shengXiao'];
 var arryy=hm+","+sx;
 var arr=arryy.split(',');
-var arr1=["01","13","25","37","49"];
-var arr2=["03","15","27","39","05"];
-var arr3=["17","29","41","07","19"];
-var arr4=["31","43","09","21","33"];
-var arr5=["45","11","23","35","47"];
-var arr6=["02","14","26","38","04"];
-var arr7=["16","28","40","06","18"];
-var arr8=["30","42","08","20","32"];
-var arr9=["44","10","22","34","46"];
-var arr10=["12","24","36","48",""];
+var arr1=document.getElementById('h1').value.split(',');
+var arr2=document.getElementById('h2').value.split(',');
+var arr3=document.getElementById('h3').value.split(',');
+var arr4=document.getElementById('h4').value.split(',');
+var arr5=document.getElementById('h5').value.split(',');
+var arr6=document.getElementById('h6').value.split(',');
+var arr7=document.getElementById('h7').value.split(',');
+var arr8=document.getElementById('h8').value.split(',');
+var arr9=document.getElementById('h9').value.split(',');
+var arr10=document.getElementById('h10').value.split(',');
+//var arr1=["01","13","25","37","49"];
+//var arr2=["03","15","27","39","05"];
+//var arr3=["17","29","41","07","19"];
+//var arr4=["31","43","09","21","33"];
+//var arr5=["45","11","23","35","47"];
+//var arr6=["02","14","26","38","04"];
+//var arr7=["16","28","40","06","18"];
+//var arr8=["30","42","08","20","32"];
+//var arr9=["44","10","22","34","46"];
+//var arr10=["12","24","36","48",""];
 function getArrEqual(arr, arr2) {
         let newArr = [];
         for (let i = 0; i < arr2.length; i++) {
@@ -225,14 +244,39 @@ $('#zkai').html(zkai);
 }
 
 function kjtj(){
+if(document.getElementById('h1').value.length<=1){
+alert("请输入第一组号码");
+} else if(document.getElementById('h2').value.length<=1){
+alert("请输入第二组号码");
+} else if(document.getElementById('h3').value.length<=1){
+alert("请输入第三组号码");
+} else if(document.getElementById('h4').value.length<=1){
+alert("请输入第四组号码");
+} else if(document.getElementById('h5').value.length<=1){
+alert("请输入第五组号码");
+} else if(document.getElementById('h6').value.length<=1){
+alert("请输入第六组号码");
+} else if(document.getElementById('h7').value.length<=1){
+alert("请输入第七组号码");
+} else if(document.getElementById('h8').value.length<=1){
+alert("请输入第八组号码");
+} else if(document.getElementById('h9').value.length<=1){
+alert("请输入第九组号码");
+} else if(document.getElementById('h10').value.length<=1){
+alert("请输入第十组号码");
+} else {
 var nf=document.getElementById('nf').value;
+if(nf<2020){
+var nf="2023";
+document.getElementById('nf').value=nf;
+}
 var u1='https://www.49wz888.com/site/h5/lottery/search?pageSize=366&year='+nf+'&sort=1&lotteryType=2';
 var u2='https://a6tk111.com/gallerynew/h5/lottery/search?pageSize=366&year='+nf+'&sort=1&lotteryType=2';
 var y1="1";
 var y2="2";
 kj(u1,y1);
 kj(u2,y2);
-}
+}}
 kjtj();
 </script>
 </body>  
