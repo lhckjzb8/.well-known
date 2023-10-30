@@ -323,8 +323,8 @@ window.parent.postMessage({msgjx: g}, "*");
    div[curIndex].className="show";
       var glist=document.querySelector('#list');
 var gdiv=document.querySelector('.thisDiv');
-gdiv.style.marginLeft =list[curIndex].offsetLeft*0.25+"px";
-glist.scrollLeft=list[curIndex].offsetLeft*0.25;
+gdiv.style.marginLeft =list[curIndex].offsetLeft*0.2+"px";
+glist.scrollLeft=list[curIndex].offsetLeft*0.2;
 if(list[curIndex].offsetLeft<glist.offsetWidth*0.1){
 gdiv.style.marginLeft ="";
 glist.scrollLeft="";
