@@ -61,7 +61,7 @@ border: 0.5px solid #ccc;
 font-size: 13px;
 text-align: center;
 padding:3px 3px 3px 6px;
-margin-right: 3px;
+margin-right: 10px;
 }
 #list .g{
 font-size: 8px;
