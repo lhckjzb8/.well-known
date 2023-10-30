@@ -2,7 +2,7 @@ document.write(`
 <style>
 .minVideoViewBox::-webkit-scrollbar { width: 0 !important }
 .minVideoViewBox{
-    width:100%;padding-bottom:8px;
+    width:100%;padding-bottom:7px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space:nowrap;
