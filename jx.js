@@ -341,7 +341,7 @@ window.parent.postMessage({msgjx: g}, "*");
     // 模拟滚动条
     // 获取滚动元素的父元素
     let mainBox = document.querySelector('#list')
-var w = window.screen.availWidth-36;
+var w = window.screen.availWidth-31;
     let scollAllWidth = w;//document.querySelector('footer').offsetWidth
     let scollWidth = document.querySelector('footer>div').offsetWidth
 
