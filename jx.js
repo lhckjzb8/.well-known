@@ -125,7 +125,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="show">
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
 03,05,43,45 <span>(有10轮5期内开,2轮第7期开)</span><br>
-<span> (今年至今12轮,无错,本轮第13轮) </span><div class="gdkj">还有<font>8期</font></div>
+<span> (今年至今12轮,无错,本轮第13轮) </span><div class="gdkj">还有<font>7期</font></div>
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
@@ -140,55 +140,50 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>122期-126期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
 马龙 <span> (有6轮第一期开)</span><div class="gdkj">今年第2次机会</div><br>
-<span> (18年至今11轮,无错,本轮第12轮) </span><div class="gdkj">还有<font>5期</font></div>
+<span> (18年至今11轮,无错,本轮第12轮) </span><div class="gdkj">还有<font>4期</font></div>
 </div><!--定位平六29,下期特和减2两只,5期内开（出现第1期6次,第4期3次,第5期2次）-->
 
 <div class="jxzl"><label>122期-123期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 4尾,9尾+3尾,5尾 <span> (连续9轮开前2尾)</span><div class="gdkj">今年第5次机会</div><br>
-<span> (18年至今16轮,无错,本轮第17轮) </span><div class="gdkj">还有<font>2期</font></div>
+<span> (18年至今16轮,无错,本轮第17轮) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--定位平五49,下期特尾左右1尾和加5一尾,2期内开（有1轮拖1期开）-->
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑥ <font>待开</font></div><br>
 特5尾<div class="gdkj">今年第3次机会</div><br>
-<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>8期</font></div>
+<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>7期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
-<div class="jxzl"><label>119期-122期：</label><div class="gdjx">固定极限① <font>待开</font></div><br>
-01,03,05,<font>08</font>,<font>12</font>,19,25,36,40,（9个）<br>
-<span>二中二36组，三中三84组 (119期开2个)</span><div class="gdkj">还有<font>1期</font></div>
-</div>
-
-<div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限② <font>待开</font></div><br>
+<div class="jxzl"><label>119期-128期：</label><div class="gdjx">固定极限① <font>待开</font></div><br>
 特6尾<br>
-<span> (22年至今错1)</span><div class="gdkj">还有<font>7期</font></div>
+<span> (22年至今错1)</span><div class="gdkj">还有<font>6期</font></div>
 </div><!--m不凡,藐视是3尾期特尾-->
 
-<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
+<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限② <font>待开</font></div><br>
 羊牛鼠马 + 虎猴<br>
-<span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>4期</font></div>
+<span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>3期</font></div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
-<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限④ <font>待开</font></div><br>
+<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
 8尾,9尾,0尾<br>
-<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>4期</font></div>
+<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>3期</font></div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
-<div class="jxzl jxzlyk"><label>119期-123期：</label><div class="gdjx">固定极限⑤ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>119期-123期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
 虎<a>猴</a>猪蛇<br>
 <span> (21,22年各错1,今年无错)</span><div class="gdkj">❤ 120期开猴</font></div>
 </div><!--平开01,当期特色肖5期之内开,特开01不要-->
 
-<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑥ <font>已开</font></div><br>
+<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑤ <font>待开</font></div><br>
 鼠狗<br>
-<span> (17年至今错5) </span><div class="gdkj">还有<font>10期</font></div>
+<span> (17年至今错5) </span><div class="gdkj">还有<font>9期</font></div>
 </div><!--壹路发发-->
 
-<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑦ <font>待开</font></div><br>
+<div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑥ <font>待开</font></div><br>
 07,08,09,10,11,12,13,14,15,29,30,31,32,33,34,35,36,37,<br>
-<span> (21年至今无错) </span><div class="gdkj">还有<font>10期</font></div>
+<span> (21年至今无错) </span><div class="gdkj">还有<font>9期</font></div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
-<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限⑧ <font>已开</font></div><br>
+<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
 蛇<a>龙</a>兔猪狗鸡<br>
 <span> (三年无错) </span><div class="gdkj">❤ 121期开龙</font></div>
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
@@ -197,7 +192,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 天空特围 -->
 <ul class="hidden">
 <p><label>122期：</label>
-01,02,05,06,08,10,13,15,17,20,22,23,25,26,28,29,30,31,32,33,37,38,39,42,43,45,46,48,（28个）</p>
+<span>01</span>,02,05,06,08,10,13,15,17,20,22,23,25,26,28,29,30,31,32,33,37,38,39,42,43,45,46,48,（28个）</p>
 <p><label>121期：</label>
 01,02,03,05,08,09,10,11,13,17,18,22,<span>24</span>,26,28,29,31,33,35,36,38,40,42,43,44,45,46,（27个）</p>
 <p><label>120期：</label>
@@ -221,10 +216,10 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="hidden">
 <p>
 <label>【122期】</label><br>
-虎,兔,马,羊,猴,鸡,猪,牛,鼠,（9个）<br>
-03,04,05,06,08,09,10,12,15,16,17,19,21,23,24,26,28,30,31,32,34,35,36,37,38,39,41,42,43,45,46,47,48,（33个）<br>
+虎,<span>兔</span>,马,羊,猴,鸡,猪,牛,鼠,（9个）❤<br>
+03,04,05,06,08,09,10,12,15,16,17,19,21,23,24,26,28,30,31,32,34,35,36,37,38,39,41,42,43,45,46,47,48,（33个）💔<br>
 <span style="color:#A51888">【二合一综合结果】</span><br>
-03,04,05,08,09,10,15,16,17,19,21,26,28,31,32,34,37,38,39,41,43,45,46,（23个）
+03,04,05,08,09,10,15,16,17,19,21,26,28,31,32,34,37,38,39,41,43,45,46,（23个）💔
 </p>
 <p>
 <label>【121期】</label><br>
@@ -271,7 +266,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </ul>
 <!-- 风云七肖 -->
 <ul class="hidden">
-<p><label>122期：</label>兔鸡羊马+虎鼠狗</p>
+<p><label>122期：</label><span>兔</span>鸡羊马+虎鼠狗</p>
 <p><label>121期：</label>狗马鼠虎+<span>龙</span>羊兔</p>
 <p><label>120期：</label>兔猪羊虎+狗马蛇 x</p>
 <p><label>119期：</label>羊狗鸡牛+<span>鼠</span>马蛇</p>
@@ -281,7 +276,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 岚山红风 -->
 <ul class="hidden">
 <p><label>122期：</label>
-01,03,04,05,11,15,16,22,23,24,25,26,27,28,29,31,32,33,35,37,38,39,41,43,44,47,（26个）</p>
+<span>01</span>,03,04,05,11,15,16,22,23,24,25,26,27,28,29,31,32,33,35,37,38,39,41,43,44,47,（26个）</p>
 <p><label>121期：</label>
 01,06,07,08,09,11,13,17,18,22,<span>24</span>,25,27,29,31,32,33,35,36,37,38,41,42,43,44,48,49,（27个）</p>
 <p><label>120期：</label>
