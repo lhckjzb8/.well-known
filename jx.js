@@ -107,7 +107,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <li>天空特围<span class="gg">ok</span></li>
 <li>六喜多多<span class="gg">ok</span></li>
 <li>风云七肖<span class="gg">ok</span></li>
-<li>岚山红风<span class="gg"></span></li>
+<li>岚山红风<span class="gg">ok</span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
   <footer>
@@ -286,7 +286,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 岚山红风 -->
 <ul class="hidden">
 <p><label>123期：</label>
-</p>
+01,03,05,06,07,08,09,11,13,14,15,17,18,21,23,24,25,26,30,33,35,39,42,44,45,46,48,（27个）</p>
 <p><label>122期：</label>
 <span>01</span>,03,04,05,11,15,16,22,23,24,25,26,27,28,29,31,32,33,35,37,38,39,41,43,44,47,（26个）</p>
 <p><label>121期：</label>
