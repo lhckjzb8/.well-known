@@ -99,7 +99,7 @@ float: right;font-size: 12px;color:#ccc;
 background-color: rgb(0, 0, 0, 0.03);
 }
 .jxzlyk font{color: #ccc;}
-.jxzlyk a{color: #f00;}
+.jxzlyk a,.jxzl a{color: #f00;}
 </style>
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
@@ -148,7 +148,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
 <div class="jxzl"><label>121-125期 </label><div class="gdjx">机会极限⑥ <font>待开</font></div><br>
-02,03,04,05,06,07,08,09,10,42,43,44,45,46,<br>
+02,03,04,05,06,07,08,<br>09,10,42,43,44,45,46,<br>
 <span> (18年至今11轮,无错,本轮第12轮)</span><div class="gdkj">还有<font>2期</font></div>
 </div><!--定位平六29,本期加上2期特左右2个,5期内开,1期第6期开（这1轮出现开重复号）-->
 
