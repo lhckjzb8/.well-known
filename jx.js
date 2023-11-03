@@ -104,10 +104,10 @@ background-color: rgb(0, 0, 0, 0.03);
 <div id="tab-list">
 <div class="minVideoViewBox" id="list">
 <li class="active">极限资料<span class="gg">nb</span></li>
-<li>天空特围<span class="gg"></span></li>
-<li>六喜多多<span class="gg"></span></li>
-<li>风云七肖<span class="gg"></span></li>
-<li>岚山红风<span class="gg"></span></li>
+<li>天空特围<span class="gg">ok</span></li>
+<li>六喜多多<span class="gg">ok</span></li>
+<li>风云七肖<span class="gg">ok</span></li>
+<li>岚山红风<span class="gg">ok</span></li>
 <li>土豆七肖<span class="gg"></span></li>
 </div>
 <!-- 用来模拟滚动条区域开始 -->
@@ -220,10 +220,10 @@ background-color: rgb(0, 0, 0, 0.03);
 <ul class="hidden">
 <p>
 <label>【124期】</label><br>
-<br>
+鼠,虎,兔,蛇,羊,猴,猪,（7个）<br>
 01,02,03,04,05,06,07,08,09,11,12,13,14,15,17,18,19,20,22,24,25,27,29,30,31,33,35,36,37,38,39,40,42,43,44,45,46,48,49,（39个）<br>
 <span style="color:#A51888">【二合一综合结果】</span><br>
-
+01,02,04,05,08,09,11,13,14,17,20,25,29,33,35,37,38,40,44,45,49,（21个）
 </p>
 <p>
 <label>【123期】</label><br>
@@ -284,7 +284,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </ul>
 <!-- 风云七肖 -->
 <ul class="hidden">
-<p><label>124期：</label></p>
+<p><label>124期：猪羊狗蛇+鸡龙猴</label></p>
 <p><label>123期：</label>牛鸡鼠羊+狗马猪+32 x</p>
 <p><label>122期：</label><span>兔</span>鸡羊马+虎鼠狗</p>
 <p><label>121期：</label>狗马鼠虎+<span>龙</span>羊兔</p>
@@ -296,7 +296,7 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 岚山红风 -->
 <ul class="hidden">
 <p><label>124期：</label>
-</p>
+01,02,03,04,06,08,10,12,13,14,15,17,20,22,24,25,26,29,32,34,36,37,38,39,41,44,48,（27个）</p>
 <p><label>123期：</label>
 01,03,05,06,07,08,09,11,13,14,15,17,18,21,23,24,25,<span>26</span>,30,33,35,39,42,44,45,46,48,（27个）</p>
 <p><label>122期：</label>
