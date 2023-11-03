@@ -446,7 +446,7 @@ glistli[y].index=y;
 glistli[y].onclick=function() {
 ggdiv.style.marginLeft =glistli[this.index].offsetLeft*0.25+"px";
 gglist.scrollLeft=glistli[this.index].offsetLeft*0.25;
-if(glistli[this.index].offsetLeft<gglist.offsetWidth*0.2){
+if(glistli[this.index].offsetLeft<gglist.offsetWidth*0.3){
 ggdiv.style.marginLeft ="";
 gglist.scrollLeft="";
 }
