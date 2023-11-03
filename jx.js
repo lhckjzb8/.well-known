@@ -133,10 +133,10 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今总7轮,无错,等待机会) </span><div class="gdkj">❤ 119期开鼠</div>
 </div><!--定位平六01的特肖四期内开2022换肖来至今无错,+色肖五期21年至今无错-->
 
-<div class="jxzl jxzlyk"><label>119期-122期：</label><div class="gdjx">机会极限③ <font>已开</font></div><br>
-狗<a>龙</a><div class="gdkj">等待机会</div><br>
-<span> (20年1轮,21年3轮,22年1轮,23年2轮,无错) </span><div class="gdkj">❤ 121期开龙</font></div>
-</div><!--定位平六49的平一+对冲,四期内开-->
+<div class="jxzl"><label>123期-126期：</label><div class="gdjx">机会极限③ <font>待开</font></div><br>
+猪蛇<div class="gdkj">今年第3次机会</div><br>
+<span> (20年1轮,21年3轮,22年1轮,23年第3轮,无错) </span><div class="gdkj">还有<font>3期</font></div>
+</div><!--定位平六49的平一+对冲,四期内开,上轮119-122期狗龙121开龙-->
 
 <div class="jxzl"><label>122期-126期：</label><div class="gdjx">机会极限④ <font>待开</font></div><br>
 马龙 <span> (有6轮第一期开)</span><div class="gdkj">今年第2次机会</div><br>
