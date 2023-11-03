@@ -450,7 +450,7 @@ if(glistli[this.index].offsetLeft<gglist.offsetWidth*0.1){
 ggdiv.style.marginLeft ="";
 gglist.scrollLeft="";
 }
-if(glistli[glistli.length]){
+if(glistli[this.index].offsetLeft>gglist.offsetWidth*0.8){
 ggdiv.style.marginLeft =glistli[this.index].offsetLeft+"px";;
 gglist.scrollLeft=glistli[this.index].offsetLeft;
 }
