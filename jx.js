@@ -112,8 +112,6 @@ background-color: rgb(0, 0, 0, 0.03);
     </div>
   </footer>
 <!-- 用来模拟滚动条区域结束 -->
-<!--留用p><label>120-126期 </label>04,11,18,25,32,39,46<span> (今年错1)</span></p--><!--7期一轮,下轮（127-133）01到07循环,下轮05+7-->
-
 <!--留用p><label>121-130期 </label>42,43,44,45,46<span> (18年至今11轮,无错,本轮第12轮)</span></p--><!--定位平六29,上上期特左右2个,10期内开,1期第11期开-->
 
 <!-- 极限资料 -->
@@ -142,12 +140,12 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 特5尾<div class="gdkj">今年第3次机会</div><br>
-<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>6期</font></div>
+<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
-<div class="jxzl"><label>121-125期 </label><div class="gdjx">机会极限⑥ <font>待开</font></div><br>
-02,03,04,05,06,07,08,<br>09,10,42,43,44,45,46,<br>
-<span> (18年至今11轮,无错,本轮第12轮)</span><div class="gdkj">还有<font>2期</font></div>
+<div class="jxzl jxzlyk"><label>121-125期 </label><div class="gdjx">机会极限⑥ <font>待开</font></div><br>
+02,03,04,05,06,07,08,<br>09,10,42,43,44,45,<a>46</a>,<br>
+<span> (18年至今11轮,无错,本轮第12轮)</span><div class="gdkj">❤ 124期开46</div>
 </div><!--定位平六29,本期加上2期特左右2个,5期内开,1期第6期开（这1轮出现开重复号）-->
 
 <div class="jxzl jxzlyk"><label>119期-128期：</label><div class="gdjx">固定极限① <font>待开</font></div><br>
@@ -162,7 +160,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
 8尾,9尾,0尾<br>
-<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>2期</font></div>
+<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl jxzlyk"><label>119期-123期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
@@ -172,12 +170,12 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑤ <font>待开</font></div><br>
 鼠狗<br>
-<span> (17年至今错5) </span><div class="gdkj">还有<font>8期</font></div>
+<span> (17年至今错5) </span><div class="gdkj">还有<font>7期</font></div>
 </div><!--壹路发发-->
 
 <div class="jxzl"><label>122期-131期：</label><div class="gdjx">固定极限⑥ <font>待开</font></div><br>
 07,08,09,10,11,12,13,14,15,29,30,31,32,33,34,35,36,37,<br>
-<span> (21年至今无错) </span><div class="gdkj">还有<font>8期</font></div>
+<span> (21年至今无错) </span><div class="gdkj">还有<font>7期</font></div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
 <div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
