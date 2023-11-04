@@ -127,7 +127,7 @@ background-color: rgb(0, 0, 0, 0.03);
 03,05,43,45 <span>(本轮第13轮)</span><div class="gdkj">还有<font>6期</font><br>
 <label>124期-133期：</label><br>
 02,25,27,49 <span>(本轮第14轮)</span><div class="gdkj">还有<font>10期</font><br>
-<span> (今年至今12轮,无错,本轮第13轮) </span></div>
+<span> (今年至今12轮,无错,有10轮5期内开,2轮第7期开) </span></div>
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
 <div class="jxzl jxzlyk"><label>117期-120期：</label><div class="gdjx">机会极限② <font>已开</font></div><br>
