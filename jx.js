@@ -314,7 +314,7 @@ background-color: rgb(0, 0, 0, 0.03);
 </ul>
 <!-- 土豆七肖 -->
 <ul class="hidden">
-<p><label>124期：</label></p>
+<p><label>124期：</label>兔蛇猪马羊鸡</p>
 <p><label>123期：</label><span>虎</span>蛇马鸡狗猪</p>
 <p><label>122期：</label><span>兔</span>羊鼠虎猴鸡</p>
 <p><label>121期：</label>兔<span>龙</span>虎马羊狗</p>
