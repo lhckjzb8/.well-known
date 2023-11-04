@@ -148,6 +148,11 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (18年至今11轮,无错,本轮第12轮)</span><div class="gdkj">❤ 124期开46</div>
 </div><!--定位平六29,本期加上2期特左右2个,5期内开,1期第6期开（这1轮出现开重复号）-->
 
+<div class="jxzl"><label>123-127期 </label><div class="gdjx">机会极限⑦ <font>待开</font></div><br>
+0尾,1尾,2尾,<br>
+<span> (16年至今11轮,无错,本轮第12轮)</span><div class="gdkj">还有<font>3期</font></div>
+</div><!--定位平六16,下期特尾加左右1尾-->
+
 <div class="jxzl jxzlyk"><label>119期-128期：</label><div class="gdjx">固定极限① <font>已开</font></div><br>
 <a>特6尾</a><br>
 <span> (22年至今错1)</span><div class="gdkj">❤ 124期开46</div>
