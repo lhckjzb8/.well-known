@@ -117,9 +117,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <!-- 极限资料 -->
 <ul class="show">
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限① <font>待开</font></div><br>
-03,05,43,45 <span>(本轮第13轮)</span><div class="gdkj">还有<font>5期</font></div><br>
+03,05,43,45 <span>(本轮第13轮)</span><div class="gdkj">还有<font>4期</font></div><br>
 <label>124期-133期：</label><br>
-02,25,27,49 <span>(本轮第14轮)</span><div class="gdkj">还有<font>9期</font></div><br>
+02,25,27,49 <span>(本轮第14轮)</span><div class="gdkj">还有<font>8期</font></div><br>
 <span> (今年至今12轮,无错,有10轮5期内开,2轮第7期开) </span>
 </div><!--定位平六与上上期特开同肖,上特和上上特左右两个号,总已过13轮,今年第一次十一期开,(上半年1次11期,2次7期,其他10次在5期内)-->
 
@@ -130,7 +130,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>123期-126期：</label><div class="gdjx">机会极限③ <font>待开</font></div><br>
 猪蛇<div class="gdkj">今年第3次机会</div><br>
-<span> (20年1轮,21年3轮,22年1轮,23年第3轮,无错) </span><div class="gdkj">还有<font>2期</font></div>
+<span> (20年1轮,21年3轮,22年1轮,23年第3轮,无错) </span><div class="gdkj">还有<font>1期</font></div>
 </div><!--定位平六49的平一+对冲,四期内开,上轮119-122期狗龙121开龙-->
 
 <div class="jxzl jxzlyk"><label>122期-126期：</label><div class="gdjx">机会极限④ <font>已开</font></div><br>
@@ -140,7 +140,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>120期-129期：</label><div class="gdjx">机会极限⑤ <font>待开</font></div><br>
 特5尾<div class="gdkj">今年第3次机会</div><br>
-<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>5期</font></div>
+<span> (22年8轮,23年第3轮,无错) </span><div class="gdkj">还有<font>4期</font></div>
 </div><!--定位平六08的平一尾+特尾,十期内开-->
 
 <div class="jxzl jxzlyk"><label>121-125期 </label><div class="gdjx">机会极限⑥ <font>已开</font></div><br>
@@ -150,7 +150,7 @@ background-color: rgb(0, 0, 0, 0.03);
 
 <div class="jxzl"><label>123-127期 </label><div class="gdjx">机会极限⑦ <font>待开</font></div><br>
 0尾,1尾,2尾,<br>
-<span> (16年至今11轮,无错,本轮第12轮)</span><div class="gdkj">还有<font>3期</font></div>
+<span> (16年至今11轮,无错,本轮第12轮)</span><div class="gdkj">还有<font>2期</font></div>
 </div><!--定位平六16,下期特尾加左右1尾-->
 
 <div class="jxzl jxzlyk"><label>119期-128期：</label><div class="gdjx">固定极限① <font>已开</font></div><br>
@@ -158,14 +158,14 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (22年至今错1)</span><div class="gdkj">❤ 124期开46</div>
 </div><!--m不凡,藐视是3尾期特尾-->
 
-<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限② <font>已开</font></div><br>
-羊牛鼠<a>马</a> + <a>虎</a>猴<br>
-<span>(两年错1，加肖三年无错) </span><div class="gdkj">❤ 124期开马</font></div>
+<div class="jxzl"><label>126期-130期：</label><div class="gdjx">固定极限② <font>待开</font></div><br>
+羊牛鼠马 + 虎猴<br>
+<span>(两年错1，加肖三年无错) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--0,5尾期特加1,2两年错1（错在2023年10-15，多加0从2021年10期开始无错-->
 
-<div class="jxzl"><label>121期-125期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
+<div class="jxzl"><label>126期-130期：</label><div class="gdjx">固定极限③ <font>待开</font></div><br>
 8尾,9尾,0尾<br>
-<span> (22年至今错2，加1期无错) </span><div class="gdkj">还有<font>1期</font></div>
+<span> (22年至今错3，加1期无错) </span><div class="gdkj">还有<font>5期</font></div>
 </div><!--0,5尾期D6左右1尾（拖1期无错）-->
 
 <div class="jxzl jxzlyk"><label>119期-123期：</label><div class="gdjx">固定极限④ <font>已开</font></div><br>
@@ -183,9 +183,9 @@ background-color: rgb(0, 0, 0, 0.03);
 <span> (21年至今无错) </span><div class="gdkj">还有<font>7期</font></div>
 </div><!--(1尾期)D1,5,左右各4个,总18码--> 
 
-<div class="jxzl jxzlyk"><label>121期-125期：</label><div class="gdjx">固定极限⑦ <font>已开</font></div><br>
-蛇<a>龙</a>兔猪狗鸡<br>
-<span> (三年无错) </span><div class="gdkj">❤ 121期开龙</font></div>
+<div class="jxzl"><label>126期-130期：</label><div class="gdjx">固定极限⑦ <font>待开</font></div><br>
+鼠马猪蛇龙狗<br>
+<span> (三年无错) </span><div class="gdkj">还有<font>5期</font></font></div>
 </div><!--0,5尾期L平2加2,3,4三年来最久5期-->
 
 </ul>
