@@ -5,6 +5,6 @@ document.write(`
 .width{width: 100%;}
 .left{float: left;}
 </style>
-<div class="div v width left">2023 © v2</div>
+<div class="div v width left">2023 © </div>
 
 `);
