@@ -1,5 +1,10 @@
-document.write(`<br>
-1214<br>
+document.write(`<style>
+.divnr{
+float: left;
+width:20%
+}
+</style>
+<div class="divnr">1214<br>
 1223.<br>
 12311<br>
 12412.<br>
@@ -9,8 +14,8 @@ document.write(`<br>
 12811<br>
 1293<br>
 1303.<br>
-10.6<br>-<br>
-13111<br>
+10.6</div>
+<div class="divnr">13111<br>
 13211<br>
 13312<br>
 1349.<br>
@@ -20,6 +25,8 @@ document.write(`<br>
 13811.<br>
 1397<br>
 1408<br>
-10.8<br>-<br>
+10.8</div>
+<div class="divnr">
 1411<br>
+</div>
 `)
