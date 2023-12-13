@@ -1,7 +1,8 @@
 document.write(`<style>
 .divnr{
 float: left;
-width:20%
+width:20%;
+margin: 5px;
 }
 </style>
 <div class="divnr">1214<br>
