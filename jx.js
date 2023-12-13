@@ -9,7 +9,7 @@ document.write(`<br>
 12811<br>
 1293<br>
 1303.<br>
-10.6<br>~~~<br>
+10.6<br>-<br>
 13111<br>
 13211<br>
 13312<br>
@@ -20,6 +20,6 @@ document.write(`<br>
 13811.<br>
 1397<br>
 1408<br>
-10.8<br>~~~<br>
+10.8<br>-<br>
 1411<br>
 `)
